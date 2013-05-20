@@ -1,0 +1,170 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'install', 'express@2.0.0' ]
+info using npm@1.1.4
+info using node@v0.6.12
+verbose config file /home/leetom/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/share/npm/npmrc
+verbose caching /home/leetom/code/nodejs/project/Node_Web_chap04/node_modules/jade/package.json
+verbose caching /home/leetom/code/nodejs/project/Node_Web_chap04/node_modules/ejs/package.json
+verbose cache add [ 'express@2.0.0', null ]
+silly cache add: name, spec, args [ undefined, 'express@2.0.0', [ 'express@2.0.0', null ] ]
+verbose parsed url { pathname: 'express@2.0.0',
+verbose parsed url   path: 'express@2.0.0',
+verbose parsed url   href: 'express@2.0.0' }
+silly cache add: name, spec, args [ 'express', '2.0.0', [ 'express', '2.0.0' ] ]
+verbose parsed url { pathname: '2.0.0', path: '2.0.0', href: '2.0.0' }
+verbose addNamed [ 'express', '2.0.0' ]
+verbose addNamed [ '2.0.0', '2.0.0' ]
+verbose raw, before any munging express/2.0.0
+verbose url resolving [ 'https://registry.npmjs.org/', './express/2.0.0' ]
+verbose url resolved https://registry.npmjs.org/express/2.0.0
+http GET https://registry.npmjs.org/express/2.0.0
+http 200 https://registry.npmjs.org/express/2.0.0
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"80GGDHAP6X4OEPTNFCPEV8S72"',
+silly get cb     date: 'Sun, 02 Dec 2012 12:12:44 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '931' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/leetom/.npm/express/2.0.0'
+verbose mkdir done: /home/leetom/.npm/express/2.0.0 755
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-34-generic',
+verbose bin dist   { shasum: 'f9f715cf54e9b6f3f00115fe7e1188964d0a74b2',
+verbose bin dist     tarball: 'http://registry.npmjs.org/express/-/express-2.0.0.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-2.0.0.tgz',
+verbose addRemoteTarball   'f9f715cf54e9b6f3f00115fe7e1188964d0a74b2' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1354450406044'
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1354450406044/1354450406044-0.9652800722979009'
+verbose mkdir done: /tmp/npm-1354450406044/1354450406044-0.9652800722979009 755
+verbose fetch to /tmp/npm-1354450406044/1354450406044-0.9652800722979009/tmp.tgz
+http GET https://registry.npmjs.org/express/-/express-2.0.0.tgz
+http 200 https://registry.npmjs.org/express/-/express-2.0.0.tgz
+silly updated sha bytes 24905
+info shasum f9f715cf54e9b6f3f00115fe7e1188964d0a74b2
+info shasum /tmp/npm-1354450406044/1354450406044-0.9652800722979009/tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1354450406044/1354450406044-0.9652800722979009/___package.npm'
+verbose mkdir done: /tmp/npm-1354450406044/1354450406044-0.9652800722979009/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1354450406044/1354450406044-0.9652800722979009/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /tmp/npm-1354450406044/1354450406044-0.9652800722979009/___package.npm/package
+silly asyncMap in gTP /tmp/npm-1354450406044/1354450406044-0.9652800722979009/___package.npm/package/Makefile
+silly asyncMap in gTP /tmp/npm-1354450406044/1354450406044-0.9652800722979009/___package.npm/package/index.js
+silly asyncMap in gTP /tmp/npm-1354450406044/1354450406044-0.9652800722979009/___package.npm/package/.npmignore
+silly asyncMap in gTP /tmp/npm-1354450406044/1354450406044-0.9652800722979009/___package.npm/package/History.md
+silly asyncMap in gTP /tmp/npm-1354450406044/1354450406044-0.9652800722979009/___package.npm/package/Readme.md
+silly asyncMap in gTP /tmp/npm-1354450406044/1354450406044-0.9652800722979009/___package.npm/package/LICENSE
+silly asyncMap in gTP /tmp/npm-1354450406044/1354450406044-0.9652800722979009/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1354450406044/1354450406044-0.9652800722979009/___package.npm/package/bin
+silly asyncMap in gTP /tmp/npm-1354450406044/1354450406044-0.9652800722979009/___package.npm/package/bin/express
+silly asyncMap in gTP /tmp/npm-1354450406044/1354450406044-0.9652800722979009/___package.npm/package/lib
+silly asyncMap in gTP /tmp/npm-1354450406044/1354450406044-0.9652800722979009/___package.npm/package/lib/express.js
+silly asyncMap in gTP /tmp/npm-1354450406044/1354450406044-0.9652800722979009/___package.npm/package/lib/view.js
+silly asyncMap in gTP /tmp/npm-1354450406044/1354450406044-0.9652800722979009/___package.npm/package/lib/https.js
+silly asyncMap in gTP /tmp/npm-1354450406044/1354450406044-0.9652800722979009/___package.npm/package/lib/utils.js
+silly asyncMap in gTP /tmp/npm-1354450406044/1354450406044-0.9652800722979009/___package.npm/package/lib/response.js
+silly asyncMap in gTP /tmp/npm-1354450406044/1354450406044-0.9652800722979009/___package.npm/package/lib/request.js
+silly asyncMap in gTP /tmp/npm-1354450406044/1354450406044-0.9652800722979009/___package.npm/package/lib/http.js
+silly asyncMap in gTP /tmp/npm-1354450406044/1354450406044-0.9652800722979009/___package.npm/package/lib/view
+silly asyncMap in gTP /tmp/npm-1354450406044/1354450406044-0.9652800722979009/___package.npm/package/lib/view/partial.js
+silly asyncMap in gTP /tmp/npm-1354450406044/1354450406044-0.9652800722979009/___package.npm/package/lib/view/view.js
+verbose gunzed /tmp/npm-1354450406044/1354450406044-0.9652800722979009/___package.npm/package
+verbose rm'ed /tmp/npm-1354450406044/1354450406044-0.9652800722979009/package
+verbose renamed [ '/tmp/npm-1354450406044/1354450406044-0.9652800722979009/___package.npm/package',
+verbose renamed   '/tmp/npm-1354450406044/1354450406044-0.9652800722979009/package' ]
+verbose caching /tmp/npm-1354450406044/1354450406044-0.9652800722979009/package/package.json
+verbose loadDefaults express@2.0.0
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /tmp/npm-1354450406044/1354450406044-0.9652800722979009/package/package.json
+verbose pack /tmp/npm-1354450406044/1354450406044-0.9652800722979009/package
+verbose pack /tmp/npm-1354450406044/1354450406044-0.9652800722979009/package /home/leetom/.npm/express/2.0.0/package.tgz
+silly makeList /tmp/npm-1354450406044/1354450406044-0.9652800722979009/package
+silly dir, dirLen [ '/tmp/npm-1354450406044/1354450406044-0.9652800722979009/package',
+silly dir, dirLen   64 ]
+verbose tarball /home/leetom/.npm/express/2.0.0/package.tgz
+verbose parent /tmp/npm-1354450406044/1354450406044-0.9652800722979009/package
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/leetom/.npm/express/2.0.0/___package.npm'
+verbose mkdir done: /home/leetom/.npm/express/2.0.0/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/leetom/.npm/express/2.0.0/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /home/leetom/.npm/express/2.0.0/___package.npm/package
+silly asyncMap in gTP /home/leetom/.npm/express/2.0.0/___package.npm/package/Readme.md
+silly asyncMap in gTP /home/leetom/.npm/express/2.0.0/___package.npm/package/.npmignore
+silly asyncMap in gTP /home/leetom/.npm/express/2.0.0/___package.npm/package/LICENSE
+silly asyncMap in gTP /home/leetom/.npm/express/2.0.0/___package.npm/package/Makefile
+silly asyncMap in gTP /home/leetom/.npm/express/2.0.0/___package.npm/package/History.md
+silly asyncMap in gTP /home/leetom/.npm/express/2.0.0/___package.npm/package/index.js
+silly asyncMap in gTP /home/leetom/.npm/express/2.0.0/___package.npm/package/package.json
+silly asyncMap in gTP /home/leetom/.npm/express/2.0.0/___package.npm/package/bin
+silly asyncMap in gTP /home/leetom/.npm/express/2.0.0/___package.npm/package/bin/express
+silly asyncMap in gTP /home/leetom/.npm/express/2.0.0/___package.npm/package/lib
+silly asyncMap in gTP /home/leetom/.npm/express/2.0.0/___package.npm/package/lib/https.js
+silly asyncMap in gTP /home/leetom/.npm/express/2.0.0/___package.npm/package/lib/request.js
+silly asyncMap in gTP /home/leetom/.npm/express/2.0.0/___package.npm/package/lib/http.js
+silly asyncMap in gTP /home/leetom/.npm/express/2.0.0/___package.npm/package/lib/view.js
+silly asyncMap in gTP /home/leetom/.npm/express/2.0.0/___package.npm/package/lib/response.js
+silly asyncMap in gTP /home/leetom/.npm/express/2.0.0/___package.npm/package/lib/express.js
+silly asyncMap in gTP /home/leetom/.npm/express/2.0.0/___package.npm/package/lib/utils.js
+silly asyncMap in gTP /home/leetom/.npm/express/2.0.0/___package.npm/package/lib/view
+silly asyncMap in gTP /home/leetom/.npm/express/2.0.0/___package.npm/package/lib/view/partial.js
+silly asyncMap in gTP /home/leetom/.npm/express/2.0.0/___package.npm/package/lib/view/view.js
+silly chmod package 755
+verbose gunzed /home/leetom/.npm/express/2.0.0/___package.npm/package
+verbose rm'ed /home/leetom/.npm/express/2.0.0/package
+verbose renamed [ '/home/leetom/.npm/express/2.0.0/___package.npm/package',
+verbose renamed   '/home/leetom/.npm/express/2.0.0/package' ]
+verbose caching /home/leetom/.npm/express/2.0.0/package/package.json
+verbose loadDefaults express@2.0.0
+silly updated sha bytes 24956
+info shasum 0810cb9b512e097cfb1a735cbba3bca51e0ffe6c
+info shasum /home/leetom/.npm/express/2.0.0/package.tgz
+verbose from cache /home/leetom/.npm/express/2.0.0/package/package.json
+verbose chmod /home/leetom/.npm/express/2.0.0/package.tgz 644
+verbose chown [ '/home/leetom/.npm/express/2.0.0/package.tgz', 1000, 1000 ]
+silly resolved [ { name: 'express',
+silly resolved     description: 'Sinatra inspired web development framework',
+silly resolved     version: '2.0.0',
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved        { name: 'Aaron Heckmann',
+silly resolved          email: 'aaron.heckmann+github@gmail.com' },
+silly resolved        { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly resolved        { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' } ],
+silly resolved     dependencies: { connect: '>= 1.1.0 < 2.0.0', mime: '>= 0.0.1', qs: '>= 0.0.6' },
+silly resolved     keywords: [ 'framework', 'sinatra', 'web', 'rest', 'restful' ],
+silly resolved     main: 'index',
+silly resolved     bin: { express: './bin/express' },
+silly resolved     engines: { node: '>= 0.4.1 < 0.5.0' },
+silly resolved     _npmUser: { name: 'leetom', email: 'leetom1991@163.com' },
+silly resolved     _id: 'express@2.0.0',
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: false,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '0810cb9b512e097cfb1a735cbba3bca51e0ffe6c' },
+silly resolved     _from: 'express@2.0.0' } ]
+info into /home/leetom/code/nodejs/project/Node_Web_chap04 express@2.0.0
+info installOne express@2.0.0
+verbose installOne cb express@2.0.0
+ERR! Unsupported
+ERR! Not compatible with your version of node/npm: express@2.0.0
+ERR! Required: {"node":">= 0.4.1 < 0.5.0"}
+ERR! Actual:   {"npm":"1.1.4","node":"0.6.12"}
+ERR! 
+ERR! System Linux 3.2.0-34-generic
+ERR! command "node" "/usr/bin/npm" "install" "express@2.0.0"
+ERR! cwd /home/leetom/code/nodejs/project/Node_Web_chap04
+ERR! node -v v0.6.12
+ERR! npm -v 1.1.4
+ERR! code ENOTSUP
+ERR! message Unsupported
+ERR! errno {}
+verbose exit [ 1, true ]

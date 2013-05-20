@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>CNode社区: Node.JS 专业中文技术社区</title>
+
+<link rel="stylesheet" href="http://cnodejs.org/blog/wp-content/themes/new-cnode-0.2/style.css" type="text/css" media="all" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://cnodejs.org/blog/xmlrpc.php" />
+
+<meta name="generator" content="WordPress 3.2.1" />
+<meta name="template" content=" " />
+<meta name="robots" content="index,follow" />
+<meta name="copyright" content="Copyright (c) 2011" />
+<meta name="description" content="Node.JS 专业中文技术社区" />
+<link rel="alternate" type="application/rss+xml" title="CNode社区 &raquo; Feed" href="http://cnodejs.org/blog/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="CNode社区 &raquo; 评论 Feed" href="http://cnodejs.org/blog/?feed=comments-rss2" />
+<link rel='stylesheet' id='gtranslate-style-css'  href='http://cnodejs.org/blog/wp-content/plugins/gtranslate/gtranslate-style16.css?ver=3.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://cnodejs.org/blog/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<script type='text/javascript' src='http://cnodejs.org/blog/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://cnodejs.org/blog/wp-content/plugins/gtranslate/jquery-translate.js?ver=3.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cnodejs.org/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cnodejs.org/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='CNode社区' href='http://cnodejs.org/blog' />
+<!-- PopularPost Aink --><link type="text/css" rel="stylesheet" href="http://cnodejs.org/blog/wp-content/plugins/popularpost-aink/css/popularpost-aink.css" />	<style type="text/css">
+				@font-face{
+					font-family:Angelina;
+					src:url("http://www.classifindo.com/fonts/Angelina.ttf");
+				}
+			</style><script type="text/javascript" language="javascript" src="http://cnodejs.org/blog/wp-content/plugins/popularpost-aink/js/popularpost-aink.js"></script><!-- PopularPost Aink -->	<link type="text/css" rel="stylesheet" href="http://cnodejs.org/blog/wp-content/plugins/syntax-highlighter-optimized/styles/shCoreDefault.css" />
+	<script type="text/javascript" src="http://cnodejs.org/blog/wp-content/plugins/syntax-highlighter-optimized/scripts/shCore.js"></script>
+	<script type="text/javascript" src="http://cnodejs.org/blog/wp-content/plugins/syntax-highlighter-optimized/scripts/shAutoloader.js"></script>
+	<meta name='wumiiVerification' content='fdc63e55-c92b-4f8c-bc2b-b5ada5809891' />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<style type="text/css">
+.avatar {vertical-align:middle}
+.credit {font-size: 50%;}
+</style>
+		<!-- wp thread comment 1.4.9.4.002 -->
+<style type="text/css" media="screen">
+
+.editComment, .editableComment, .textComment{
+	display: inline;
+}
+.comment-childs{
+	border: 1px solid #999;
+	margin: 5px 2px 2px 4px;
+	padding: 4px 2px 2px 4px;
+	background-color: white;
+}
+.chalt{
+	background-color: #E2E2E2;
+}
+#newcomment{
+	border:1px dashed #777;width:90%;
+}
+#newcommentsubmit{
+	color:red;
+}
+.adminreplycomment{
+	border:1px dashed #777;
+	width:99%;
+	margin:4px;
+	padding:4px;
+}
+.mvccls{
+	color: #999;
+}
+			
+</style>
+
+</head>
+
+<body class="wordpress ltr zh_CN y2011 m10 d28 h13 friday logged-out home blog layout-default">
+
+	
+	<div id="container">
+
+		
+        <div id="header-nav">
+            <div class="wrap">
+                <a href="/"><img id="logo" src="/images/logo.png" alt="CNode社区" /></a>
+
+                <ul>
+                    <li><a href="/">首页</a></li>
+                    <li class="focused"><a href="http://cnodejs.org/blog">技术文章</a></li>
+                    <li><a href="http://cnodejs.org/blog/?page_id=1515">社区活动</a></li>
+                    <li><a href="http://cnodejs.org/blog/?page_id=1518">志愿者</a></li>
+                    <li><a href="http://cnodejs.org/blog/?page_id=1520">工作机会</a></li>
+                    <li><a href="http://cnodejs.org/blog/?page_id=2">关于我们</a></li>
+                </ul>
+            </div>
+        </div><!-- #header-nav -->
+
+		
+		
+		
+		<div id="main">
+
+
+			<div class="wrap">
+
+
+			
+	
+	<div id="content">
+
+		
+		<div class="hfeed">
+
+			
+	
+			
+				
+					
+					<div id="post-2859" class="hentry post publish post-1 odd author-12_71 sticky category-1">
+
+						
+						<a href="http://cnodejs.org/blog/?p=2859" title="全国首届“Nodejs开发者大赛”活动指南"><img src="http://cnodejs.org/blog/wp-content/uploads/2011/09/ktouch2-150x150.jpg" alt="全国首届“Nodejs开发者大赛”活动指南" class="thumbnail " /></a>
+						<div><div><span style="padding: 5px; color: #acbc1e; background: #dbdcde; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial;">09</span><span style="padding: 5px; color: white; background: #acbc1e; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial; margin-right: 3px;">21</span></div><div><h2 class="entry-title"><a href="http://cnodejs.org/blog/?p=2859" title="全国首届“Nodejs开发者大赛”活动指南" rel="bookmark">全国首届“Nodejs开发者大赛”活动指南</a></h2></div></div>
+
+						<div class="byline">By <span class="author vcard"><a class="url fn n" href="http://cnodejs.org/blog/?author=373" title="12_71">12_71</a></span> on <abbr class="published" title="星期三, 九月 21st, 2011, 8:41 下午">2011 年 09 月 21 日</abbr> </div>
+						<div class="entry-summary">
+							<p>参赛开发者请详细浏览以下内容，如有疑问请@问题到<a title="CNode社区官方微博" href="http://weibo.com/cnodejs" target="_blank">CNode社区官方新浪微博</a>或直接登录<a title="CNode社区官方讨论组" href="groups.google.com/group/cnodejs" target="_blank">CNode社区官方讨论组</a>进行询问：</p> <a href='http://cnodejs.org/blog/?p=2859' rel="nofollow">Read More</a></p>													</div><!-- .entry-summary -->
+
+						<div class="entry-meta"><span class="category">Posted in <a href="http://cnodejs.org/blog/?cat=1" rel="tag">未分类</a></span>   | <a class="comments-link" href="http://cnodejs.org/blog/?p=2859#comments" title="Comment on 全国首届“Nodejs开发者大赛”活动指南">5 Responses</a></div>
+						
+					</div><!-- .hentry -->
+
+					
+				
+					
+					<div id="post-2806" class="hentry post publish post-2 even alt author-olddog sticky category-1">
+
+						
+						<a href="http://cnodejs.org/blog/?p=2806" title="全国首届“Nodejs开发者大赛”启动项目征集  触发梦想"><img src="http://cnodejs.org/blog/wp-content/uploads/2011/09/turing.png" alt="全国首届“Nodejs开发者大赛”启动项目征集  触发梦想" class="thumbnail " /></a>
+						<div><div><span style="padding: 5px; color: #acbc1e; background: #dbdcde; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial;">09</span><span style="padding: 5px; color: white; background: #acbc1e; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial; margin-right: 3px;">21</span></div><div><h2 class="entry-title"><a href="http://cnodejs.org/blog/?p=2806" title="全国首届“Nodejs开发者大赛”启动项目征集  触发梦想" rel="bookmark">全国首届“Nodejs开发者大赛”启动项目征集  触发梦想</a></h2></div></div>
+
+						<div class="byline">By <span class="author vcard"><a class="url fn n" href="http://cnodejs.org/blog/?author=244" title="olddog">olddog</a></span> on <abbr class="published" title="星期三, 九月 21st, 2011, 7:59 下午">2011 年 09 月 21 日</abbr> </div>
+						<div class="entry-summary">
+							<p>Nodejs自2009年问世来，以其事件驱动、异步I/O等特性受到开发人员的广泛关注，但“技术”的普及关键还在于“应用”!本着实用主义方法推广Nodejs应用的思路，Cnodejs.org社区决定举办”nodejs开发者大赛“。希望通过本次大赛，聚集更多Nodejs粉丝，挖掘特色应用和服务，进而激励更多的技术人员参与到Nodejs的发展和推动过程中来。大赛得到了阿里云以及图灵文化的鼎力支持。</p> <a href='http://cnodejs.org/blog/?p=2806' rel="nofollow">Read More</a></p>													</div><!-- .entry-summary -->
+
+						<div class="entry-meta"><span class="category">Posted in <a href="http://cnodejs.org/blog/?cat=1" rel="tag">未分类</a></span>   | <a class="comments-link" href="http://cnodejs.org/blog/?p=2806#comments" title="Comment on 全国首届“Nodejs开发者大赛”启动项目征集  触发梦想">2 Responses</a></div>
+						
+					</div><!-- .hentry -->
+
+					
+				
+					
+					<div id="post-3547" class="hentry post publish post-3 odd author-olddog category-1">
+
+						
+						
+						<div><div><span style="padding: 5px; color: #acbc1e; background: #dbdcde; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial;">10</span><span style="padding: 5px; color: white; background: #acbc1e; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial; margin-right: 3px;">27</span></div><div><h2 class="entry-title"><a href="http://cnodejs.org/blog/?p=3547" title="Node.Js开发者大赛参赛项目简介(六)" rel="bookmark">Node.Js开发者大赛参赛项目简介(六)</a></h2></div></div>
+
+						<div class="byline">By <span class="author vcard"><a class="url fn n" href="http://cnodejs.org/blog/?author=244" title="olddog">olddog</a></span> on <abbr class="published" title="星期四, 十月 27th, 2011, 11:24 下午">2011 年 10 月 27 日</abbr> </div>
+						<div class="entry-summary">
+							<p>项目名称:freeNote</p> <a href='http://cnodejs.org/blog/?p=3547' rel="nofollow">Read More</a></p>													</div><!-- .entry-summary -->
+
+						<div class="entry-meta"><span class="category">Posted in <a href="http://cnodejs.org/blog/?cat=1" rel="tag">未分类</a></span>   | <a class="comments-link" href="http://cnodejs.org/blog/?p=3547#respond" title="Comment on Node.Js开发者大赛参赛项目简介(六)">Leave a response</a></div>
+						
+					</div><!-- .hentry -->
+
+					
+				
+					
+					<div id="post-3471" class="hentry post publish post-4 even alt author-windyrobin category-1">
+
+						
+						
+						<div><div><span style="padding: 5px; color: #acbc1e; background: #dbdcde; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial;">10</span><span style="padding: 5px; color: white; background: #acbc1e; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial; margin-right: 3px;">27</span></div><div><h2 class="entry-title"><a href="http://cnodejs.org/blog/?p=3471" title="NodeJs 多核多进程并行框架实作" rel="bookmark">NodeJs 多核多进程并行框架实作</a></h2></div></div>
+
+						<div class="byline">By <span class="author vcard"><a class="url fn n" href="http://cnodejs.org/blog/?author=141" title="爱多">爱多</a></span> on <abbr class="published" title="星期四, 十月 27th, 2011, 4:55 下午">2011 年 10 月 27 日</abbr> </div>
+						<div class="entry-summary">
+							<p>多核编程的重要性无需多说， 我们直奔主题，目前nodejs 的网络服务器有以下几种支持多进程的方式：</p> <a href='http://cnodejs.org/blog/?p=3471' rel="nofollow">Read More</a></p>													</div><!-- .entry-summary -->
+
+						<div class="entry-meta"><span class="category">Posted in <a href="http://cnodejs.org/blog/?cat=1" rel="tag">未分类</a></span>   | <a class="comments-link" href="http://cnodejs.org/blog/?p=3471#comments" title="Comment on NodeJs 多核多进程并行框架实作">5 Responses</a></div>
+						
+					</div><!-- .hentry -->
+
+					
+				
+					
+					<div id="post-3452" class="hentry post publish post-5 odd author-olddog category-1">
+
+						
+						
+						<div><div><span style="padding: 5px; color: #acbc1e; background: #dbdcde; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial;">10</span><span style="padding: 5px; color: white; background: #acbc1e; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial; margin-right: 3px;">25</span></div><div><h2 class="entry-title"><a href="http://cnodejs.org/blog/?p=3452" title="Node.Js开发者大赛参赛项目简介(五)" rel="bookmark">Node.Js开发者大赛参赛项目简介(五)</a></h2></div></div>
+
+						<div class="byline">By <span class="author vcard"><a class="url fn n" href="http://cnodejs.org/blog/?author=244" title="olddog">olddog</a></span> on <abbr class="published" title="星期二, 十月 25th, 2011, 11:33 下午">2011 年 10 月 25 日</abbr> </div>
+						<div class="entry-summary">
+							<p>项目名称：BigFatKill</p> <a href='http://cnodejs.org/blog/?p=3452' rel="nofollow">Read More</a></p>													</div><!-- .entry-summary -->
+
+						<div class="entry-meta"><span class="category">Posted in <a href="http://cnodejs.org/blog/?cat=1" rel="tag">未分类</a></span>   | <a class="comments-link" href="http://cnodejs.org/blog/?p=3452#respond" title="Comment on Node.Js开发者大赛参赛项目简介(五)">Leave a response</a></div>
+						
+					</div><!-- .hentry -->
+
+					
+				
+					
+					<div id="post-3431" class="hentry post publish post-6 even alt author-olddog category-1">
+
+						
+						
+						<div><div><span style="padding: 5px; color: #acbc1e; background: #dbdcde; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial;">10</span><span style="padding: 5px; color: white; background: #acbc1e; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial; margin-right: 3px;">25</span></div><div><h2 class="entry-title"><a href="http://cnodejs.org/blog/?p=3431" title="Node.Js开发者大赛参赛项目简介(四)" rel="bookmark">Node.Js开发者大赛参赛项目简介(四)</a></h2></div></div>
+
+						<div class="byline">By <span class="author vcard"><a class="url fn n" href="http://cnodejs.org/blog/?author=244" title="olddog">olddog</a></span> on <abbr class="published" title="星期二, 十月 25th, 2011, 12:22 上午">2011 年 10 月 25 日</abbr> </div>
+						<div class="entry-summary">
+							<p>1.目标客户：<br />
+我们产品的目标用户是普通人，独立地下音乐创作者。<br />
+2.使用场景：<br />
+当用户创作完一首作品后，拿出手机记录下来上传到这里与你的朋友一起分享。<br />
+3.产品功能：<br />
+关注/取消关注其他用户，查看好友动态，上传一段音频与朋友分享，可以对一条音频的每个时间点做出评论。<br />
+4.产品特点：<br />
+使用便捷，评论的方式更利于与朋友交流。<br />
+5.技术难点：<br />
+音频文件的存储，在网页端控制声音的播放，与手机客户端通信。<br />
+6.团队介绍：<br />
+陈卓负责server端和web前端。<br />
+雷康负责android客户端。</p> <a href='http://cnodejs.org/blog/?p=3431' rel="nofollow">Read More</a></p>													</div><!-- .entry-summary -->
+
+						<div class="entry-meta"><span class="category">Posted in <a href="http://cnodejs.org/blog/?cat=1" rel="tag">未分类</a></span>   | <a class="comments-link" href="http://cnodejs.org/blog/?p=3431#comments" title="Comment on Node.Js开发者大赛参赛项目简介(四)">1 Response</a></div>
+						
+					</div><!-- .hentry -->
+
+					
+				
+					
+					<div id="post-3416" class="hentry post publish post-7 odd author-olddog category-1">
+
+						
+						
+						<div><div><span style="padding: 5px; color: #acbc1e; background: #dbdcde; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial;">10</span><span style="padding: 5px; color: white; background: #acbc1e; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial; margin-right: 3px;">23</span></div><div><h2 class="entry-title"><a href="http://cnodejs.org/blog/?p=3416" title="Node.Js开发者大赛参赛项目简介(三)" rel="bookmark">Node.Js开发者大赛参赛项目简介(三)</a></h2></div></div>
+
+						<div class="byline">By <span class="author vcard"><a class="url fn n" href="http://cnodejs.org/blog/?author=244" title="olddog">olddog</a></span> on <abbr class="published" title="星期日, 十月 23rd, 2011, 8:37 下午">2011 年 10 月 23 日</abbr> </div>
+						<div class="entry-summary">
+							<p>软件名称:团购价格比较<br />
+使用场景:用户对各团购网站的同类产品进行价格比较的时候<br />
+产品功能:后端使用NodeJS抓取分析各团购网站的数据;前端按照产品分类、价格进行比较浏览<br />
+产品特点:客户端基于html5，移植性强，只要是支持html5的设备上都能使用；后端使用nodejs+xml2js<br />
+技术难点:多站数据汇总<br />
+团队介绍:武振宇，极度关注移动互联网发展的一条小鱼.</p> <a href='http://cnodejs.org/blog/?p=3416' rel="nofollow">Read More</a></p>													</div><!-- .entry-summary -->
+
+						<div class="entry-meta"><span class="category">Posted in <a href="http://cnodejs.org/blog/?cat=1" rel="tag">未分类</a></span>   | <a class="comments-link" href="http://cnodejs.org/blog/?p=3416#respond" title="Comment on Node.Js开发者大赛参赛项目简介(三)">Leave a response</a></div>
+						
+					</div><!-- .hentry -->
+
+					
+				
+					
+					<div id="post-3378" class="hentry post publish post-8 even alt author-olddog category-1">
+
+						
+						
+						<div><div><span style="padding: 5px; color: #acbc1e; background: #dbdcde; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial;">10</span><span style="padding: 5px; color: white; background: #acbc1e; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial; margin-right: 3px;">21</span></div><div><h2 class="entry-title"><a href="http://cnodejs.org/blog/?p=3378" title="Node.Js开发者大赛参赛项目简介(二)" rel="bookmark">Node.Js开发者大赛参赛项目简介(二)</a></h2></div></div>
+
+						<div class="byline">By <span class="author vcard"><a class="url fn n" href="http://cnodejs.org/blog/?author=244" title="olddog">olddog</a></span> on <abbr class="published" title="星期五, 十月 21st, 2011, 12:28 上午">2011 年 10 月 21 日</abbr> </div>
+						<div class="entry-summary">
+							<p>软件名称：画画猜猜</p> <a href='http://cnodejs.org/blog/?p=3378' rel="nofollow">Read More</a></p>													</div><!-- .entry-summary -->
+
+						<div class="entry-meta"><span class="category">Posted in <a href="http://cnodejs.org/blog/?cat=1" rel="tag">未分类</a></span>   | <a class="comments-link" href="http://cnodejs.org/blog/?p=3378#comments" title="Comment on Node.Js开发者大赛参赛项目简介(二)">4 Responses</a></div>
+						
+					</div><!-- .hentry -->
+
+					
+				
+					
+					<div id="post-3351" class="hentry post publish post-9 odd author-olddog category-1">
+
+						
+						
+						<div><div><span style="padding: 5px; color: #acbc1e; background: #dbdcde; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial;">10</span><span style="padding: 5px; color: white; background: #acbc1e; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial; margin-right: 3px;">20</span></div><div><h2 class="entry-title"><a href="http://cnodejs.org/blog/?p=3351" title="Node.Js开发者大赛参赛项目简介(一)" rel="bookmark">Node.Js开发者大赛参赛项目简介(一)</a></h2></div></div>
+
+						<div class="byline">By <span class="author vcard"><a class="url fn n" href="http://cnodejs.org/blog/?author=244" title="olddog">olddog</a></span> on <abbr class="published" title="星期四, 十月 20th, 2011, 8:53 上午">2011 年 10 月 20 日</abbr> </div>
+						<div class="entry-summary">
+							<p>软件名称：移动社区平台</p> <a href='http://cnodejs.org/blog/?p=3351' rel="nofollow">Read More</a></p>													</div><!-- .entry-summary -->
+
+						<div class="entry-meta"><span class="category">Posted in <a href="http://cnodejs.org/blog/?cat=1" rel="tag">未分类</a></span>   | <a class="comments-link" href="http://cnodejs.org/blog/?p=3351#respond" title="Comment on Node.Js开发者大赛参赛项目简介(一)">Leave a response</a></div>
+						
+					</div><!-- .hentry -->
+
+					
+				
+					
+					<div id="post-3275" class="hentry post publish post-10 even alt author-mashihua category-11 post_tag-capistrano post_tag-deploy post_tag-jake post_tag-node-js post_tag-npm post_tag-upstart">
+
+						
+						
+						<div><div><span style="padding: 5px; color: #acbc1e; background: #dbdcde; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial;">10</span><span style="padding: 5px; color: white; background: #acbc1e; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial; margin-right: 3px;">16</span></div><div><h2 class="entry-title"><a href="http://cnodejs.org/blog/?p=3275" title="部署Node.js的应用" rel="bookmark">部署Node.js的应用</a></h2></div></div>
+
+						<div class="byline">By <span class="author vcard"><a class="url fn n" href="http://cnodejs.org/blog/?author=943" title="mashihua">mashihua</a></span> on <abbr class="published" title="星期日, 十月 16th, 2011, 9:59 上午">2011 年 10 月 16 日</abbr> </div>
+						<div class="entry-summary">
+							<p>最近Node.js很火，让很多的前端看到了可以直接从前端写到后端的希望。但是每次部署一个Node.js的应用却让前端苦恼不已。每次登陆服务器，用自己不熟悉的方式从版本控制仓库中拖下源代码，kill掉应用的进程，重起一个应用的守护进程。如果能够自动化的部署一个Node.js应用，而不需要去接触这些前端不太熟悉的Unix系统命令和管理。对于大家来说就是提升了生产力。Capistrano是一个强大的自动化部署工具，所以我们选用他来做自动化部署。并且我已经把做好了的一个部署脚本<a href="https://github.com/mashihua/Nodebot">Nodebot</a>提交到github上去，供大家参考。</p> <a href='http://cnodejs.org/blog/?p=3275' rel="nofollow">Read More</a></p>													</div><!-- .entry-summary -->
+
+						<div class="entry-meta"><span class="category">Posted in <a href="http://cnodejs.org/blog/?cat=11" rel="tag">代码</a></span> <span class="post_tag">| Tagged <a href="http://cnodejs.org/blog/?tag=capistrano" rel="tag">capistrano</a>, <a href="http://cnodejs.org/blog/?tag=deploy" rel="tag">deploy</a>, <a href="http://cnodejs.org/blog/?tag=jake" rel="tag">jake</a>, <a href="http://cnodejs.org/blog/?tag=node-js" rel="tag">node.js</a>, <a href="http://cnodejs.org/blog/?tag=npm" rel="tag">npm</a>, <a href="http://cnodejs.org/blog/?tag=upstart" rel="tag">upstart</a></span>  | <a class="comments-link" href="http://cnodejs.org/blog/?p=3275#comments" title="Comment on 部署Node.js的应用">5 Responses</a></div>
+						
+					</div><!-- .hentry -->
+
+					
+				
+					
+					<div id="post-3057" class="hentry post publish post-11 odd author-vitrum category-10 category-17 post_tag-ec2 post_tag-install post_tag-node post_tag-98">
+
+						
+						
+						<div><div><span style="padding: 5px; color: #acbc1e; background: #dbdcde; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial;">10</span><span style="padding: 5px; color: white; background: #acbc1e; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial; margin-right: 3px;">11</span></div><div><h2 class="entry-title"><a href="http://cnodejs.org/blog/?p=3057" title="在EC2 中搭建node.js 环境" rel="bookmark">在EC2 中搭建node.js 环境</a></h2></div></div>
+
+						<div class="byline">By <span class="author vcard"><a class="url fn n" href="http://cnodejs.org/blog/?author=651" title="vitrum">vitrum</a></span> on <abbr class="published" title="星期二, 十月 11th, 2011, 2:46 下午">2011 年 10 月 11 日</abbr> </div>
+						<div class="entry-summary">
+							<p><strong>1，为什么用EC2搭建node.js环境。</strong></p> <a href='http://cnodejs.org/blog/?p=3057' rel="nofollow">Read More</a></p>													</div><!-- .entry-summary -->
+
+						<div class="entry-meta"><span class="category">Posted in <a href="http://cnodejs.org/blog/?cat=10" rel="tag">学习</a>, <a href="http://cnodejs.org/blog/?cat=17" rel="tag">资料</a></span> <span class="post_tag">| Tagged <a href="http://cnodejs.org/blog/?tag=ec2" rel="tag">EC2</a>, <a href="http://cnodejs.org/blog/?tag=install" rel="tag">install</a>, <a href="http://cnodejs.org/blog/?tag=node" rel="tag">node</a>, <a href="http://cnodejs.org/blog/?tag=%e5%ae%89%e8%a3%85" rel="tag">安装</a></span>  | <a class="comments-link" href="http://cnodejs.org/blog/?p=3057#comments" title="Comment on 在EC2 中搭建node.js 环境">3 Responses</a></div>
+						
+					</div><!-- .hentry -->
+
+					
+				
+					
+					<div id="post-3022" class="hentry post publish post-12 even alt author-347780168 category-1">
+
+						
+						
+						<div><div><span style="padding: 5px; color: #acbc1e; background: #dbdcde; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial;">09</span><span style="padding: 5px; color: white; background: #acbc1e; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial; margin-right: 3px;">23</span></div><div><h2 class="entry-title"><a href="http://cnodejs.org/blog/?p=3022" title="windows下配置node.js" rel="bookmark">windows下配置node.js</a></h2></div></div>
+
+						<div class="byline">By <span class="author vcard"><a class="url fn n" href="http://cnodejs.org/blog/?author=755" title="347780168">347780168</a></span> on <abbr class="published" title="星期五, 九月 23rd, 2011, 4:49 下午">2011 年 09 月 23 日</abbr> </div>
+						<div class="entry-summary">
+							<h4>第一步：安装Cygwin</h4>
+<p>Cygwin网站：<a href="http://cygwin.com/" target="_blank">http://cygwin.com/</a>，Cygwin是什么就不多说了，反正是必须的！先下载setup文件，就算安装完了这个文件也别删，以后万一还有用得着的地方！如果首次安装有些包忘记装了，还得用这个再次安装！我一开始就忘记了好几个包，导致浪费了好多时间！主要是记得第一个界面时选择“install from internet”，否则就会失败！</p> <a href='http://cnodejs.org/blog/?p=3022' rel="nofollow">Read More</a></p>													</div><!-- .entry-summary -->
+
+						<div class="entry-meta"><span class="category">Posted in <a href="http://cnodejs.org/blog/?cat=1" rel="tag">未分类</a></span>   | <a class="comments-link" href="http://cnodejs.org/blog/?p=3022#comments" title="Comment on windows下配置node.js">4 Responses</a></div>
+						
+					</div><!-- .hentry -->
+
+					
+				
+					
+					<div id="post-2831" class="hentry post publish post-13 odd author-olddog category-72">
+
+						
+						<a href="http://cnodejs.org/blog/?p=2831" title="全国首届“Nodejs开发者大赛”评委简介"><img src="http://cnodejs.org/blog/wp-content/uploads/2011/09/调整大小-lk1.jpg" alt="全国首届“Nodejs开发者大赛”评委简介" class="thumbnail " /></a>
+						<div><div><span style="padding: 5px; color: #acbc1e; background: #dbdcde; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial;">09</span><span style="padding: 5px; color: white; background: #acbc1e; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial; margin-right: 3px;">21</span></div><div><h2 class="entry-title"><a href="http://cnodejs.org/blog/?p=2831" title="全国首届“Nodejs开发者大赛”评委简介" rel="bookmark">全国首届“Nodejs开发者大赛”评委简介</a></h2></div></div>
+
+						<div class="byline">By <span class="author vcard"><a class="url fn n" href="http://cnodejs.org/blog/?author=244" title="olddog">olddog</a></span> on <abbr class="published" title="星期三, 九月 21st, 2011, 8:31 下午">2011 年 09 月 21 日</abbr> </div>
+						<div class="entry-summary">
+							<p>此次大赛的评委均系node.js及前端开发领域的一线实力人物，他们有来自淘宝的数据部门担任架构师的廖恺(q3boy)；阿里云无线平台-云应用首席架构师谷祖林；阿里云无线平台前端开发工程师张智博；盛大创新院研究员、多年从事前端开发的程劭非（winter）；盛大创新院专注于HTML5游戏研发的魏子钧(大城小胖)；现就职于miiiCasa inc从事前端开发工作、同时身为nodejs.tw负责人的戚務漢等。</p> <a href='http://cnodejs.org/blog/?p=2831' rel="nofollow">Read More</a></p>													</div><!-- .entry-summary -->
+
+						<div class="entry-meta"><span class="category">Posted in <a href="http://cnodejs.org/blog/?cat=72" rel="tag">活动</a></span>   | <a class="comments-link" href="http://cnodejs.org/blog/?p=2831#respond" title="Comment on 全国首届“Nodejs开发者大赛”评委简介">Leave a response</a></div>
+						
+					</div><!-- .hentry -->
+
+					
+				
+					
+					<div id="post-2797" class="hentry post publish post-14 even alt author-olddog category-72">
+
+						
+						
+						<div><div><span style="padding: 5px; color: #acbc1e; background: #dbdcde; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial;">09</span><span style="padding: 5px; color: white; background: #acbc1e; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial; margin-right: 3px;">21</span></div><div><h2 class="entry-title"><a href="http://cnodejs.org/blog/?p=2797" title="【Node.js动态】用Node.js开发应用的公司（系列一）" rel="bookmark">【Node.js动态】用Node.js开发应用的公司（系列一）</a></h2></div></div>
+
+						<div class="byline">By <span class="author vcard"><a class="url fn n" href="http://cnodejs.org/blog/?author=244" title="olddog">olddog</a></span> on <abbr class="published" title="星期三, 九月 21st, 2011, 1:39 下午">2011 年 09 月 21 日</abbr> </div>
+						<div class="entry-summary">
+							<p>目前国外已经有许多公司开始完全用Node.js或者部分采用Node.js来架构自己的应用，在这其中也不乏一些大公司。那么，让我们来具体看一下，到底有谁在用Node.js呢</p> <a href='http://cnodejs.org/blog/?p=2797' rel="nofollow">Read More</a></p>													</div><!-- .entry-summary -->
+
+						<div class="entry-meta"><span class="category">Posted in <a href="http://cnodejs.org/blog/?cat=72" rel="tag">活动</a></span>   | <a class="comments-link" href="http://cnodejs.org/blog/?p=2797#comments" title="Comment on 【Node.js动态】用Node.js开发应用的公司（系列一）">1 Response</a></div>
+						
+					</div><!-- .hentry -->
+
+					
+				
+					
+					<div id="post-2763" class="hentry post publish post-15 odd author-jackson category-ppt category-72">
+
+						
+						<a href="http://cnodejs.org/blog/?p=2763" title="NodeParty-SH-01圆满结束(附图文总结)"><img src="http://cnodejs.org/blog/wp-content/uploads/2011/09/IMG_1646-150x150.jpg" alt="NodeParty-SH-01圆满结束(附图文总结)" class="thumbnail " /></a>
+						<div><div><span style="padding: 5px; color: #acbc1e; background: #dbdcde; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial;">09</span><span style="padding: 5px; color: white; background: #acbc1e; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial; margin-right: 3px;">19</span></div><div><h2 class="entry-title"><a href="http://cnodejs.org/blog/?p=2763" title="NodeParty-SH-01圆满结束(附图文总结)" rel="bookmark">NodeParty-SH-01圆满结束(附图文总结)</a></h2></div></div>
+
+						<div class="byline">By <span class="author vcard"><a class="url fn n" href="http://cnodejs.org/blog/?author=19" title="Jackson">Jackson</a></span> on <abbr class="published" title="星期一, 九月 19th, 2011, 5:32 下午">2011 年 09 月 19 日</abbr> </div>
+						<div class="entry-summary">
+							<p>2011年9月17日举行的NodeParty上海第一场在大众点评网顺利而且圆满结束。</p> <a href='http://cnodejs.org/blog/?p=2763' rel="nofollow">Read More</a></p>													</div><!-- .entry-summary -->
+
+						<div class="entry-meta"><span class="category">Posted in <a href="http://cnodejs.org/blog/?cat=9" rel="tag">ppt</a>, <a href="http://cnodejs.org/blog/?cat=72" rel="tag">活动</a></span>   | <a class="comments-link" href="http://cnodejs.org/blog/?p=2763#comments" title="Comment on NodeParty-SH-01圆满结束(附图文总结)">3 Responses</a></div>
+						
+					</div><!-- .hentry -->
+
+					
+				
+					
+					<div id="post-2590" class="hentry post publish post-16 even alt author-auzll category-11 category-10">
+
+						
+						
+						<div><div><span style="padding: 5px; color: #acbc1e; background: #dbdcde; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial;">09</span><span style="padding: 5px; color: white; background: #acbc1e; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial; margin-right: 3px;">17</span></div><div><h2 class="entry-title"><a href="http://cnodejs.org/blog/?p=2590" title="用node.js和Websocket来做个多人聊天室吧" rel="bookmark">用node.js和Websocket来做个多人聊天室吧</a></h2></div></div>
+
+						<div class="byline">By <span class="author vcard"><a class="url fn n" href="http://cnodejs.org/blog/?author=489" title="auzll">auzll</a></span> on <abbr class="published" title="星期六, 九月 17th, 2011, 4:53 下午">2011 年 09 月 17 日</abbr> </div>
+						<div class="entry-summary">
+							<p>初学node.js和html5的相关技术(node方面大部分都是在cnodejs.org上面看技术文章学到的)，想着学以致用，于是基于node.js和websocket来做了一个多人聊天室：</p> <a href='http://cnodejs.org/blog/?p=2590' rel="nofollow">Read More</a></p>													</div><!-- .entry-summary -->
+
+						<div class="entry-meta"><span class="category">Posted in <a href="http://cnodejs.org/blog/?cat=11" rel="tag">代码</a>, <a href="http://cnodejs.org/blog/?cat=10" rel="tag">学习</a></span>   | <a class="comments-link" href="http://cnodejs.org/blog/?p=2590#comments" title="Comment on 用node.js和Websocket来做个多人聊天室吧">3 Responses</a></div>
+						
+					</div><!-- .hentry -->
+
+					
+				
+					
+					<div id="post-2710" class="hentry post publish post-17 odd author-wity_lv category-10 category-17 post_tag-express post_tag-markdown post_tag-npm post_tag-vows">
+
+						
+						
+						<div><div><span style="padding: 5px; color: #acbc1e; background: #dbdcde; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial;">09</span><span style="padding: 5px; color: white; background: #acbc1e; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial; margin-right: 3px;">15</span></div><div><h2 class="entry-title"><a href="http://cnodejs.org/blog/?p=2710" title="使用node.js建markdown静态博客，文章总汇(8篇)" rel="bookmark">使用node.js建markdown静态博客，文章总汇(8篇)</a></h2></div></div>
+
+						<div class="byline">By <span class="author vcard"><a class="url fn n" href="http://cnodejs.org/blog/?author=590" title="wity_lv">wity_lv</a></span> on <abbr class="published" title="星期四, 九月 15th, 2011, 9:29 上午">2011 年 09 月 15 日</abbr> </div>
+						<div class="entry-summary">
+							<p>这篇从我的javaeye博客上转过来的，有点像学习笔记。</p> <a href='http://cnodejs.org/blog/?p=2710' rel="nofollow">Read More</a></p>													</div><!-- .entry-summary -->
+
+						<div class="entry-meta"><span class="category">Posted in <a href="http://cnodejs.org/blog/?cat=10" rel="tag">学习</a>, <a href="http://cnodejs.org/blog/?cat=17" rel="tag">资料</a></span> <span class="post_tag">| Tagged <a href="http://cnodejs.org/blog/?tag=express" rel="tag">express</a>, <a href="http://cnodejs.org/blog/?tag=markdown" rel="tag">markdown</a>, <a href="http://cnodejs.org/blog/?tag=npm" rel="tag">npm</a>, <a href="http://cnodejs.org/blog/?tag=vows" rel="tag">vows</a></span>  | <a class="comments-link" href="http://cnodejs.org/blog/?p=2710#respond" title="Comment on 使用node.js建markdown静态博客，文章总汇(8篇)">Leave a response</a></div>
+						
+					</div><!-- .hentry -->
+
+					
+				
+					
+					<div id="post-2572" class="hentry post publish post-18 even alt author-seon category-10 post_tag-http-streaming">
+
+						
+						
+						<div><div><span style="padding: 5px; color: #acbc1e; background: #dbdcde; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial;">09</span><span style="padding: 5px; color: white; background: #acbc1e; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial; margin-right: 3px;">13</span></div><div><h2 class="entry-title"><a href="http://cnodejs.org/blog/?p=2572" title="node通过http.request向其他服务器上传文件" rel="bookmark">node通过http.request向其他服务器上传文件</a></h2></div></div>
+
+						<div class="byline">By <span class="author vcard"><a class="url fn n" href="http://cnodejs.org/blog/?author=631" title="seon">seon</a></span> on <abbr class="published" title="星期二, 九月 13th, 2011, 10:42 下午">2011 年 09 月 13 日</abbr> </div>
+						<div class="entry-summary">
+							<p>很早就听说过node的大名了，只是一直没有去尝试。直到最近，为了简化代码上线流程，提高上线效率，决定使用node来开发服务器端的上线程序。</p> <a href='http://cnodejs.org/blog/?p=2572' rel="nofollow">Read More</a></p>													</div><!-- .entry-summary -->
+
+						<div class="entry-meta"><span class="category">Posted in <a href="http://cnodejs.org/blog/?cat=10" rel="tag">学习</a></span> <span class="post_tag">| Tagged <a href="http://cnodejs.org/blog/?tag=http-streaming" rel="tag">http streaming</a></span>  | <a class="comments-link" href="http://cnodejs.org/blog/?p=2572#respond" title="Comment on node通过http.request向其他服务器上传文件">Leave a response</a></div>
+						
+					</div><!-- .hentry -->
+
+					
+				
+					
+					<div id="post-2661" class="hentry post publish post-19 odd author-windyrobin category-1">
+
+						
+						<a href="http://cnodejs.org/blog/?p=2661" title="nodejs 异步之 Timer &amp;Tick 篇"><img src="http://cnodejs.org/blog/wp-content/uploads/2011/09/link-150x150.png" alt="nodejs 异步之 Timer &amp;Tick 篇" class="thumbnail " /></a>
+						<div><div><span style="padding: 5px; color: #acbc1e; background: #dbdcde; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial;">09</span><span style="padding: 5px; color: white; background: #acbc1e; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial; margin-right: 3px;">13</span></div><div><h2 class="entry-title"><a href="http://cnodejs.org/blog/?p=2661" title="nodejs 异步之 Timer &amp;Tick 篇" rel="bookmark">nodejs 异步之 Timer &amp;Tick 篇</a></h2></div></div>
+
+						<div class="byline">By <span class="author vcard"><a class="url fn n" href="http://cnodejs.org/blog/?author=141" title="爱多">爱多</a></span> on <abbr class="published" title="星期二, 九月 13th, 2011, 9:45 下午">2011 年 09 月 13 日</abbr> </div>
+						<div class="entry-summary">
+							<div><strong>Timer：</strong></div>
+<div><strong></strong><br />
+在前端开发中，我们 经常会使用setTimeout 函数组，这组函数其实不属于语言标准，他们只是extentsion ，在浏览器中，他们属于 BOM（浏览器对象扩展），即它的确切定义为：window.setTimeout ,和window.alert , window.open 等函数处于同一层次。 <a href="http://cnodejs.org/blog/?p=2661#more-2661" class="more-link">Read more</a></div>													</div><!-- .entry-summary -->
+
+						<div class="entry-meta"><span class="category">Posted in <a href="http://cnodejs.org/blog/?cat=1" rel="tag">未分类</a></span>   | <a class="comments-link" href="http://cnodejs.org/blog/?p=2661#comments" title="Comment on nodejs 异步之 Timer &amp;Tick 篇">2 Responses</a></div>
+						
+					</div><!-- .hentry -->
+
+					
+				
+					
+					<div id="post-2460" class="hentry post publish post-20 even alt author-snoopy category-5 post_tag-generic-pool post_tag-multi-node post_tag-node-jsphp post_tag-node-js post_tag-node-js post_tag-php">
+
+						
+						
+						<div><div><span style="padding: 5px; color: #acbc1e; background: #dbdcde; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial;">09</span><span style="padding: 5px; color: white; background: #acbc1e; float: left; width: 20px; height: 20px; font-size: 16px; font-family: Arial; margin-right: 3px;">13</span></div><div><h2 class="entry-title"><a href="http://cnodejs.org/blog/?p=2460" title="单服务器node.js和php性能测试" rel="bookmark">单服务器node.js和php性能测试</a></h2></div></div>
+
+						<div class="byline">By <span class="author vcard"><a class="url fn n" href="http://cnodejs.org/blog/?author=256" title="snoopy">snoopy</a></span> on <abbr class="published" title="星期二, 九月 13th, 2011, 11:21 上午">2011 年 09 月 13 日</abbr> </div>
+						<div class="entry-summary">
+							<div><strong>选手介绍：</strong></div>
+<div><span style="color: #3366ff;">node.js</span>，服务端javascript语言，以出色的事件驱动和I/O异步广受关注，它更像一辆性能出色的<span style="color: #3366ff;">Mitsubishi Evlution X</span>；</div>
+<div><span style="color: #ff9900;">php</span>，耳熟能详的服务端语言，在互联网领域中市场占有率相当高，它更像一辆性能出色，品牌知名度高的<span style="color: #ff9900;">BMW 330i</span>。</div>
+<p> <a href="http://cnodejs.org/blog/?p=2460#more-2460" class="more-link">Read more</a></p>													</div><!-- .entry-summary -->
+
+						<div class="entry-meta"><span class="category">Posted in <a href="http://cnodejs.org/blog/?cat=5" rel="tag">性能测试</a></span> <span class="post_tag">| Tagged <a href="http://cnodejs.org/blog/?tag=generic-pool" rel="tag">generic-pool</a>, <a href="http://cnodejs.org/blog/?tag=multi-node" rel="tag">multi-node</a>, <a href="http://cnodejs.org/blog/?tag=node-js%e5%92%8cphp" rel="tag">node.js和php</a>, <a href="http://cnodejs.org/blog/?tag=node-js%e6%80%a7%e8%83%bd" rel="tag">node.js性能</a>, <a href="http://cnodejs.org/blog/?tag=node-js%e6%80%a7%e8%83%bd%e6%b5%8b%e8%af%95" rel="tag">node.js性能测试</a>, <a href="http://cnodejs.org/blog/?tag=php%e6%80%a7%e8%83%bd%e6%b5%8b%e8%af%95" rel="tag">php性能测试</a></span>  | <a class="comments-link" href="http://cnodejs.org/blog/?p=2460#comments" title="Comment on 单服务器node.js和php性能测试">2 Responses</a></div>
+						
+					</div><!-- .hentry -->
+
+					
+				
+			
+		</div><!-- .hfeed -->
+
+		
+		
+	<div class="pagination loop-pagination"><span class='page-numbers current'>1</span>
+<a class='page-numbers' href='/blog/?paged=2'>2</a>
+<span class="page-numbers dots">...</span>
+<a class='page-numbers' href='/blog/?paged=6'>6</a>
+<a class="next page-numbers" href="/blog/?paged=2">下一页 &raquo;</a></div>
+	
+	</div><!-- #content -->
+
+	
+				
+	
+	<div id="sidebar-primary" class="sidebar">
+
+		
+		<div id="text-3" class="widget widget_text widget-widget_text"><div class="widget-wrap widget-inside"><h3 class="widget-title">关于CNode社区</h3>			<div class="textwidget">CNode社区为国内最专业的Node.JS开源技术社区，致力于Node.JS的技术研究。
+我们非常欢迎对node感兴趣的朋友<a href="http://cnodejs.org/blog/?page_id=2">加入我们</a>。
+<strong>本站所有文章均为原创</strong>
+<ul>
+	<li>node.js最新版本V0.4.12 <a href="http://nodejs.org/dist/node-v0.4.12.tar.gz" target="_blank"><img src="http://cnodejs.org/blog/wp-content/uploads/2011/01/download.gif" border="0" alt="" /></a></li>
+	<li><a href="http://cnodejs.org/api/" target="_blank">开发手册</a></li>
+	<li><a href="http://cnodejs.org/cman/" target="_blank">中文文档(本站原创翻译)</a></li>
+</ul>
+<a href="http://fusion.google.com/add?feedurl=http://feed.feedsky.com/nodejs" target="_blank"><img src="http://cnodejs.org/blog/wp-content/uploads/2011/02/icon_subshot02_google.gif" border="0" alt="" /></a><a href="http://www.xianguo.com/subscribe.php?url=http://feed.feedsky.com/nodejs" target="_blank"><img src="http://cnodejs.org/blog/wp-content/uploads/2011/02/icon_subshot02_xianguo.gif" border="0" alt="" /></a>
+<a href="http://www.zhuaxia.com/add_channel.php?url=http://feed.feedsky.com/nodejs" target="_blank"><img src="http://cnodejs.org/blog/wp-content/uploads/2011/02/icon_subshot02_zhuaxia.gif" border="0" alt="" /></a><a href="http://reader.youdao.com/b.do?keyfrom=feedsky&amp;url=http://feed.feedsky.com/nodejs" target="_blank"><img src="http://cnodejs.org/blog/wp-content/uploads/2011/02/icon_subshot02_youdao.gif" border="0" alt="" /></a>
+</div>
+		</div></div><div id="meta-3" class="widget widget_meta widget-widget_meta"><div class="widget-wrap widget-inside"><h3 class="widget-title">功能</h3>			<ul>
+			<li><a href="http://cnodejs.org/blog/wp-login.php?action=register">注册</a></li>			<li><a href="http://cnodejs.org/blog/wp-login.php">登录</a></li>
+			<li><a href="http://cnodejs.org/blog/?feed=rss2" title="使用 RSS 2.0 订阅本站点内容">文章 <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://cnodejs.org/blog/?feed=comments-rss2" title="使用 RSS 订阅本站点的所有文章的近期评论">评论 <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://wordpress.org/" title="基于 WordPress，一个优美、先进的个人信息发布平台。">WordPress.org</a></li>
+						</ul>
+</div></div><div id="recent-comments-3" class="widget widget_recent_comments widget-widget_recent_comments"><div class="widget-wrap widget-inside"><h3 class="widget-title">近期评论</h3><ul id="recentcomments"><li class="recentcomments">rogical 发表在《<a href="http://cnodejs.org/blog/?p=3471#comment-1267">NodeJs 多核多进程并行框架实作</a>》</li><li class="recentcomments"><a href='http://snoopyxdy.blog.163.com' rel='external nofollow' class='url'>snoopy</a> 发表在《<a href="http://cnodejs.org/blog/?p=3471#comment-1262">NodeJs 多核多进程并行框架实作</a>》</li><li class="recentcomments">mxfli 发表在《<a href="http://cnodejs.org/blog/?p=3471#comment-1261">NodeJs 多核多进程并行框架实作</a>》</li><li class="recentcomments"><a href='http://fengmk2.cnblogs.com/' rel='external nofollow' class='url'>suqian</a> 发表在《<a href="http://cnodejs.org/blog/?p=3471#comment-1260">NodeJs 多核多进程并行框架实作</a>》</li><li class="recentcomments"><a href='http://fengmk2.cnblogs.com/' rel='external nofollow' class='url'>suqian</a> 发表在《<a href="http://cnodejs.org/blog/?p=3471#comment-1259">NodeJs 多核多进程并行框架实作</a>》</li></ul></div></div>		<div id="authors-3" class="widget widget_authors widget-widget_authors"><div class="widget-wrap widget-inside">			<h3 class="widget-title">社区贡献者</h3>			<ul>
+				<li><img alt='' src='http://1.gravatar.com/avatar/fd40847309734a629d1893036fb3a091?s=32&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=373" title="由 12_71 发布">12_71</a> (1)</li>
+<li><img alt='' src='http://0.gravatar.com/avatar/a3cc25ee4924a223f29db678ca42cddc?s=32&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=755" title="由 347780168 发布">347780168</a> (1)</li>
+<li><img alt='' src='http://0.gravatar.com/avatar/e77242dc987b6a9a6ed78efea7ef9120?s=32&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=75" title="由 auscar 发布">auscar</a> (2)</li>
+<li><img alt='' src='http://0.gravatar.com/avatar/45b563c51b86bfb5bb0376ed623c063a?s=32&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=489" title="由 auzll 发布">auzll</a> (1)</li>
+<li><img alt='' src='http://1.gravatar.com/avatar/5478404399eee213a62423f031f792e5?s=32&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=14" title="由 bachi 发布">bachi</a> (1)</li>
+<li><img alt='' src='http://1.gravatar.com/avatar/17a0c8675ce214f8184b41bc728d8cd9?s=32&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=74" title="由 bang590 发布">bang590</a> (1)</li>
+<li><img alt='' src='http://0.gravatar.com/avatar/2833e560cdc5b886106a813454dcc20f?s=32&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=388" title="由 be5invis 发布">be5invis</a> (2)</li>
+<li><img alt='' src='http://0.gravatar.com/avatar/8eadfba9e392b7d10c5bf1c006080e90?s=32&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=435" title="由 BenCrox 发布">BenCrox</a> (1)</li>
+<li><img alt='' src='http://1.gravatar.com/avatar/f2a6e3bb024b3ee7b387df2f05d2c608?s=32&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=9" title="由 changlin 发布">changlin</a> (1)</li>
+<li><img alt='' src='http://0.gravatar.com/avatar/864eaff251427ff19791105794ba59cc?s=32&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=44" title="由 dulao5 发布">dulao5</a> (2)</li>
+<li><img alt='' src='http://1.gravatar.com/avatar/dc13d329db98a4ff44d52013b80e3bf4?s=32&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=286" title="由 fool 发布">fool</a> (3)</li>
+<li><img alt='' src='http://1.gravatar.com/avatar/df945861d59ea39f0f23c5e549850af5?s=32&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=10" title="由 huangshaoqiang 发布">huangshaoqiang</a> (1)</li>
+<li><img alt='' src='http://1.gravatar.com/avatar/31b9dfd78b6aa9cefb68129ea21af3bf?s=32&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=19" title="由 Jackson 发布">Jackson</a> (4)</li>
+<li><img alt='' src='http://1.gravatar.com/avatar/1bfc8def4d9f790b4157a17aeba5f55e?s=32&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=3" title="由 kennyz 发布">kennyz</a> (17)</li>
+<li><img alt='' src='http://0.gravatar.com/avatar/60fc9f611b27632b427dbcebe2171585?s=32&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=298" title="由 lenzhang 发布">lenzhang</a> (1)</li>
+<li><img alt='' src='http://1.gravatar.com/avatar/d24a0763ae28e6537c5d9a5511723b0a?s=32&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=53" title="由 limu 发布">limu</a> (1)</li>
+<li><img alt='' src='http://0.gravatar.com/avatar/4c564c9b7fad37a790b560904df49c13?s=32&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=33" title="由 longbill 发布">longbill</a> (2)</li>
+<li><img alt='' src='http://1.gravatar.com/avatar/fae2e651c5d0e4e4fb93abcfedcfa5fa?s=32&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=943" title="由 mashihua 发布">mashihua</a> (1)</li>
+<li><img alt='' src='http://0.gravatar.com/avatar/2d081f9eebb8388a28442c48be5b9879?s=32&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=227" title="由 ming1016 发布">ming1016</a> (1)</li>
+<li><img alt='' src='http://0.gravatar.com/avatar/8896cc725e36350023e7f41f0455b8aa?s=32&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=419" title="由 neekey 发布">neekey</a> (1)</li>
+<li><img alt='' src='http://1.gravatar.com/avatar/5eebeb89d64affbc2c329183e2f93606?s=32&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=244" title="由 olddog 发布">olddog</a> (9)</li>
+<li><img alt='' src='http://1.gravatar.com/avatar/30a95610615ba601ff60c740fa010975?s=32&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=7" title="由 pengchun 发布">pengchun</a> (8)</li>
+<li><img alt='' src='http://0.gravatar.com/avatar/2e26ae3b35ec2d132acc318e7b3a4abb?s=32&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=2" title="由 qingdu 发布">qingdu</a> (7)</li>
+<li><img alt='' src='http://0.gravatar.com/avatar/0bfd7fd3d47fe2a02375ab23ac978802?s=32&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=12" title="由 QLeelulu 发布">QLeelulu</a> (2)</li>
+<li><img alt='' src='http://1.gravatar.com/avatar/bf4f4a3050294fbe3024f9efe7f0c740?s=32&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=631" title="由 seon 发布">seon</a> (1)</li>
+<li><img alt='' src='http://1.gravatar.com/avatar/ba5cfa8ed415cdd50b556a9482c696e9?s=32&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=256" title="由 snoopy 发布">snoopy</a> (3)</li>
+<li><img alt='' src='http://1.gravatar.com/avatar/7c1b10ff3677109840cb5994e16205e0?s=32&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=13" title="由 sunwei 发布">sunwei</a> (1)</li>
+<li><img alt='' src='http://1.gravatar.com/avatar/95b9d41231617a05ced5604d242c9670?s=32&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=15" title="由 suqian 发布">suqian</a> (6)</li>
+<li><img alt='' src='http://0.gravatar.com/avatar/2085fe0ef5a360d524bd40988e341122?s=32&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=416" title="由 tieqixia 发布">tieqixia</a> (1)</li>
+<li><img alt='' src='http://1.gravatar.com/avatar/fd9a289d2d247fcf5d1813531f9ea327?s=32&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=651" title="由 vitrum 发布">vitrum</a> (1)</li>
+<li><img alt='' src='http://1.gravatar.com/avatar/76f0bd67322bb88a3017b5cb4e1cd8b3?s=32&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=306" title="由 WillWen 发布">WillWen</a> (1)</li>
+<li><img alt='' src='http://0.gravatar.com/avatar/0650c155d89e872136acdf89b55745ba?s=32&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=590" title="由 wity_lv 发布">wity_lv</a> (1)</li>
+<li><img alt='' src='http://0.gravatar.com/avatar/8413f5b56ab9372ada0316f39c43ab51?s=32&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=8" title="由 xuancheng 发布">xuancheng</a> (1)</li>
+<li><img alt='' src='http://1.gravatar.com/avatar/95b0cf77906b2ceca1a0d5d059fb124d?s=32&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=56" title="由 xuanhou 发布">xuanhou</a> (1)</li>
+<li><img alt='' src='http://0.gravatar.com/avatar/412ba4e6706f499d85e5d8cfbbf12e8e?s=32&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=4" title="由 yixuan 发布">yixuan</a> (5)</li>
+<li><img alt='' src='http://0.gravatar.com/avatar/63fc09f93a4996df87b2543ea27879a0?s=32&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=80" title="由 zhangyang 发布">zhangyang</a> (1)</li>
+<li><img alt='' src='http://1.gravatar.com/avatar/7322babbf6eccdd9c69b0929cee9afb1?s=32&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=34" title="由 李晓肆 发布">李晓肆</a> (1)</li>
+<li><img alt='' src='http://0.gravatar.com/avatar/e9e2e24aa3ed291923d223924ec694ba?s=32&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=141" title="由 爱多 发布">爱多</a> (4)</li>
+<li><img alt='' src='http://1.gravatar.com/avatar/b262df67dc46082168e63eeb9c091d88?s=32&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=426" title="由 牛小腩 发布">牛小腩</a> (2)</li>
+<li><img alt='' src='http://0.gravatar.com/avatar/684d8dfa52760f1dc8d178012bf6c44c?s=32&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=324" title="由 胡天硕－tianshuo 发布">胡天硕－tianshuo</a> (1)</li>
+<li><img alt='' src='http://1.gravatar.com/avatar/95c3ce34a41f79b46d32343e57a6e779?s=32&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=164" title="由 雷 宗民 发布">雷 宗民</a> (1)</li>
+<li><img alt='' src='http://1.gravatar.com/avatar/99b9bace3f32552aba0eda8949c37f44?s=32&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /><a href="http://cnodejs.org/blog/?author=294" title="由 青山老妖 发布">青山老妖</a> (1)</li>
+			</ul>
+					</div></div>	<div id="colorful_tag_cloud-3" class="widget widget_colorful_tag_cloud widget-widget_colorful_tag_cloud"><div class="widget-wrap widget-inside"><h3 class="widget-title">标签</h3><a href='http://cnodejs.org/blog/?tag=0-5-0' class='tag-link-51' title='1 个话题' style='font-size: 8pt; color: #000'>0.5.0</a>
+<a href='http://cnodejs.org/blog/?tag=c' class='tag-link-60' title='3 个话题' style='font-size: 13.384615384615pt; color: #000'>c++</a>
+<a href='http://cnodejs.org/blog/?tag=chat' class='tag-link-14' title='3 个话题' style='font-size: 13.384615384615pt; color: #000'>chat</a>
+<a href='http://cnodejs.org/blog/?tag=comet' class='tag-link-32' title='1 个话题' style='font-size: 8pt; color: #000'>comet</a>
+<a href='http://cnodejs.org/blog/?tag=debug' class='tag-link-44' title='1 个话题' style='font-size: 8pt; color: #000'>debug</a>
+<a href='http://cnodejs.org/blog/?tag=dry' class='tag-link-40' title='1 个话题' style='font-size: 8pt; color: #000'>dry</a>
+<a href='http://cnodejs.org/blog/?tag=ec2' class='tag-link-25' title='2 个话题' style='font-size: 11.230769230769pt; color: #000'>EC2</a>
+<a href='http://cnodejs.org/blog/?tag=express' class='tag-link-58' title='3 个话题' style='font-size: 13.384615384615pt; color: #000'>express</a>
+<a href='http://cnodejs.org/blog/?tag=hash' class='tag-link-12' title='1 个话题' style='font-size: 8pt; color: #000'>hash</a>
+<a href='http://cnodejs.org/blog/?tag=http-comet' class='tag-link-15' title='1 个话题' style='font-size: 8pt; color: #000'>http comet</a>
+<a href='http://cnodejs.org/blog/?tag=http-streaming' class='tag-link-16' title='2 个话题' style='font-size: 11.230769230769pt; color: #000'>http streaming</a>
+<a href='http://cnodejs.org/blog/?tag=infoq' class='tag-link-47' title='1 个话题' style='font-size: 8pt; color: #000'>infoq</a>
+<a href='http://cnodejs.org/blog/?tag=javascript%e9%87%8c%e6%9c%89%e4%b8%aac' class='tag-link-65' title='3 个话题' style='font-size: 13.384615384615pt; color: #000'>Javascript里有个C</a>
+<a href='http://cnodejs.org/blog/?tag=log' class='tag-link-36' title='1 个话题' style='font-size: 8pt; color: #000'>log</a>
+<a href='http://cnodejs.org/blog/?tag=mongodb' class='tag-link-42' title='1 个话题' style='font-size: 8pt; color: #000'>mongodb</a>
+<a href='http://cnodejs.org/blog/?tag=mongoose' class='tag-link-41' title='1 个话题' style='font-size: 8pt; color: #000'>mongoose</a>
+<a href='http://cnodejs.org/blog/?tag=mysql' class='tag-link-34' title='1 个话题' style='font-size: 8pt; color: #000'>mysql</a>
+<a href='http://cnodejs.org/blog/?tag=node' class='tag-link-6' title='8 个话题' style='font-size: 19.666666666667pt; color: #000'>node</a>
+<a href='http://cnodejs.org/blog/?tag=node-js' class='tag-link-7' title='11 个话题' style='font-size: 22pt; color: #000'>node.js</a>
+<a href='http://cnodejs.org/blog/?tag=node-js%e6%80%a7%e8%83%bd' class='tag-link-87' title='2 个话题' style='font-size: 11.230769230769pt; color: #000'>node.js性能</a>
+<a href='http://cnodejs.org/blog/?tag=node-js%e6%80%a7%e8%83%bd%e6%b5%8b%e8%af%95' class='tag-link-85' title='2 个话题' style='font-size: 11.230769230769pt; color: #000'>node.js性能测试</a>
+<a href='http://cnodejs.org/blog/?tag=nodejs' class='tag-link-8' title='11 个话题' style='font-size: 22pt; color: #000'>nodejs</a>
+<a href='http://cnodejs.org/blog/?tag=nodeparty' class='tag-link-49' title='2 个话题' style='font-size: 11.230769230769pt; color: #000'>nodeparty</a>
+<a href='http://cnodejs.org/blog/?tag=npm' class='tag-link-95' title='2 个话题' style='font-size: 11.230769230769pt; color: #000'>npm</a>
+<a href='http://cnodejs.org/blog/?tag=oop' class='tag-link-39' title='1 个话题' style='font-size: 8pt; color: #000'>oop</a>
+<a href='http://cnodejs.org/blog/?tag=qcon' class='tag-link-46' title='1 个话题' style='font-size: 8pt; color: #000'>qcon</a>
+<a href='http://cnodejs.org/blog/?tag=ryan-dahl' class='tag-link-28' title='1 个话题' style='font-size: 8pt; color: #000'>Ryan Dahl</a>
+<a href='http://cnodejs.org/blog/?tag=v8' class='tag-link-61' title='3 个话题' style='font-size: 13.384615384615pt; color: #000'>v8</a>
+<a href='http://cnodejs.org/blog/?tag=vps' class='tag-link-23' title='1 个话题' style='font-size: 8pt; color: #000'>VPS</a>
+<a href='http://cnodejs.org/blog/?tag=web-js' class='tag-link-62' title='2 个话题' style='font-size: 11.230769230769pt; color: #000'>Web.js</a>
+<a href='http://cnodejs.org/blog/?tag=websocket' class='tag-link-22' title='3 个话题' style='font-size: 13.384615384615pt; color: #000'>websocket</a>
+<a href='http://cnodejs.org/blog/?tag=%e5%ad%a6%e4%b9%a0%e5%bf%83%e5%be%97' class='tag-link-35' title='4 个话题' style='font-size: 15.179487179487pt; color: #000'>学习心得</a>
+<a href='http://cnodejs.org/blog/?tag=%e5%bc%80%e5%8f%91%e5%bf%83%e5%be%97' class='tag-link-20' title='1 个话题' style='font-size: 8pt; color: #000'>开发心得</a>
+<a href='http://cnodejs.org/blog/?tag=%e5%bc%82%e6%ad%a5io' class='tag-link-21' title='3 个话题' style='font-size: 13.384615384615pt; color: #000'>异步IO</a>
+<a href='http://cnodejs.org/blog/?tag=%e6%80%a7%e8%83%bd' class='tag-link-38' title='2 个话题' style='font-size: 11.230769230769pt; color: #000'>性能</a>
+<a href='http://cnodejs.org/blog/?tag=%e6%8a%80%e6%9c%af%e6%b2%99%e9%be%99' class='tag-link-50' title='1 个话题' style='font-size: 8pt; color: #000'>技术沙龙</a>
+<a href='http://cnodejs.org/blog/?tag=%e6%97%a5%e5%bf%97' class='tag-link-37' title='1 个话题' style='font-size: 8pt; color: #000'>日志</a>
+<a href='http://cnodejs.org/blog/?tag=%e6%9c%8d%e5%8a%a1%e7%ab%afjs' class='tag-link-48' title='1 个话题' style='font-size: 8pt; color: #000'>服务端js</a>
+<a href='http://cnodejs.org/blog/?tag=%e6%b5%81%e9%87%8f%e7%9b%91%e6%8e%a7' class='tag-link-24' title='1 个话题' style='font-size: 8pt; color: #000'>流量监控</a>
+<a href='http://cnodejs.org/blog/?tag=%e6%ba%90%e7%a0%81' class='tag-link-13' title='5 个话题' style='font-size: 16.615384615385pt; color: #000'>源码</a>
+<a href='http://cnodejs.org/blog/?tag=%e7%89%88%e6%9c%ac%e5%8f%91%e5%b8%83' class='tag-link-31' title='2 个话题' style='font-size: 11.230769230769pt; color: #000'>版本发布</a>
+<a href='http://cnodejs.org/blog/?tag=%e7%8f%a0%e4%b8%89%e8%a7%92%e6%8a%80%e6%9c%af%e6%b2%99%e9%be%99' class='tag-link-52' title='1 个话题' style='font-size: 8pt; color: #000'>珠三角技术沙龙</a>
+<a href='http://cnodejs.org/blog/?tag=%e8%b0%83%e8%af%95' class='tag-link-43' title='1 个话题' style='font-size: 8pt; color: #000'>调试</a>
+<a href='http://cnodejs.org/blog/?tag=%e9%87%87%e8%ae%bf' class='tag-link-29' title='1 个话题' style='font-size: 8pt; color: #000'>采访</a>
+<a href='http://cnodejs.org/blog/?tag=%e9%94%99%e8%af%af%e5%a4%84%e7%90%86' class='tag-link-45' title='1 个话题' style='font-size: 8pt; color: #000'>错误处理</a></div></div><li><a href="http://www.classifindo.com/">Best Classified Ads in Indonesia</a></li><li><a href="http://code.google.com/p/cnodejs/" target="_blank">CNodeJS开源托管</a></li><li><a href="http://groups.google.com/group/cnodejs" title="nodejs中文用户组" target="_blank">CNodeJS用户组</a></li><li><a href="http://www.douban.com/group/nodejs/" target="_blank">CNodeJS豆瓣讨论组</a></li><li><a href="http://ajaxjs.com/" target="_blank">Ext中文网</a></li><li><a href="http://www.mhtml5.com/" title="HTML5研究小组" target="_blank">HTML5研究小组</a></li><li><a href="http://www.jquery.org.cn" title="Jquery中文社区" target="_blank">Jquery中文社区</a></li><li><a href="http://nodejs.org" target="_blank">Node.JS 官方网站</a></li><li><a href="http://www.one-lab.net/" target="_blank">One实验室</a></li><li><a href="http://simple-is-better.com/" target="_blank">PythonCN</a></li><li><a href="http://www.turingbook.com/Homepage/Default.aspx" target="_blank">图灵教育</a></li><li><a href="http://sunxiunan.com/" target="_blank">孩子气</a></li><li><a href="http://www.tbdata.org" target="_blank">淘宝数据平台团队官方博客</a></li><li><a href="http://techparty.org/" target="_blank">珠三角技术沙龙</a></li><li><a href="http://www.grati.org/" target="_blank">移动开发博客</a></li>
+		
+	</div><!-- #sidebar-primary .aside -->
+
+	
+
+				
+	
+	<div id="sidebar-secondary" class="sidebar">
+
+		
+		<div id="gtranslate" class="widget GTranslate_widget widget-GTranslate_widget"><div class="widget-wrap widget-inside"><h3 class="widget-title"><a href="http://www.asiatranslate.net/website-translation.html" rel="follow" target="_blank">Translate</a></h3><!-- GTranslate: http://edo.webmaster.am/gtranslate -->
+<a href="javascript:doGTranslate('zh-CN|zh-CN')" title="Chinese (Simplified)" class="gflag" style="background-position:-300px -0px;"><img src="http://cnodejs.org/blog/wp-content/plugins/gtranslate/blank.png" height="16" width="16" alt="Chinese (Simplified)" /></a><a href="javascript:doGTranslate('zh-CN|zh-TW')" title="Chinese (Traditional)" class="gflag" style="background-position:-400px -0px;"><img src="http://cnodejs.org/blog/wp-content/plugins/gtranslate/blank.png" height="16" width="16" alt="Chinese (Traditional)" /></a><a href="javascript:doGTranslate('zh-CN|en')" title="English" class="gflag" style="background-position:-0px -0px;"><img src="http://cnodejs.org/blog/wp-content/plugins/gtranslate/blank.png" height="16" width="16" alt="English" /></a><a href="javascript:doGTranslate('zh-CN|fr')" title="French" class="gflag" style="background-position:-200px -100px;"><img src="http://cnodejs.org/blog/wp-content/plugins/gtranslate/blank.png" height="16" width="16" alt="French" /></a><a href="javascript:doGTranslate('zh-CN|de')" title="German" class="gflag" style="background-position:-300px -100px;"><img src="http://cnodejs.org/blog/wp-content/plugins/gtranslate/blank.png" height="16" width="16" alt="German" /></a><a href="javascript:doGTranslate('zh-CN|ja')" title="Japanese" class="gflag" style="background-position:-700px -100px;"><img src="http://cnodejs.org/blog/wp-content/plugins/gtranslate/blank.png" height="16" width="16" alt="Japanese" /></a><a href="javascript:doGTranslate('zh-CN|ko')" title="Korean" class="gflag" style="background-position:-0px -200px;"><img src="http://cnodejs.org/blog/wp-content/plugins/gtranslate/blank.png" height="16" width="16" alt="Korean" /></a><a href="javascript:doGTranslate('zh-CN|es')" title="Spanish" class="gflag" style="background-position:-600px -200px;"><img src="http://cnodejs.org/blog/wp-content/plugins/gtranslate/blank.png" height="16" width="16" alt="Spanish" /></a>
+
+<script type="text/javascript">
+//<![CDATA[
+if(jQuery.cookie('glang') && jQuery.cookie('glang') != 'zh-CN') jQuery(function($){$('body').translate('zh-CN', $.cookie('glang'), {toggle:true, not:'.notranslate'});});
+function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;var lang=lang_pair.split('|')[1];jQuery.cookie('glang', lang, {path: '/'});jQuery(function($){$('body').translate('zh-CN', lang, {toggle:true, not:'.notranslate'});});}
+//]]>
+</script>
+</div></div><noscript>JavaScript is required to use this <a href="http://edo.webmaster.am/gtranslate">website translator</a>, <a href="http://edo.webmaster.am/gtranslate">site translator</a>, <a href="http://edo.webmaster.am/gtranslate">automatic translation</a>, <a href="http://edo.webmaster.am/gtranslate">free translation</a>. Buy <a href="http://artmaestro.com/">oil paintings</a> on ArtMaestro.</noscript>
+		
+	</div><!-- #sidebar-secondary .aside -->
+
+	
+
+				
+			</div><!-- .wrap -->
+
+		</div><!-- #main -->
+
+		
+		
+		
+		
+        <div id="footer">
+            <p>Copyright &copy; 2011 CNode社区.</p>
+        </div><!-- #footer -->
+
+		
+	</div><!-- #container -->
+
+	
+	<script type='text/javascript' src='http://cnodejs.org/blog/wp-content/themes/new-cnode-0.2/library/js/drop-downs.js?ver=1.4'></script>
+<script type="text/javascript">
+function path() {
+	var args = arguments,
+	result = [];
+  for(var i = 0; i < args.length; i++)
+		result.push(args[i].replace('@', 'http://cnodejs.org/blog/wp-content/plugins/syntax-highlighter-optimized/scripts/'));
+  return result
+};
+SyntaxHighlighter.autoloader.apply(null, path(
+  'applescript            @shBrushAppleScript.js',
+  'actionscript3 as3      @shBrushAS3.js',
+  'bash shell             @shBrushBash.js',
+  'coldfusion cf          @shBrushColdFusion.js',
+  'cpp c                  @shBrushCpp.js',
+  'c# c-sharp csharp      @shBrushCSharp.js',
+  'css                    @shBrushCss.js',
+  'delphi pascal          @shBrushDelphi.js',
+  'diff patch pas         @shBrushDiff.js',
+  'erl erlang             @shBrushErlang.js',
+  'groovy                 @shBrushGroovy.js',
+  'java                   @shBrushJava.js',
+  'jfx javafx             @shBrushJavaFX.js',
+  'js jscript javascript  @shBrushJScript.js',
+  'perl pl                @shBrushPerl.js',
+  'php                    @shBrushPhp.js',
+  'text plain             @shBrushPlain.js',
+  'py python              @shBrushPython.js',
+  'ruby rails ror rb      @shBrushRuby.js',
+  'sass scss              @shBrushSass.js',
+  'scala                  @shBrushScala.js',
+  'sql                    @shBrushSql.js',
+  'vb vbnet               @shBrushVb.js',
+  'xml xhtml xslt html    @shBrushXml.js'
+));
+SyntaxHighlighter.defaults['quick-code'] = false;
+SyntaxHighlighter.all();
+</script>
+	
+<p style="margin:0;padding:0;height:1px;overflow:hidden;">
+    <script type="text/javascript"><!--
+        var wumiiSitePrefix = "http://cnodejs.org/blog";
+        var wumiiEnableCustomPos = false;
+        var wumiiParams = "&num=5&mode=3&displayInFeed=1&version=1.0.5.5&pf=WordPress3.2.1";
+    //--></script><script type="text/javascript" src="http://widget.wumii.com/ext/relatedItemsWidget.htm"></script><a href="http://www.wumii.com/widget/relatedItems.htm" style="border:0;"><img src="http://static.wumii.com/images/pixel.png" alt="无觅相关文章插件，快速提升流量" style="border:0;padding:0;margin:0;" /></a>
+</p>
+<!-- GA Stats --> 
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20297000-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- Baidu Stats --> 
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fbf75f270193c07dbd7bb5f8664ae3b39' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+</body>
+</html>
+<!-- WP Super Cache is installed but broken. The path to wp-cache-phase1.php in wp-content/advanced-cache.php must be fixed! -->

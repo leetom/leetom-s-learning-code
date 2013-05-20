@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=2.0"/>
+<title>nodeJS demo -- 团购导航</title>
+<link href="node.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+var data = new Array();
+var sid='';
+var timestamp = Math.round(new Date().getTime()/1000);
+</script>
+
+<script type="text/javascript" src="iscroll.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="function.js"></script>
+
+</head>
+<body>
+<div id="mainpage">
+    <header>
+        <div>NodeJS Demo</div>
+    </header>
+
+    <section> 
+
+        
+        <div class="main_pic_slide">
+
+            <div id="wrapper_imglist">
+                <div id="scroller_imglist">
+                    <div id="thelist_imglist">
+                        {*imglist*}
+                    </div>
+                </div>
+            </div>
+
+            <div id="nav_imglist">
+
+                <div id="prev_imglist" class="c_grey">〈 上一张</div>
+                <ul id="indicator_imglist">
+                    <li class="active">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+                <div id="next_imglist">下一张 〉</div>
+
+            </div>
+        </div>
+        
+    </section>
+    <footer>
+        <div class="mainbox">
+
+            <div class="matebox">
+                <p>writen by xiaoyu</p>
+
+                
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script type="text/javascript">
+    $("body")[0].scrollIntoView();
+</script>
+
+</body>
+</html> 

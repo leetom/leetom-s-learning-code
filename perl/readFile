@@ -1,0 +1,7 @@
+#!/usr/bin/perl
+
+open LOG, "> log.log";
+
+while (<>){
+	print LOG $_;
+}

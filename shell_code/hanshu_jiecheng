@@ -1,0 +1,19 @@
+#!/bin/bash
+if test $# -ne 1
+then
+	echo "usage: $0 argument"
+	exit 1
+fi
+i=$1
+x=$1
+jc()
+{
+	i=`expr $i - 1`
+	x=`expr $x \* $i`
+	if test $i -ne 1
+	then
+	jc
+	fi
+}
+jc
+echo $x

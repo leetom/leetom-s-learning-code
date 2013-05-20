@@ -1,0 +1,327 @@
+body {
+    margin: 0;
+    background-color: #F7F7F7;
+
+    color: #646464;
+    font-size: 12px;
+}
+
+h5 {
+    margin: 0;
+    color: #222222;
+    font-size: 14px;
+}
+
+img {
+    border: 0;
+}
+
+/***********************
+ *** Header settings ***
+ ***********************/
+#header {
+    background-color: #22252C;
+    color: #A9A9A7;
+}
+
+#header a, #header a:link, #header a:visited {
+    color: #E3E3E3;
+}
+
+/* Navigation bar */
+#header-nav {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #424242;
+}
+
+#header-nav .wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#logo {
+    margin-top: 12px;
+    margin-bottom: 9px;
+}
+
+#header-nav ul {
+    float: right;
+}
+
+#header-nav li {
+    display: inline-block;
+}
+
+#header-nav li a {
+    display: inline-block;
+    padding: 0 15px;
+
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #AAAAAA;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#header-nav li.focused {
+    /* left margin of label image */
+    background: url("images/label-l.png") no-repeat left;
+}
+
+#header-nav li.focused a {
+    color: #222222;
+    /* right margin of label image */
+    background: url("images/label-r.png") no-repeat right;
+}
+
+#header-nav li.greyed a {
+    color: #555555;
+}
+
+/* Introduction box */
+#intro {
+    width: 1000px;
+    height: 310px;
+
+    margin: 30px auto;
+    text-align: left;
+}
+
+#intro .left {
+    float: left;
+}
+
+#intro .right {
+    float: right;
+}
+
+#intro #showbox {
+    width: 700px;
+    height: 270px;
+
+    border: 4px solid white;
+    overflow: hidden; /* hide other images */
+
+    background: url(images/loading.gif) no-repeat 50% 50%;
+}
+
+#intro .joinbox a {
+    display: block; /* buttons floats vertical */
+    margin-bottom: 5px;
+}
+
+#intro .textbox {
+    font-size: 14px;
+    color: white;
+    width: 240px; /* same with button */
+}
+
+#intro .textbox h5 {
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+#intro .textbox p {
+    margin: 0;
+    line-height: 24px;
+}
+
+/* 了解更多 */
+#intro p.more, #intro .more a {
+    color: white;
+}
+
+#intro p.more {
+    text-align: right;
+    margin-top: -24px;
+}
+
+#intro .weibo {
+    margin-top: 24px;
+}
+
+/************************
+ *** Content settings ***
+ ************************/
+
+#content {
+    width: 1000px;
+    margin: 30px auto;
+    text-align: left;
+}
+
+#content .left {
+    float: left;
+}
+
+#content .right {
+    float: right;
+}
+
+#content ul {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+/* CNode文章 */
+#content .articles ul {
+    list-style-position: inside;
+    margin-right: 5px;
+    float: left;
+}
+
+#content .articles li {
+    width: 230px;
+    margin-right: 5px;
+}
+
+#content .articles li a {
+    color: #676767;
+
+    line-height: 22px;
+    text-decoration: none;
+}
+
+/* CNode 社区项目 */
+#content .projects {
+    border-top: 1px solid #E3E3E3;
+    padding-top: 30px;
+
+    clear: both;
+}
+
+#content .projects li {
+    display: inline;
+}
+
+#content .projects li a {
+    display: inline-block;
+    margin-right: 5px;
+
+    width: 230px;
+    height: 36px;
+    border: 1px solid #E3E3E3;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
+    color: #666666;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+
+    /* center text */
+    line-height: 36px;
+    text-align: center;
+}
+
+/* NodeParty社区活动 */
+#content .activities {
+    border-top: 1px solid #E3E3E3;
+    padding-top: 30px;
+}
+
+#content .activities li {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px;
+
+    width: 220px;
+    height: 175px;
+    border: 1px solid #E3E3E3;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#content .activities p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #646464;
+}
+
+/* Node中文文档， Node入门手册 */
+#content .downloads ul {
+    margin-top: 0px;
+    list-style: none;
+}
+
+#content .downloads a {
+    display: block;
+    margin-bottom: 10px;
+
+    width: 230px;
+    height: 37px;
+
+    border: 1px solid #CFCFCF;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+
+    /* center text */
+    line-height: 37px;
+    text-align: center;
+}
+
+/* 购买T-shirt */
+#content .buy-t {
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+/* Node工作信息 */
+#content .jobs ul {
+    list-style-position: inside;
+}
+
+#content .jobs h5 {
+    padding-left: 10px;
+
+    width: 230px;
+    height: 36px;
+    line-height: 36px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    background-color: #E3E3E3;
+}
+
+#content .jobs li {
+    height: 22px;
+}
+
+#content .jobs li a {
+    color: #646464;
+}
+
+/***********************
+ *** Footer settings ***
+ ***********************/
+#footer {
+    clear: both;
+    text-align: center;
+    color: #676767;
+
+    border-top: 1px solid #E4E4E4;
+    background-color: #EDEDED;
+    padding-bottom: 240px;
+}
+
+/**************
+ *** Hovers ***
+ **************/
+.more a:hover, #content .downloads a:hover {
+    text-decoration: none;
+}
+
+#content .articles li a:hover {
+    text-decoration: underline;
+}

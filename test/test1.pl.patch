@@ -1,0 +1,8 @@
+1c1
+< #!/usr/bin/perl
+---
+> #!perl.exe
+5c5
+< my $a = 0;
+---
+> $a = 1;

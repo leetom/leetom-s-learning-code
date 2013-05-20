@@ -1,0 +1,16 @@
+DATA SEGMENT ;数据段开始
+NOTE DB 'Hello World!',0ah,0dh,'$'
+DATA ENDS ;数据段结束
+
+CODE SEGMENT ;代码段开始
+ASSUME CS:CODE, DS:DATA ;将代码段指定给CS寄存器，将数据段指定给DS寄存器
+BEGIN: MOV AX,DATA ;AX累加器
+MOV DS,AX ;DS数据段寄存器
+MOV DX,OFFSET NOTE ;这句可以用LEA DX,NOTE来替代,DX是数据通用寄存器
+MOV AH,09H ;09H对应的是显示字符串
+INT 21H     ;注意，INT 21H是用来调用功能的，具体区别用AH来识别
+MOV AH,4CH ;4CH功能在于让你退出程序，
+INT 21H ;调用功能，由上面的AH决定，这句就是要退出程序了
+CODE ENDS ;代码段结束
+END BEGIN
+

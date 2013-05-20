@@ -1,0 +1,1577 @@
+Fri Feb 17 18:23:47 2012
+$VAR1 = [
+          {
+            'impresa' => '',
+            'isBlocked' => 0,
+            'portraitCrc' => '0',
+            'localName' => 'leetom1',
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => '',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 1,
+            'nickname' => 'leetom',
+            'services' => '99',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '0',
+            'smsOnlineStatus' => '365.0:0:0',
+            'uri' => 'sip:446483202@fetion.com.cn;p=16302',
+            'idContact' => 1056390234,
+            'mobileNo' => '',
+            'idFetion' => 446483202,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          }
+        ];
+Fri Feb 17 18:33:22 2012
+$VAR1 = [
+          {
+            'impresa' => '',
+            'isBlocked' => 0,
+            'portraitCrc' => '0',
+            'localName' => 'leetom1',
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => '',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 1,
+            'nickname' => 'leetom',
+            'services' => '99',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '0',
+            'smsOnlineStatus' => '365.0:0:0',
+            'uri' => 'sip:446483202@fetion.com.cn;p=16302',
+            'idContact' => 1056390234,
+            'mobileNo' => '',
+            'idFetion' => 446483202,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          }
+        ];
+Fri Feb 17 18:36:37 2012
+$VAR1 = [
+          {
+            'impresa' => '',
+            'isBlocked' => 0,
+            'portraitCrc' => '0',
+            'localName' => 'leetom1',
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => '',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 1,
+            'nickname' => 'leetom',
+            'services' => '99',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '0',
+            'smsOnlineStatus' => '365.0:0:0',
+            'uri' => 'sip:446483202@fetion.com.cn;p=16302',
+            'idContact' => 1056390234,
+            'mobileNo' => '',
+            'idFetion' => 446483202,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          },
+          {
+            'impresa' => '',
+            'isBlocked' => 0,
+            'portraitCrc' => '-1414499829',
+            'localName' => "\x{5f20}\x{4e91}\x{6d9b}",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => 'CMCC',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 0,
+            'nickname' => "\x{6653}\x{306e}itachi",
+            'services' => '99',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '0',
+            'smsOnlineStatus' => '0.0:0:0',
+            'uri' => 'sip:903787908@fetion.com.cn;p=12',
+            'idContact' => 650925234,
+            'mobileNo' => '13401164304',
+            'idFetion' => 903787908,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          }
+        ];
+Fri Feb 17 18:41:05 2012
+$VAR1 = [
+          {
+            'impresa' => '',
+            'isBlocked' => 0,
+            'portraitCrc' => '0',
+            'localName' => 'leetom1',
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => 'WEB',
+            'carrier' => '',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 1,
+            'nickname' => 'leetom',
+            'services' => '99',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '400',
+            'smsOnlineStatus' => '365.0:0:0',
+            'uri' => 'sip:446483202@fetion.com.cn;p=16302',
+            'idContact' => 1056390234,
+            'mobileNo' => '',
+            'idFetion' => 446483202,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          }
+        ];
+Fri Feb 17 18:43:30 2012
+$VAR1 = [
+          {
+            'impresa' => '',
+            'isBlocked' => 0,
+            'portraitCrc' => '0',
+            'localName' => 'leetom1',
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => 'WEB',
+            'carrier' => '',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 1,
+            'nickname' => 'leetom',
+            'services' => '99',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '400',
+            'smsOnlineStatus' => '365.0:0:0',
+            'uri' => 'sip:446483202@fetion.com.cn;p=16302',
+            'idContact' => 1056390234,
+            'mobileNo' => '',
+            'idFetion' => 446483202,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          },
+          {
+            'isBlocked' => 0,
+            'portraitCrc' => '',
+            'localName' => "\x{5f20}\x{4e91}\x{6d9b}",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => '',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => -1,
+            'nickname' => '',
+            'services' => '',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '',
+            'smsOnlineStatus' => '',
+            'uri' => 'sip:903787908@fetion.com.cn;p=12',
+            'idContact' => 650925234,
+            'mobileNo' => '',
+            'idFetion' => 903787908,
+            'relationStatus' => 1,
+            'basicServiceStatus' => -1
+          }
+        ];
+Fri Feb 17 19:07:02 2012
+$VAR1 = [
+          {
+            'reSendText' => 'hello',
+            'sendTime' => '1906',
+            'isnowday' => 0,
+            'fromIdUser' => 463050831,
+            'toIdUser' => 463134874,
+            'idMessage' => 52355289,
+            'message' => 'hello',
+            'touchFlag' => 0,
+            'messageType' => '1'
+          },
+          {
+            'reSendText' => "\x{6eda}",
+            'sendTime' => '1907',
+            'isnowday' => 0,
+            'fromIdUser' => 463134874,
+            'toIdUser' => 463050831,
+            'idMessage' => 52355323,
+            'message' => "\x{6eda}",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          }
+        ];
+Fri Feb 17 19:07:04 2012
+$VAR1 = [];
+Fri Feb 17 19:13:29 2012
+$VAR1 = [
+          {
+            'impresa' => '',
+            'isBlocked' => 0,
+            'portraitCrc' => '0',
+            'localName' => 'leetom1',
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => '',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 1,
+            'nickname' => 'leetom',
+            'services' => '99',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '0',
+            'smsOnlineStatus' => '365.0:0:0',
+            'uri' => 'sip:446483202@fetion.com.cn;p=16302',
+            'idContact' => 1056390234,
+            'mobileNo' => '',
+            'idFetion' => 446483202,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          },
+          {
+            'impresa' => '',
+            'isBlocked' => 0,
+            'portraitCrc' => '-1414499829',
+            'localName' => "\x{5f20}\x{4e91}\x{6d9b}",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => 'CMCC',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 0,
+            'nickname' => "\x{6653}\x{306e}itachi",
+            'services' => '99',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '0',
+            'smsOnlineStatus' => '0.0:0:0',
+            'uri' => 'sip:903787908@fetion.com.cn;p=12',
+            'idContact' => 650925234,
+            'mobileNo' => '13401164304',
+            'idFetion' => 903787908,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          },
+          {
+            'impresa' => "\x{65b0}\x{5e74}\x{65b0}\x{6c14}\x{8c61}\x{ff0c}\x{54c8}\x{54c8}\x{54c8}\x{80fd}\x{4e0a}\x{7f51}\x{4e86}\x{ff01}\x{ff01}\x{ff01}",
+            'isBlocked' => 0,
+            'portraitCrc' => '338294390',
+            'localName' => "\x{7530}\x{51ef}\x{5f3a}(new)",
+            'contactType' => 0,
+            'impresaLength' => 16,
+            'deviceType' => 'Symbian',
+            'carrier' => 'CMCC',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 0,
+            'nickname' => "\x{7530}\x{51ef}\x{5f3a}",
+            'services' => '99',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '400',
+            'smsOnlineStatus' => '0.0:0:0',
+            'uri' => 'sip:387339495@fetion.com.cn;p=13113',
+            'idContact' => 913878866,
+            'mobileNo' => '18801293990',
+            'idFetion' => 387339495,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          },
+          {
+            'impresa' => '',
+            'isBlocked' => 0,
+            'portraitCrc' => '1445752402',
+            'localName' => "\x{535c}\x{91d1}\x{5f6a}",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => 'CMCC',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 0,
+            'nickname' => "\x{535c}\x{91d1}\x{5f6a}",
+            'services' => '99',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '0',
+            'smsOnlineStatus' => '0.0:0:0',
+            'uri' => 'sip:755838322@fetion.com.cn;p=12',
+            'idContact' => 463134874,
+            'mobileNo' => '13401159247',
+            'idFetion' => 755838322,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          }
+        ];
+Fri Feb 17 19:15:20 2012
+$VAR1 = [
+          {
+            'impresa' => '',
+            'isBlocked' => 0,
+            'portraitCrc' => '0',
+            'localName' => 'leetom1',
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => '',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 1,
+            'nickname' => 'leetom',
+            'services' => '99',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '0',
+            'smsOnlineStatus' => '365.0:0:0',
+            'uri' => 'sip:446483202@fetion.com.cn;p=16302',
+            'idContact' => 1056390234,
+            'mobileNo' => '',
+            'idFetion' => 446483202,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          },
+          {
+            'impresa' => '',
+            'isBlocked' => 0,
+            'portraitCrc' => '-1414499829',
+            'localName' => "\x{5f20}\x{4e91}\x{6d9b}",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => 'CMCC',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 0,
+            'nickname' => "\x{6653}\x{306e}itachi",
+            'services' => '99',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '0',
+            'smsOnlineStatus' => '0.0:0:0',
+            'uri' => 'sip:903787908@fetion.com.cn;p=12',
+            'idContact' => 650925234,
+            'mobileNo' => '13401164304',
+            'idFetion' => 903787908,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          }
+        ];
+Fri Feb 17 19:15:50 2012
+$VAR1 = [
+          {
+            'impresa' => '',
+            'isBlocked' => 0,
+            'portraitCrc' => '-1414499829',
+            'localName' => "\x{5f20}\x{4e91}\x{6d9b}",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => 'CMCC',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 0,
+            'nickname' => "\x{6653}\x{306e}itachi",
+            'services' => '99',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '0',
+            'smsOnlineStatus' => '0.0:0:0',
+            'uri' => 'sip:903787908@fetion.com.cn;p=12',
+            'idContact' => 650925234,
+            'mobileNo' => '13401164304',
+            'idFetion' => 903787908,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          }
+        ];
+Fri Feb 17 19:17:33 2012
+$VAR1 = [
+          {
+            'impresa' => '',
+            'isBlocked' => 0,
+            'portraitCrc' => '-1414499829',
+            'localName' => "\x{5f20}\x{4e91}\x{6d9b}",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => 'CMCC',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 0,
+            'nickname' => "\x{6653}\x{306e}itachi",
+            'services' => '99',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '0',
+            'smsOnlineStatus' => '0.0:0:0',
+            'uri' => 'sip:903787908@fetion.com.cn;p=12',
+            'idContact' => 650925234,
+            'mobileNo' => '13401164304',
+            'idFetion' => 903787908,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          }
+        ];
+Fri Feb 17 19:20:06 2012
+$VAR1 = [
+          {
+            'impresa' => '',
+            'isBlocked' => 0,
+            'portraitCrc' => '-1414499829',
+            'localName' => "\x{5f20}\x{4e91}\x{6d9b}",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => 'CMCC',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 0,
+            'nickname' => "\x{6653}\x{306e}itachi",
+            'services' => '99',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '0',
+            'smsOnlineStatus' => '0.0:0:0',
+            'uri' => 'sip:903787908@fetion.com.cn;p=12',
+            'idContact' => 650925234,
+            'mobileNo' => '13401164304',
+            'idFetion' => 903787908,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          },
+          {
+            'isBlocked' => 0,
+            'portraitCrc' => '',
+            'localName' => "\x{7530}\x{51ef}\x{5f3a}(new)",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => '',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => -1,
+            'nickname' => '',
+            'services' => '',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '',
+            'smsOnlineStatus' => '',
+            'uri' => 'sip:387339495@fetion.com.cn;p=13113',
+            'idContact' => 913878866,
+            'mobileNo' => '',
+            'idFetion' => 387339495,
+            'relationStatus' => 1,
+            'basicServiceStatus' => -1
+          }
+        ];
+Fri Feb 17 19:20:55 2012
+$VAR1 = [
+          {
+            'impresa' => '',
+            'isBlocked' => 0,
+            'portraitCrc' => '-1414499829',
+            'localName' => "\x{5f20}\x{4e91}\x{6d9b}",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => 'CMCC',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 0,
+            'nickname' => "\x{6653}\x{306e}itachi",
+            'services' => '99',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '0',
+            'smsOnlineStatus' => '0.0:0:0',
+            'uri' => 'sip:903787908@fetion.com.cn;p=12',
+            'idContact' => 650925234,
+            'mobileNo' => '13401164304',
+            'idFetion' => 903787908,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          },
+          {
+            'isBlocked' => 0,
+            'portraitCrc' => '',
+            'localName' => "\x{7530}\x{51ef}\x{5f3a}(new)",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => '',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => -1,
+            'nickname' => '',
+            'services' => '',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '',
+            'smsOnlineStatus' => '',
+            'uri' => 'sip:387339495@fetion.com.cn;p=13113',
+            'idContact' => 913878866,
+            'mobileNo' => '',
+            'idFetion' => 387339495,
+            'relationStatus' => 1,
+            'basicServiceStatus' => -1
+          }
+        ];
+Fri Feb 17 19:23:36 2012
+$VAR1 = [
+          {
+            'isBlocked' => 0,
+            'portraitCrc' => '',
+            'localName' => "\x{7530}\x{51ef}\x{5f3a}(new)",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => '',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => -1,
+            'nickname' => '',
+            'services' => '',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '',
+            'smsOnlineStatus' => '',
+            'uri' => 'sip:387339495@fetion.com.cn;p=13113',
+            'idContact' => 913878866,
+            'mobileNo' => '',
+            'idFetion' => 387339495,
+            'relationStatus' => 1,
+            'basicServiceStatus' => -1
+          }
+        ];
+Fri Feb 17 19:24:22 2012
+$VAR1 = [
+          {
+            'isBlocked' => 0,
+            'portraitCrc' => '',
+            'localName' => "\x{7530}\x{51ef}\x{5f3a}(new)",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => '',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => -1,
+            'nickname' => '',
+            'services' => '',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '',
+            'smsOnlineStatus' => '',
+            'uri' => 'sip:387339495@fetion.com.cn;p=13113',
+            'idContact' => 913878866,
+            'mobileNo' => '',
+            'idFetion' => 387339495,
+            'relationStatus' => 1,
+            'basicServiceStatus' => -1
+          }
+        ];
+Fri Feb 17 19:25:22 2012
+$VAR1 = [
+          {
+            'isBlocked' => 0,
+            'portraitCrc' => '',
+            'localName' => "\x{7530}\x{51ef}\x{5f3a}(new)",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => '',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => -1,
+            'nickname' => '',
+            'services' => '',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '',
+            'smsOnlineStatus' => '',
+            'uri' => 'sip:387339495@fetion.com.cn;p=13113',
+            'idContact' => 913878866,
+            'mobileNo' => '',
+            'idFetion' => 387339495,
+            'relationStatus' => 1,
+            'basicServiceStatus' => -1
+          },
+          {
+            'isBlocked' => 0,
+            'portraitCrc' => '',
+            'localName' => "\x{5f20}\x{4e91}\x{6d9b}",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => '',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => -1,
+            'nickname' => '',
+            'services' => '',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '',
+            'smsOnlineStatus' => '',
+            'uri' => 'sip:903787908@fetion.com.cn;p=12',
+            'idContact' => 650925234,
+            'mobileNo' => '',
+            'idFetion' => 903787908,
+            'relationStatus' => 1,
+            'basicServiceStatus' => -1
+          }
+        ];
+Fri Feb 17 19:25:27 2012
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>3Gé£ä¿¡</title>
+		<meta charset="utf-8" />
+		<meta name="keywords" content="3Gé£ä¿¡ãä¸­å½ç§»å¨é£ä¿¡ãé£ä¿¡å®ç½ãåè´¹ç­ä¿¡ãé£ä¿¡ä¸è½½ãé£ä¿¡å®¢æ·ç«¯ãé£ä¿¡å¸®å©ãé£ä¿¡æ´»å¨" />
+		<meta name="description" content="é£WAPé£ä¿¡-æ°¸è¿å¨çº¿,åè´¹çè!ä¿¡å®ç½ä½ä¸ºä¸­å½ç§»å¨ç¨æ·é£ä¿¡ä¸å¡çå®æ¹ç½ç«ï¼æä¾é£ä¿¡äº§åçä¸è½½ãå¥é¨ãç­çç­æå¡åæ¯æã" />
+		<meta content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0" name="viewport" id="viewport">
+		<meta forua="true" http-equiv="Cache-Control" content="no-cache" />
+		<link rel="apple-touch-icon-precomposed" href="/im5/images/html5/icon_57.png"/>
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/im5/images/html5/icon_114.png"/>
+		<link href="/im5/css/html5/style.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="/im5/js/libs/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				var tip = "å¯¹ä¸èµ·,å¯ç éè¯¯,è¯·éæ°å°è¯!";
+				if (tip != "") {
+					alert(tip);
+				}
+				$("#m1").change(function(){
+					 $("#pass1").val("");
+				});
+			});
+		</script>
+	</head>
+	<body class="dlbg"> 
+		<div class="dllogo"></div>
+		<h2 class="bg-z">éæ¶éå°ï¼çèé£ä¿¡</h2>
+		<div class="dlqy">
+			<form id="loginfrm" name="loginfrm" method="post" action="/im5/login/loginHtml5.action?t=38296257054874847">
+				<input type="text" id="m1" name="m" placeholder="ææºå·:" class="dltype" maxlength="11" required="required">
+				<input type="password" id="pass1" name="pass" placeholder="å¯ãç :" class="dltype" required="required">
+				<a href="#submit" class="input_bt" onclick="javascript:submitLogin();"><span>ç»ããå½</span></a>
+			</form>
+			<p>åè´¹æ³¨åï¼<a href="sms://10086">åéKTFXè³10086èªå¨æ³¨å</a></p>
+			<p>å¿è®°å¯ç ï¼<a href="sms://12520">åéPå°12520çæéæºå¯ç </a></p>
+		</div>
+		<script type="text/javascript">
+			function submitLogin(){
+				if($("#m1").val() == ""){
+					alert("è¯·æ¨è¾å¥ææºå·ç»å½3Gé£ä¿¡!");
+					$("#m1").focus();
+					return;
+				}
+				if($("#pass1").val() == ""){
+					alert("è¯·æ¨è¾å¥é£ä¿¡å¯ç !");
+					$("#pass1").focus();
+					return;
+				}
+				var f = $("#loginfrm");
+			 	f.submit();
+			}
+		</script>
+	</body>
+</html>Fri Feb 17 19:26:05 2012
+$VAR1 = [
+          {
+            'impresa' => '',
+            'isBlocked' => 0,
+            'portraitCrc' => '-1414499829',
+            'localName' => "\x{5f20}\x{4e91}\x{6d9b}",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => 'CMCC',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 0,
+            'nickname' => "\x{6653}\x{306e}itachi",
+            'services' => '99',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '0',
+            'smsOnlineStatus' => '0.0:0:0',
+            'uri' => 'sip:903787908@fetion.com.cn;p=12',
+            'idContact' => 650925234,
+            'mobileNo' => '13401164304',
+            'idFetion' => 903787908,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          }
+        ];
+Fri Feb 17 19:29:23 2012
+$VAR1 = [
+          {
+            'impresa' => '',
+            'isBlocked' => 0,
+            'portraitCrc' => '-1414499829',
+            'localName' => "\x{5f20}\x{4e91}\x{6d9b}",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => 'CMCC',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 0,
+            'nickname' => "\x{6653}\x{306e}itachi",
+            'services' => '99',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '0',
+            'smsOnlineStatus' => '0.0:0:0',
+            'uri' => 'sip:903787908@fetion.com.cn;p=12',
+            'idContact' => 650925234,
+            'mobileNo' => '13401164304',
+            'idFetion' => 903787908,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          },
+          {
+            'isBlocked' => 0,
+            'portraitCrc' => '',
+            'localName' => 'leetom1',
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => '',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => -1,
+            'nickname' => '',
+            'services' => '',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '',
+            'smsOnlineStatus' => '',
+            'uri' => 'sip:446483202@fetion.com.cn;p=16302',
+            'idContact' => 1056390234,
+            'mobileNo' => '',
+            'idFetion' => 446483202,
+            'relationStatus' => 1,
+            'basicServiceStatus' => -1
+          },
+          {
+            'isBlocked' => 0,
+            'portraitCrc' => '',
+            'localName' => "\x{7530}\x{51ef}\x{5f3a}(new)",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => '',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => -1,
+            'nickname' => '',
+            'services' => '',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '',
+            'smsOnlineStatus' => '',
+            'uri' => 'sip:387339495@fetion.com.cn;p=13113',
+            'idContact' => 913878866,
+            'mobileNo' => '',
+            'idFetion' => 387339495,
+            'relationStatus' => 1,
+            'basicServiceStatus' => -1
+          }
+        ];
+Fri Feb 17 19:30:53 2012
+$VAR1 = [
+          {
+            'isBlocked' => 0,
+            'portraitCrc' => '',
+            'localName' => "\x{5f20}\x{4e91}\x{6d9b}",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => '',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => -1,
+            'nickname' => '',
+            'services' => '',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '',
+            'smsOnlineStatus' => '',
+            'uri' => 'sip:903787908@fetion.com.cn;p=12',
+            'idContact' => 650925234,
+            'mobileNo' => '',
+            'idFetion' => 903787908,
+            'relationStatus' => 1,
+            'basicServiceStatus' => -1
+          },
+          {
+            'isBlocked' => 0,
+            'portraitCrc' => '',
+            'localName' => "\x{7530}\x{51ef}\x{5f3a}(new)",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => '',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => -1,
+            'nickname' => '',
+            'services' => '',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '',
+            'smsOnlineStatus' => '',
+            'uri' => 'sip:387339495@fetion.com.cn;p=13113',
+            'idContact' => 913878866,
+            'mobileNo' => '',
+            'idFetion' => 387339495,
+            'relationStatus' => 1,
+            'basicServiceStatus' => -1
+          }
+        ];
+Fri Feb 17 19:32:53 2012
+$VAR1 = [
+          {
+            'isBlocked' => 0,
+            'portraitCrc' => '',
+            'localName' => "\x{5f20}\x{4e91}\x{6d9b}",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => '',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => -1,
+            'nickname' => '',
+            'services' => '',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '',
+            'smsOnlineStatus' => '',
+            'uri' => 'sip:903787908@fetion.com.cn;p=12',
+            'idContact' => 650925234,
+            'mobileNo' => '',
+            'idFetion' => 903787908,
+            'relationStatus' => 1,
+            'basicServiceStatus' => -1
+          },
+          {
+            'impresa' => "\x{65b0}\x{5e74}\x{65b0}\x{6c14}\x{8c61}\x{ff0c}\x{54c8}\x{54c8}\x{54c8}\x{80fd}\x{4e0a}\x{7f51}\x{4e86}\x{ff01}\x{ff01}\x{ff01}",
+            'isBlocked' => 0,
+            'portraitCrc' => '338294390',
+            'localName' => "\x{7530}\x{51ef}\x{5f3a}(new)",
+            'contactType' => 0,
+            'impresaLength' => 16,
+            'deviceType' => '',
+            'carrier' => 'CMCC',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 0,
+            'nickname' => "\x{7530}\x{51ef}\x{5f3a}",
+            'services' => '99',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '0',
+            'smsOnlineStatus' => '0.0:0:0',
+            'uri' => 'sip:387339495@fetion.com.cn;p=13113',
+            'idContact' => 913878866,
+            'mobileNo' => '18801293990',
+            'idFetion' => 387339495,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          },
+          {
+            'impresa' => '',
+            'isBlocked' => 0,
+            'portraitCrc' => '1445752402',
+            'localName' => "\x{535c}\x{91d1}\x{5f6a}",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => 'CMCC',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 0,
+            'nickname' => "\x{535c}\x{91d1}\x{5f6a}",
+            'services' => '99',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '0',
+            'smsOnlineStatus' => '0.0:0:0',
+            'uri' => 'sip:755838322@fetion.com.cn;p=12',
+            'idContact' => 463134874,
+            'mobileNo' => '13401159247',
+            'idFetion' => 755838322,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          }
+        ];
+Fri Feb 17 19:40:51 2012
+$VAR1 = [];
+Wed Feb 22 11:07:18 2012
+$VAR1 = [
+          {
+            'isBlocked' => 0,
+            'portraitCrc' => '',
+            'localName' => 'leetom1',
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => '',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => -1,
+            'nickname' => '',
+            'services' => '',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '',
+            'smsOnlineStatus' => '',
+            'uri' => 'sip:446483202@fetion.com.cn;p=16302',
+            'idContact' => 1056390234,
+            'mobileNo' => '',
+            'idFetion' => 446483202,
+            'relationStatus' => 1,
+            'basicServiceStatus' => -1
+          },
+          {
+            'impresa' => '',
+            'isBlocked' => 0,
+            'portraitCrc' => '-1414499829',
+            'localName' => "\x{5f20}\x{4e91}\x{6d9b}",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => 'CMCC',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 0,
+            'nickname' => "\x{6653}\x{306e}itachi",
+            'services' => '99',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '0',
+            'smsOnlineStatus' => '0.0:0:0',
+            'uri' => 'sip:903787908@fetion.com.cn;p=12',
+            'idContact' => 650925234,
+            'mobileNo' => '13401164304',
+            'idFetion' => 903787908,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          },
+          {
+            'impresa' => '',
+            'isBlocked' => 0,
+            'portraitCrc' => '1445752402',
+            'localName' => "\x{535c}\x{91d1}\x{5f6a}",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => 'CMCC',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 0,
+            'nickname' => "\x{535c}\x{91d1}\x{5f6a}",
+            'services' => '99',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '0',
+            'smsOnlineStatus' => '0.0:0:0',
+            'uri' => 'sip:755838322@fetion.com.cn;p=12',
+            'idContact' => 463134874,
+            'mobileNo' => '13401159247',
+            'idFetion' => 755838322,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          }
+        ];
+Wed Feb 22 11:19:34 2012
+$VAR1 = [
+          {
+            'impresa' => '',
+            'isBlocked' => 0,
+            'portraitCrc' => '225672825',
+            'localName' => "\x{6768}\x{672f}",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => 'CMCC',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 0,
+            'nickname' => "\x{6768}\x{672f}",
+            'services' => '50,99',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '0',
+            'smsOnlineStatus' => '0.0:0:0',
+            'uri' => 'sip:878806666@fetion.com.cn;p=12',
+            'idContact' => 463135715,
+            'mobileNo' => '13401164317',
+            'idFetion' => 878806666,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          },
+          {
+            'impresa' => "\x{968f}\x{9047}\x{800c}\x{5b89}",
+            'isBlocked' => 0,
+            'portraitCrc' => '-1759450621',
+            'localName' => "\x{9648}\x{51a0}\x{826f}",
+            'contactType' => 0,
+            'impresaLength' => 16,
+            'deviceType' => '',
+            'carrier' => 'CMCC',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 0,
+            'nickname' => "\x{9648}\x{51a0}\x{826f}",
+            'services' => '99',
+            'permission' => '',
+            'presenceBasic' => '0',
+            'smsOnlineStatus' => '0.0:0:0',
+            'uri' => 'sip:768989106@fetion.com.cn;p=1906',
+            'idContact' => 293221819,
+            'mobileNo' => '13600528824',
+            'idFetion' => 768989106,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          },
+          {
+            'isBlocked' => 0,
+            'portraitCrc' => '',
+            'localName' => "\x{535c}\x{91d1}\x{5f6a}",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => '',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => -1,
+            'nickname' => '',
+            'services' => '',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '',
+            'smsOnlineStatus' => '',
+            'uri' => 'sip:755838322@fetion.com.cn;p=12',
+            'idContact' => 463134874,
+            'mobileNo' => '',
+            'idFetion' => 755838322,
+            'relationStatus' => 1,
+            'basicServiceStatus' => -1
+          }
+        ];
+Wed Feb 22 11:32:03 2012
+$VAR1 = [];
+Sat Mar  3 20:00:50 2012
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>3Gé£ä¿¡</title>
+		<meta charset="utf-8" />
+		<meta name="keywords" content="3Gé£ä¿¡ãä¸­å½ç§»å¨é£ä¿¡ãé£ä¿¡å®ç½ãåè´¹ç­ä¿¡ãé£ä¿¡ä¸è½½ãé£ä¿¡å®¢æ·ç«¯ãé£ä¿¡å¸®å©ãé£ä¿¡æ´»å¨" />
+		<meta name="description" content="é£WAPé£ä¿¡-æ°¸è¿å¨çº¿,åè´¹çè!ä¿¡å®ç½ä½ä¸ºä¸­å½ç§»å¨ç¨æ·é£ä¿¡ä¸å¡çå®æ¹ç½ç«ï¼æä¾é£ä¿¡äº§åçä¸è½½ãå¥é¨ãç­çç­æå¡åæ¯æã" />
+		<meta content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0" name="viewport" id="viewport">
+		<meta forua="true" http-equiv="Cache-Control" content="no-cache" />
+		<link rel="apple-touch-icon-precomposed" href="/im5/images/html5/icon_57.png"/>
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/im5/images/html5/icon_114.png"/>
+		<link href="/im5/css/html5/style.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="/im5/js/libs/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				var tip = "å¯¹ä¸èµ·,å¯ç éè¯¯,è¯·éæ°å°è¯!";
+				if (tip != "") {
+					alert(tip);
+				}
+				$("#m1").change(function(){
+					 $("#pass1").val("");
+				});
+			});
+		</script>
+	</head>
+	<body class="dlbg"> 
+		<div class="dllogo"></div>
+		<h2 class="bg-z">éæ¶éå°ï¼çèé£ä¿¡</h2>
+		<div class="dlqy">
+			<form id="loginfrm" name="loginfrm" method="post" action="/im5/login/loginHtml5.action?t=39594380432267847">
+				<input type="text" id="m1" name="m" placeholder="ææºå·:" class="dltype" maxlength="11" required="required">
+				<input type="password" id="pass1" name="pass" placeholder="å¯ãç :" class="dltype" required="required">
+				<a href="#submit" class="input_bt" onclick="javascript:submitLogin();"><span>ç»ããå½</span></a>
+			</form>
+			<p>åè´¹æ³¨åï¼<a href="sms://10086">åéKTFXè³10086èªå¨æ³¨å</a></p>
+			<p>å¿è®°å¯ç ï¼<a href="sms://12520">åéPå°12520çæéæºå¯ç </a></p>
+		</div>
+		<script type="text/javascript">
+			function submitLogin(){
+				if($("#m1").val() == ""){
+					alert("è¯·æ¨è¾å¥ææºå·ç»å½3Gé£ä¿¡!");
+					$("#m1").focus();
+					return;
+				}
+				if($("#pass1").val() == ""){
+					alert("è¯·æ¨è¾å¥é£ä¿¡å¯ç !");
+					$("#pass1").focus();
+					return;
+				}
+				var f = $("#loginfrm");
+			 	f.submit();
+			}
+		</script>
+	</body>
+</html>Sat Mar  3 20:45:57 2012
+$VAR1 = [
+          {
+            'impresa' => '',
+            'isBlocked' => 0,
+            'portraitCrc' => '-1414499829',
+            'localName' => "\x{5f20}\x{4e91}\x{6d9b}",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => 'CMCC',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 0,
+            'nickname' => "\x{6653}\x{306e}itachi",
+            'services' => '99',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '0',
+            'smsOnlineStatus' => '0.0:0:0',
+            'uri' => 'sip:903787908@fetion.com.cn;p=12',
+            'idContact' => 650925234,
+            'mobileNo' => '13401164304',
+            'idFetion' => 903787908,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          }
+        ];
+Thu Mar 15 22:59:26 2012
+$VAR1 = [
+          {
+            'reSendText' => "\x{8c22}\x{8c22}\x{ff01}#^_^#",
+            'sendTime' => '2053',
+            'isnowday' => 0,
+            'fromIdUser' => 463051061,
+            'toIdUser' => 463050831,
+            'idMessage' => 54858198,
+            'message' => "\x{8c22}\x{8c22}\x{ff01}#^_^#",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          }
+        ];
+Thu Mar 15 22:59:35 2012
+$VAR1 = [];
+Thu Mar 15 23:00:14 2012
+$VAR1 = [
+          {
+            'reSendText' => "\x{56fe}\x{6587}\x{5236}\x{4f5c}\x{7684}\x{7f51}\x{7ad9}\x{5f00}\x{53d1}\x{5f97}\x{600e}\x{4e48}\x{6837}\x{4e86}\x{554a}\x{3001}
+\x{ff08}\x{4f7f}\x{7528}\x{7535}\x{8111}\x{767b}\x{5f55}\x{98de}\x{4fe1}\x{ff0c}\x{66f4}\x{591a}\x{529f}\x{80fd}\x{66f4}\x{7cbe}\x{5f69}\x{ff09}",
+            'sendTime' => '2300',
+            'isnowday' => 0,
+            'fromIdUser' => 821188633,
+            'toIdUser' => 463050831,
+            'idMessage' => 54858770,
+            'message' => "\x{56fe}\x{6587}\x{5236}\x{4f5c}\x{7684}\x{7f51}\x{7ad9}\x{5f00}\x{53d1}\x{5f97}\x{600e}\x{4e48}\x{6837}\x{4e86}\x{554a}\x{3001}
+\x{ff08}\x{4f7f}\x{7528}\x{7535}\x{8111}\x{767b}\x{5f55}\x{98de}\x{4fe1}\x{ff0c}\x{66f4}\x{591a}\x{529f}\x{80fd}\x{66f4}\x{7cbe}\x{5f69}\x{ff09}",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          }
+        ];
+Thu Mar 15 23:00:15 2012
+$VAR1 = [];
+Thu Mar 15 23:01:07 2012
+$VAR1 = [
+          {
+            'isBlocked' => 0,
+            'portraitCrc' => '',
+            'localName' => "\x{97e6}\x{514b}\x{52c7}",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => '',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => -1,
+            'nickname' => '',
+            'services' => '',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '',
+            'smsOnlineStatus' => '',
+            'uri' => 'sip:755836387@fetion.com.cn;p=12',
+            'idContact' => 463134862,
+            'mobileNo' => '',
+            'idFetion' => 755836387,
+            'relationStatus' => 1,
+            'basicServiceStatus' => -1
+          }
+        ];
+Thu Mar 22 20:44:50 2012
+$VAR1 = [
+          {
+            'reSendText' => "\x{5728}\x{7ebf}\x{56fe}\x{6587}\x{5236}\x{4f5c}\x{7684}\x{7f51}\x{7ad9}\x{5f00}\x{53d1}\x{5230}\x{4ec0}\x{4e48}\x{7a0b}\x{5ea6}\x{5566}\x{ff1f}",
+            'sendTime' => '1917',
+            'isnowday' => 1,
+            'fromIdUser' => 821188633,
+            'toIdUser' => 463050831,
+            'idMessage' => 55509118,
+            'message' => "\x{5728}\x{7ebf}\x{56fe}\x{6587}\x{5236}\x{4f5c}\x{7684}\x{7f51}\x{7ad9}\x{5f00}\x{53d1}\x{5230}\x{4ec0}\x{4e48}\x{7a0b}\x{5ea6}\x{5566}\x{ff1f}",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          },
+          {
+            'reSendText' => "\x{55ef}\x{ff0c}\x{8fd8}\x{6ca1}\x{95ee}\x{4ed6}\x{5462}\x{ff0c}\x{627e}\x{4e2a}\x{65f6}\x{95f4}\x{54b1}\x{4eec}\x{5148}\x{78b0}\x{4e00}\x{4e0b}\x{5427}",
+            'sendTime' => '2009',
+            'isnowday' => 1,
+            'fromIdUser' => 821188633,
+            'toIdUser' => 463050831,
+            'idMessage' => 55509119,
+            'message' => "\x{55ef}\x{ff0c}\x{8fd8}\x{6ca1}\x{95ee}\x{4ed6}\x{5462}\x{ff0c}\x{627e}\x{4e2a}\x{65f6}\x{95f4}\x{54b1}\x{4eec}\x{5148}\x{78b0}\x{4e00}\x{4e0b}\x{5427}",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          },
+          {
+            'reSendText' => "\x{4f60}\x{4eca}\x{5929}\x{665a}\x{4e0a}\x{6709}\x{6ca1}\x{6709}\x{65f6}\x{95f4}\x{554a}\x{ff0c}\x{6211}\x{4eec}\x{78b0}\x{4e00}\x{4e0b}\x{7f51}\x{7ad9}\x{7684}\x{4e8b}\x{60c5}\x{5427}",
+            'sendTime' => '1940',
+            'isnowday' => 0,
+            'fromIdUser' => 821188633,
+            'toIdUser' => 463050831,
+            'idMessage' => 55509120,
+            'message' => "\x{4f60}\x{4eca}\x{5929}\x{665a}\x{4e0a}\x{6709}\x{6ca1}\x{6709}\x{65f6}\x{95f4}\x{554a}\x{ff0c}\x{6211}\x{4eec}\x{78b0}\x{4e00}\x{4e0b}\x{7f51}\x{7ad9}\x{7684}\x{4e8b}\x{60c5}\x{5427}",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          },
+          {
+            'reSendText' => "\x{55ef}\x{ff0c}\x{4e5d}\x{70b9}\x{534a}\x{53ef}\x{4ee5}\x{5417}\x{ff1f}",
+            'sendTime' => '1945',
+            'isnowday' => 0,
+            'fromIdUser' => 821188633,
+            'toIdUser' => 463050831,
+            'idMessage' => 55509121,
+            'message' => "\x{55ef}\x{ff0c}\x{4e5d}\x{70b9}\x{534a}\x{53ef}\x{4ee5}\x{5417}\x{ff1f}",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          },
+          {
+            'reSendText' => "\x{5728}116\x{5427}\x{ff0c}\x{79bb}\x{4f60}\x{4eec}\x{6bd4}\x{8f83}\x{8fd1}\x{ff0c}\x{628a}\x{6211}\x{7ed9}\x{4f60}\x{7684}\x{6587}\x{6863}\x{5e26}\x{7740}\x{5427}",
+            'sendTime' => '1947',
+            'isnowday' => 0,
+            'fromIdUser' => 821188633,
+            'toIdUser' => 463050831,
+            'idMessage' => 55509122,
+            'message' => "\x{5728}116\x{5427}\x{ff0c}\x{79bb}\x{4f60}\x{4eec}\x{6bd4}\x{8f83}\x{8fd1}\x{ff0c}\x{628a}\x{6211}\x{7ed9}\x{4f60}\x{7684}\x{6587}\x{6863}\x{5e26}\x{7740}\x{5427}",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          }
+        ];
+Thu Mar 22 20:44:52 2012
+$VAR1 = [];
+Thu Mar 22 20:44:53 2012
+$VAR1 = [
+          {
+            'reSendText' => "\x{95ee}\x{4e2a}\x{4e8b}\x{54c8}~\x{4f60}\x{6bd5}\x{8bbe}\x{9700}\x{8981}\x{7528}\x{7684}\x{8f6f}\x{4ef6}\x{53eb}\x{4ec0}\x{4e48}\x{5440}\x{ff1f}",
+            'sendTime' => '2002',
+            'isnowday' => 1,
+            'fromIdUser' => 465150204,
+            'toIdUser' => 463050831,
+            'idMessage' => 55509130,
+            'message' => "\x{95ee}\x{4e2a}\x{4e8b}\x{54c8}~\x{4f60}\x{6bd5}\x{8bbe}\x{9700}\x{8981}\x{7528}\x{7684}\x{8f6f}\x{4ef6}\x{53eb}\x{4ec0}\x{4e48}\x{5440}\x{ff1f}",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          },
+          {
+            'reSendText' => "\x{54e6}~~\x{8c22}\x{5566}~",
+            'sendTime' => '2004',
+            'isnowday' => 1,
+            'fromIdUser' => 465150204,
+            'toIdUser' => 463050831,
+            'idMessage' => 55509131,
+            'message' => "\x{54e6}~~\x{8c22}\x{5566}~",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          },
+          {
+            'reSendText' => "\x{4e0d}\x{8981}\x{3002}\x{3002}\x{4f60}\x{8fd9}\x{4e2a}\x{662f}\x{767d}\x{7693}\x{8ba9}\x{4f60}\x{7528}\x{8fd9}\x{4e2a}\x{5417}\x{ff1f}\x{8fd8}\x{662f}\x{7814}\x{7a76}\x{751f}\x{ff1f}\x{8fd8}\x{662f}\x{4f60}\x{81ea}\x{5df1}\x{60f3}\x{51fa}\x{6765}\x{7684}\x{ff1f}\x{ff1f}",
+            'sendTime' => '2006',
+            'isnowday' => 1,
+            'fromIdUser' => 465150204,
+            'toIdUser' => 463050831,
+            'idMessage' => 55509132,
+            'message' => "\x{4e0d}\x{8981}\x{3002}\x{3002}\x{4f60}\x{8fd9}\x{4e2a}\x{662f}\x{767d}\x{7693}\x{8ba9}\x{4f60}\x{7528}\x{8fd9}\x{4e2a}\x{5417}\x{ff1f}\x{8fd8}\x{662f}\x{7814}\x{7a76}\x{751f}\x{ff1f}\x{8fd8}\x{662f}\x{4f60}\x{81ea}\x{5df1}\x{60f3}\x{51fa}\x{6765}\x{7684}\x{ff1f}\x{ff1f}",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          },
+          {
+            'reSendText' => "\x{54e6}\x{597d}~\x{8c22}\x{5566}~~",
+            'sendTime' => '2011',
+            'isnowday' => 1,
+            'fromIdUser' => 465150204,
+            'toIdUser' => 463050831,
+            'idMessage' => 55509133,
+            'message' => "\x{54e6}\x{597d}~\x{8c22}\x{5566}~~",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          }
+        ];
+Thu Mar 22 20:44:54 2012
+$VAR1 = [];
+Thu Mar 22 20:44:55 2012
+$VAR1 = [
+          {
+            'reSendText' => "\x{56fd}\x{8001}\x{5e08}\x{8ba9}\x{6211}\x{4eec}\x{5199}\x{ff0c}\x{4e00}\x{7bc7}\x{662f}\x{4f7f}\x{7528}\x{8bf4}\x{660e}\x{4e66}\x{ff0c}\x{53e6}\x{5916}\x{4e24}\x{7bc7}\x{53eb}\x{4ec0}\x{4e48}\x{6765}\x{7740}~~",
+            'sendTime' => '1859',
+            'isnowday' => 0,
+            'fromIdUser' => 463067416,
+            'toIdUser' => 463050831,
+            'idMessage' => 55509139,
+            'message' => "\x{56fd}\x{8001}\x{5e08}\x{8ba9}\x{6211}\x{4eec}\x{5199}\x{ff0c}\x{4e00}\x{7bc7}\x{662f}\x{4f7f}\x{7528}\x{8bf4}\x{660e}\x{4e66}\x{ff0c}\x{53e6}\x{5916}\x{4e24}\x{7bc7}\x{53eb}\x{4ec0}\x{4e48}\x{6765}\x{7740}~~",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          },
+          {
+            'reSendText' => "\x{56fd}\x{8001}\x{5e08}\x{8bf4}\x{660e}\x{5929}\x{53d1}\x{7ed9}\x{6211}\x{4eec}\x{3002}",
+            'sendTime' => '1928',
+            'isnowday' => 0,
+            'fromIdUser' => 463067416,
+            'toIdUser' => 463050831,
+            'idMessage' => 55509140,
+            'message' => "\x{56fd}\x{8001}\x{5e08}\x{8bf4}\x{660e}\x{5929}\x{53d1}\x{7ed9}\x{6211}\x{4eec}\x{3002}",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          },
+          {
+            'reSendText' => "\x{674e}\x{6d9b}\x{ff0c}\x{4e4b}\x{524d}\x{4e0a}\x{4e00}\x{5c4a}\x{7684}\x{79d1}\x{6280}\x{521b}\x{65b0}\x{7ed3}\x{9898}\x{62a5}\x{544a}\x{4f60}\x{90a3}\x{513f}\x{8fd8}\x{6709}\x{5417}\x{ff1f}",
+            'sendTime' => '2024',
+            'isnowday' => 0,
+            'fromIdUser' => 463067416,
+            'toIdUser' => 463050831,
+            'idMessage' => 55509141,
+            'message' => "\x{674e}\x{6d9b}\x{ff0c}\x{4e4b}\x{524d}\x{4e0a}\x{4e00}\x{5c4a}\x{7684}\x{79d1}\x{6280}\x{521b}\x{65b0}\x{7ed3}\x{9898}\x{62a5}\x{544a}\x{4f60}\x{90a3}\x{513f}\x{8fd8}\x{6709}\x{5417}\x{ff1f}",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          },
+          {
+            'reSendText' => "\x{597d}\x{5427}\x{ff0c}\x{4f60}\x{4e4b}\x{524d}\x{7ed9}\x{6211}\x{7684}\x{ff0c}\x{73b0}\x{5728}\x{627e}\x{4e0d}\x{5230}\x{4e86}\x{3002}\x{3002}\x{3002}\x{4f60}\x{8bf4}\x{90a3}\x{4e2a}\x{4e1c}\x{897f}\x{4ec0}\x{4e48}\x{65f6}\x{5019}\x{5199}\x{554a}",
+            'sendTime' => '2027',
+            'isnowday' => 0,
+            'fromIdUser' => 463067416,
+            'toIdUser' => 463050831,
+            'idMessage' => 55509142,
+            'message' => "\x{597d}\x{5427}\x{ff0c}\x{4f60}\x{4e4b}\x{524d}\x{7ed9}\x{6211}\x{7684}\x{ff0c}\x{73b0}\x{5728}\x{627e}\x{4e0d}\x{5230}\x{4e86}\x{3002}\x{3002}\x{3002}\x{4f60}\x{8bf4}\x{90a3}\x{4e2a}\x{4e1c}\x{897f}\x{4ec0}\x{4e48}\x{65f6}\x{5019}\x{5199}\x{554a}",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          },
+          {
+            'reSendText' => "\x{5468}\x{4e94}\x{665a}\x{4e0a}\x{884c}\x{5417}\x{ff1f}",
+            'sendTime' => '2036',
+            'isnowday' => -1,
+            'fromIdUser' => 463067416,
+            'toIdUser' => 463050831,
+            'idMessage' => 55509143,
+            'message' => "\x{5468}\x{4e94}\x{665a}\x{4e0a}\x{884c}\x{5417}\x{ff1f}",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          },
+          {
+            'reSendText' => "\x{597d}\x{7684}\x{3002}\x{90a3}\x{4eca}\x{5929}\x{80fd}\x{5148}\x{505a}\x{4e9b}\x{4ec0}\x{4e48}\x{5417}\x{ff1f}",
+            'sendTime' => '2039',
+            'isnowday' => -1,
+            'fromIdUser' => 463067416,
+            'toIdUser' => 463050831,
+            'idMessage' => 55509144,
+            'message' => "\x{597d}\x{7684}\x{3002}\x{90a3}\x{4eca}\x{5929}\x{80fd}\x{5148}\x{505a}\x{4e9b}\x{4ec0}\x{4e48}\x{5417}\x{ff1f}",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          },
+          {
+            'reSendText' => "\x{6211}\x{4e5f}\x{4e0d}\x{77e5}\x{9053}\x{5230}\x{5e95}\x{8981}\x{5199}\x{4e9b}\x{4ec0}\x{4e48}\x{ff1f}\x{5f20}\x{8001}\x{5e08}\x{8bf4}\x{5468}\x{516d}\x{65e5}\x{548c}\x{665a}\x{4e0a}\x{8981}\x{7528}\x{7535}\x{8111}\x{5c31}\x{5230}\x{5979}\x{529e}\x{516c}\x{5ba4}\x{3002}",
+            'sendTime' => '2043',
+            'isnowday' => -1,
+            'fromIdUser' => 463067416,
+            'toIdUser' => 463050831,
+            'idMessage' => 55509145,
+            'message' => "\x{6211}\x{4e5f}\x{4e0d}\x{77e5}\x{9053}\x{5230}\x{5e95}\x{8981}\x{5199}\x{4e9b}\x{4ec0}\x{4e48}\x{ff1f}\x{5f20}\x{8001}\x{5e08}\x{8bf4}\x{5468}\x{516d}\x{65e5}\x{548c}\x{665a}\x{4e0a}\x{8981}\x{7528}\x{7535}\x{8111}\x{5c31}\x{5230}\x{5979}\x{529e}\x{516c}\x{5ba4}\x{3002}",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          },
+          {
+            'reSendText' => "\x{4e0d}\x{662f}\x{5199}\x{4e09}\x{7bc7}\x{6587}\x{7ae0}\x{4ec0}\x{4e48}\x{7684}\x{5417}\x{ff1f}",
+            'sendTime' => '2044',
+            'isnowday' => -1,
+            'fromIdUser' => 463067416,
+            'toIdUser' => 463050831,
+            'idMessage' => 55509146,
+            'message' => "\x{4e0d}\x{662f}\x{5199}\x{4e09}\x{7bc7}\x{6587}\x{7ae0}\x{4ec0}\x{4e48}\x{7684}\x{5417}\x{ff1f}",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          }
+        ];
+Thu Mar 22 20:44:57 2012
+$VAR1 = [];
+Thu Mar 22 20:53:12 2012
+$VAR1 = [
+          {
+            'reSendText' => "\x{56fd}\x{8001}\x{5e08}\x{8ba9}\x{6211}\x{4eec}\x{5199}\x{ff0c}\x{4e00}\x{7bc7}\x{662f}\x{4f7f}\x{7528}\x{8bf4}\x{660e}\x{4e66}\x{ff0c}\x{53e6}\x{5916}\x{4e24}\x{7bc7}\x{53eb}\x{4ec0}\x{4e48}\x{6765}\x{7740}~~",
+            'sendTime' => '1859',
+            'isnowday' => 0,
+            'fromIdUser' => 463067416,
+            'toIdUser' => 463050831,
+            'idMessage' => 55509139,
+            'message' => "\x{56fd}\x{8001}\x{5e08}\x{8ba9}\x{6211}\x{4eec}\x{5199}\x{ff0c}\x{4e00}\x{7bc7}\x{662f}\x{4f7f}\x{7528}\x{8bf4}\x{660e}\x{4e66}\x{ff0c}\x{53e6}\x{5916}\x{4e24}\x{7bc7}\x{53eb}\x{4ec0}\x{4e48}\x{6765}\x{7740}~~",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          },
+          {
+            'reSendText' => "\x{56fd}\x{8001}\x{5e08}\x{8bf4}\x{660e}\x{5929}\x{53d1}\x{7ed9}\x{6211}\x{4eec}\x{3002}",
+            'sendTime' => '1928',
+            'isnowday' => 0,
+            'fromIdUser' => 463067416,
+            'toIdUser' => 463050831,
+            'idMessage' => 55509140,
+            'message' => "\x{56fd}\x{8001}\x{5e08}\x{8bf4}\x{660e}\x{5929}\x{53d1}\x{7ed9}\x{6211}\x{4eec}\x{3002}",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          },
+          {
+            'reSendText' => "\x{674e}\x{6d9b}\x{ff0c}\x{4e4b}\x{524d}\x{4e0a}\x{4e00}\x{5c4a}\x{7684}\x{79d1}\x{6280}\x{521b}\x{65b0}\x{7ed3}\x{9898}\x{62a5}\x{544a}\x{4f60}\x{90a3}\x{513f}\x{8fd8}\x{6709}\x{5417}\x{ff1f}",
+            'sendTime' => '2024',
+            'isnowday' => 0,
+            'fromIdUser' => 463067416,
+            'toIdUser' => 463050831,
+            'idMessage' => 55509141,
+            'message' => "\x{674e}\x{6d9b}\x{ff0c}\x{4e4b}\x{524d}\x{4e0a}\x{4e00}\x{5c4a}\x{7684}\x{79d1}\x{6280}\x{521b}\x{65b0}\x{7ed3}\x{9898}\x{62a5}\x{544a}\x{4f60}\x{90a3}\x{513f}\x{8fd8}\x{6709}\x{5417}\x{ff1f}",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          },
+          {
+            'reSendText' => "\x{597d}\x{5427}\x{ff0c}\x{4f60}\x{4e4b}\x{524d}\x{7ed9}\x{6211}\x{7684}\x{ff0c}\x{73b0}\x{5728}\x{627e}\x{4e0d}\x{5230}\x{4e86}\x{3002}\x{3002}\x{3002}\x{4f60}\x{8bf4}\x{90a3}\x{4e2a}\x{4e1c}\x{897f}\x{4ec0}\x{4e48}\x{65f6}\x{5019}\x{5199}\x{554a}",
+            'sendTime' => '2027',
+            'isnowday' => 0,
+            'fromIdUser' => 463067416,
+            'toIdUser' => 463050831,
+            'idMessage' => 55509142,
+            'message' => "\x{597d}\x{5427}\x{ff0c}\x{4f60}\x{4e4b}\x{524d}\x{7ed9}\x{6211}\x{7684}\x{ff0c}\x{73b0}\x{5728}\x{627e}\x{4e0d}\x{5230}\x{4e86}\x{3002}\x{3002}\x{3002}\x{4f60}\x{8bf4}\x{90a3}\x{4e2a}\x{4e1c}\x{897f}\x{4ec0}\x{4e48}\x{65f6}\x{5019}\x{5199}\x{554a}",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          },
+          {
+            'reSendText' => "\x{5468}\x{4e94}\x{665a}\x{4e0a}\x{884c}\x{5417}\x{ff1f}",
+            'sendTime' => '2036',
+            'isnowday' => 0,
+            'fromIdUser' => 463067416,
+            'toIdUser' => 463050831,
+            'idMessage' => 55509143,
+            'message' => "\x{5468}\x{4e94}\x{665a}\x{4e0a}\x{884c}\x{5417}\x{ff1f}",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          },
+          {
+            'reSendText' => "\x{597d}\x{7684}\x{3002}\x{90a3}\x{4eca}\x{5929}\x{80fd}\x{5148}\x{505a}\x{4e9b}\x{4ec0}\x{4e48}\x{5417}\x{ff1f}",
+            'sendTime' => '2039',
+            'isnowday' => 0,
+            'fromIdUser' => 463067416,
+            'toIdUser' => 463050831,
+            'idMessage' => 55509144,
+            'message' => "\x{597d}\x{7684}\x{3002}\x{90a3}\x{4eca}\x{5929}\x{80fd}\x{5148}\x{505a}\x{4e9b}\x{4ec0}\x{4e48}\x{5417}\x{ff1f}",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          },
+          {
+            'reSendText' => "\x{6211}\x{4e5f}\x{4e0d}\x{77e5}\x{9053}\x{5230}\x{5e95}\x{8981}\x{5199}\x{4e9b}\x{4ec0}\x{4e48}\x{ff1f}\x{5f20}\x{8001}\x{5e08}\x{8bf4}\x{5468}\x{516d}\x{65e5}\x{548c}\x{665a}\x{4e0a}\x{8981}\x{7528}\x{7535}\x{8111}\x{5c31}\x{5230}\x{5979}\x{529e}\x{516c}\x{5ba4}\x{3002}",
+            'sendTime' => '2043',
+            'isnowday' => -1,
+            'fromIdUser' => 463067416,
+            'toIdUser' => 463050831,
+            'idMessage' => 55509145,
+            'message' => "\x{6211}\x{4e5f}\x{4e0d}\x{77e5}\x{9053}\x{5230}\x{5e95}\x{8981}\x{5199}\x{4e9b}\x{4ec0}\x{4e48}\x{ff1f}\x{5f20}\x{8001}\x{5e08}\x{8bf4}\x{5468}\x{516d}\x{65e5}\x{548c}\x{665a}\x{4e0a}\x{8981}\x{7528}\x{7535}\x{8111}\x{5c31}\x{5230}\x{5979}\x{529e}\x{516c}\x{5ba4}\x{3002}",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          },
+          {
+            'reSendText' => "\x{4e0d}\x{662f}\x{5199}\x{4e09}\x{7bc7}\x{6587}\x{7ae0}\x{4ec0}\x{4e48}\x{7684}\x{5417}\x{ff1f}",
+            'sendTime' => '2044',
+            'isnowday' => -1,
+            'fromIdUser' => 463067416,
+            'toIdUser' => 463050831,
+            'idMessage' => 55509146,
+            'message' => "\x{4e0d}\x{662f}\x{5199}\x{4e09}\x{7bc7}\x{6587}\x{7ae0}\x{4ec0}\x{4e48}\x{7684}\x{5417}\x{ff1f}",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          },
+          {
+            'reSendText' => "\x{90a3}\x{5c31}\x{660e}\x{5929}\x{665a}\x{4e0a}\x{5f00}\x{59cb}\x{5457}",
+            'sendTime' => '2046',
+            'isnowday' => -1,
+            'fromIdUser' => 463050831,
+            'toIdUser' => 463067416,
+            'idMessage' => 55509271,
+            'message' => "\x{90a3}\x{5c31}\x{660e}\x{5929}\x{665a}\x{4e0a}\x{5f00}\x{59cb}\x{5457}",
+            'touchFlag' => 0,
+            'messageType' => '1'
+          },
+          {
+            'reSendText' => "\x{597d}\x{5427}\x{ff0c}\x{90a3}\x{662f}\x{4e0d}\x{662f}\x{5f97}\x{7528}\x{4e09}\x{53f0}\x{7535}\x{8111}",
+            'sendTime' => '2053',
+            'isnowday' => -1,
+            'fromIdUser' => 463067416,
+            'toIdUser' => 463050831,
+            'idMessage' => 55510364,
+            'message' => "\x{597d}\x{5427}\x{ff0c}\x{90a3}\x{662f}\x{4e0d}\x{662f}\x{5f97}\x{7528}\x{4e09}\x{53f0}\x{7535}\x{8111}",
+            'touchFlag' => 0,
+            'messageType' => '2'
+          }
+        ];
+Thu Mar 22 20:53:14 2012
+$VAR1 = [];
+Thu Mar 22 21:01:06 2012
+$VAR1 = [
+          {
+            'impresa' => '',
+            'isBlocked' => 0,
+            'portraitCrc' => '-1224105016',
+            'localName' => "\x{5434}\x{71d5}",
+            'contactType' => 0,
+            'impresaLength' => 0,
+            'deviceType' => '',
+            'carrier' => 'CMCC',
+            'email' => '',
+            'presenceDesc' => '',
+            'newMsgNums' => 0,
+            'carrierStatus' => 0,
+            'nickname' => "\x{5434}\x{71d5}",
+            'services' => '99',
+            'permission' => 'identity=1;',
+            'presenceBasic' => '0',
+            'smsOnlineStatus' => '0.0:0:0',
+            'uri' => 'sip:825811822@fetion.com.cn;p=12',
+            'idContact' => 463067416,
+            'mobileNo' => '13401149366',
+            'idFetion' => 825811822,
+            'relationStatus' => 1,
+            'basicServiceStatus' => 1
+          }
+        ];
+Thu Mar 22 21:01:55 2012
+$VAR1 = [];

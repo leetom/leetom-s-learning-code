@@ -1,0 +1,352 @@
+GAMS Rev 237  LNX-LNX 23.7.2 x86/Linux                                                                                                                                                                                                 03/04/12 10:02:01 Page 1
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+C o m p i l a t i o n
+
+
+   2  Sets
+   3  i / BFG,COG,LDG /
+   4  j / jh,120sj,70sj,320sj,400sj,qt,1750gl,350gl,3200gl,lg1,lg2,lg3,1xx,zb,zhb,khb,rzbb,lz,dx,ct,sh,rlgl
+   5  /
+   6  ;
+   7  Parameters
+   8  A(i)     煤气总量
+   9  /
+  10  BFG 9.252296E+9
+  11  COG 1.071481E+9
+  12  LDG 7.140853E+8
+  13  /
+  14  B(j)    煤气用户热量需求
+  15  /jh     14614918.45e9
+  16  120sj   1360799.55e9
+  17  70sj    145687.62e9
+  18  320sj   341202.93e9
+  19  400sj   460460.27e9
+  20  qt      1245138.80e9
+  21  1750gl  10356917.06e9
+  22  350gl   6415552.60e9
+  23  3200gl  2886468.75e9
+  24  lg1     564662.58e9
+  25  lg2     1185079.27e9
+  26  lg3     575948.68e9
+  27  1xx     1169629.76e9
+  28  zb      2474150.20e9
+  29  zhb     3091507.20e9
+  30  khb     1230938.54e9
+  31  rzbb    2354968.67e9
+  32  lz      394360.13e9
+  33  dx      232046.70e9
+  34  ct      80173.01e9
+  35  sh      1213845.97e9
+  36  rlgl    599684.45e9
+  37  /
+  38   
+  39  Weight(j)   用户权重（从1到10）
+  40  /jh     6
+  41  120sj   6
+  42  70sj    4
+  43  320sj   7
+  44  400sj   8
+  45  qt      5
+  46  1750gl  6
+  47  350gl   4
+  48  3200gl  5
+  49  lg1     5
+  50  lg2     5
+  51  lg3     5
+  52  1xx     5
+  53  zb      5
+  54  zhb     5
+  55  khb     5
+  56  rzbb    5
+  57  lz      6
+  58  dx      5
+  59  ct      6
+  60  sh      6
+  61  rlgl    4
+  62  /
+  63   
+  64  C(i)    煤气热值
+  65  /
+  66  BFG 3430.12e3
+  67  COG 17164.3e3
+  68  LDG 6869.88e3
+  69  /
+  70  D(j)  用户热值需求
+  71  /jh     3400e3
+  72  120sj   8400e3
+  73  70sj    8400e3
+  74  320sj   8400e3
+GAMS Rev 237  LNX-LNX 23.7.2 x86/Linux                                                                                                                                                                                                 03/04/12 10:02:01 Page 2
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+C o m p i l a t i o n
+
+
+  75  400sj   8400e3
+  76  qt      4500e3
+  77  1750gl  3400e3
+  78  350gl   3400e3
+  79  3200gl  3400e3
+  80  lg1     6800e3
+  81  lg2     6800e3
+  82  lg3     6800e3
+  83  1xx     8400e3
+  84  zb      8400e3
+  85  zhb     8400e3
+  86  khb     8400e3
+  87  rzbb    8400e3
+  88  lz      8400e3
+  89  dx      8400e3
+  90  ct      8400e3
+  91  sh      7434e3
+  92  rlgl    8400e3
+  93  /
+  94  CP(i)   煤气定压热容
+  95  /
+  96  BFG 1099.3
+  97  COG 1522.5
+  98  LDG 1062.35
+  99  /
+ 100   
+ 101  Y(i)   空气过剩系数
+ 102  /
+ 103  BFG 1.15
+ 104  COG 1.23
+ 105  LDG 1.19
+ 106  /
+ 107  X(i)   单位立方米理论空气需求量
+ 108  /
+ 109  BFG 0.6069
+ 110  COG 4.4715
+ 111  LDG 1.5531
+ 112  /
+ 113   
+ 114  R(i)  单位立方米理论烟气排放
+ 115  /
+ 116  BFG 1.7913
+ 117  COG 6.2482
+ 118  LDG 2.2473
+ 119  /
+ 120  tpre1(j) 空气预热温度
+ 121  /jh     380
+ 122  120sj   0
+ 123  70sj    0
+ 124  320sj   0
+ 125  400sj   0
+ 126  qt      0
+ 127  1750gl  280
+ 128  350gl   280
+ 129  3200gl  280
+ 130  lg1     0
+ 131  lg2     0
+ 132  lg3     0
+ 133  1xx     280
+ 134  zb      280
+ 135  zhb     280
+ 136  khb     280
+ 137  rzbb    280
+ 138  lz      280
+ 139  dx      0
+ 140  ct      0
+ 141  sh      230
+ 142  rlgl    230
+ 143  /
+ 144  tpre2(j)   煤气预热温度
+ 145  /jh     15
+ 146  120sj   15
+ 147  70sj    15
+GAMS Rev 237  LNX-LNX 23.7.2 x86/Linux                                                                                                                                                                                                 03/04/12 10:02:01 Page 3
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+C o m p i l a t i o n
+
+
+ 148  320sj   15
+ 149  400sj   15
+ 150  qt      15
+ 151  1750gl  20
+ 152  350gl   20
+ 153  3200gl  20
+ 154  lg1     20
+ 155  lg2     20
+ 156  lg3     20
+ 157  1xx     12.5
+ 158  zb      7.5
+ 159  zhb     15
+ 160  khb     15
+ 161  rzbb    15
+ 162  lz      15
+ 163  dx      15
+ 164  ct      15
+ 165  sh      15
+ 166  rlgl    15
+ 167  /
+ 168  tw(j)       烟气排放温度
+ 169  /jh     230
+ 170  120sj   280
+ 171  70sj    280
+ 172  320sj   280
+ 173  400sj   280
+ 174  qt      0
+ 175  1750gl  230
+ 176  350gl   230
+ 177  3200gl  230
+ 178  lg1     180
+ 179  lg2     180
+ 180  lg3     180
+ 181  1xx     580
+ 182  zb      580
+ 183  zhb     580
+ 184  khb     580
+ 185  rzbb    580
+ 186  lz      580
+ 187  dx      580
+ 188  ct      580
+ 189  sh      130
+ 190  rlgl    230
+ 191  /
+ 192  Cpa(j)      空气比热容
+ 193  /
+ 194  jh      559.63
+ 195  120sj   1211.03
+ 196  70sj    1211.03
+ 197  320sj   1211.03
+ 198  400sj   1211.03
+ 199  qt      1211.03
+ 200  1750gl  643.91
+ 201  350gl   643.91
+ 202  3200gl  643.91
+ 203  lg1     1211.03
+ 204  lg2     1211.03
+ 205  lg3     1211.03
+ 206  1xx     643.91
+ 207  zb      643.91
+ 208  zhb     643.91
+ 209  khb     643.91
+ 210  rzbb    643.91
+ 211  lz      643.91
+ 212  dx      643.91
+ 213  ct      643.91
+ 214  sh      699.61
+ 215  rlgl    699.61
+ 216  /
+ 217  Cpw(j)    烟气比热容
+ 218  /jh     750.34
+ 219  120sj   693
+ 220  70sj    693
+GAMS Rev 237  LNX-LNX 23.7.2 x86/Linux                                                                                                                                                                                                 03/04/12 10:02:01 Page 4
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+C o m p i l a t i o n
+
+
+ 221  320sj   693
+ 222  400sj   693
+ 223  qt      1215.13
+ 224  1750gl  750.34
+ 225  350gl   750.34
+ 226  3200gl  750.34
+ 227  lg1     820.56
+ 228  lg2     820.56
+ 229  lg3     820.56
+ 230  1xx     491.12
+ 231  zb      491.12
+ 232  zhb     491.12
+ 233  khb     491.12
+ 234  rzbb    491.12
+ 235  lz      491.12
+ 236  dx      491.12
+ 237  ct      491.12
+ 238  sh      907.11
+ 239  rlgl    750.34
+ 240  /
+ 241  ;
+ 242  Variables
+ 243  E(i,j)
+ 244  Qa(j)
+ 245  Qg(j)
+ 246  Qc(j)
+ 247  Qw1(j)
+ 248  Qw2(j)
+ 249  Eta(j)
+ 250  wta
+ 251  Etaavg
+ 252  ;
+ 253  E.lo(i,j)=0.01;
+ 254  Qa.lo(j)=0.01;
+ 255  Qg.lo(j)=0.01;
+ 256  Qc.lo(j) = 0.01;
+ 257  Qw1.lo(j) = 0.01;
+ 258  Qw2.lo(j) = 0.01;
+ 259  Eta.lo(j) = 0.01;
+ 260  wta.lo = 0.01;
+ 261  Etaavg.lo=0.01;
+ 262   
+ 263  Equations    #Equation declaration
+ 264  Q_air(j) 空气显热
+ 265  Q_gas(j) 煤气显热
+ 266  Q_cost(j)   用户j使用的煤气总热量
+ 267  Q_waste(j)  用户j烟气排放散失的热量
+ 268  Q_waste2(j) 用户j燃烧过程热损失，经验值
+ 269  Eff(j)      用户j的效率
+ 270  Weight_sum  权值总和
+ 271  Eff_avg_weighted 效率的加权平均
+ 272   
+ 273  Gas_count(i)   煤气总量约束条件
+ 274  User_Q(j)      用户j的热值约束
+ 275  User_qv(j)     用户j的热量约束
+ 276   
+ 277  Gas_ldg     转炉煤气全部用完约束条件
+ 278  Gas_surplus_q 剩余煤气的热值约束
+ 279  ;
+ 280   
+ 281  #Equation defination
+ 282  Q_air(j) .. Qa(j) =e= sum(i, E(i,j) * X(i) * Y(i) * Cpa(j) * tpre1(j));
+ 283  Q_gas(j) .. Qg(j) =e= sum(i, E(i,j) * CP(i) * tpre2(j));
+ 284  Q_cost(j) .. Qc(j) =e= sum(i, C(i)*E(i,j));
+ 285  Q_waste(j) .. Qw1(j) =e= sum(i, E(i,j) * R(i) * CPw(j) * tw(j));
+ 286  Q_waste2(j) .. Qw2(j) =e= Qc(j) * 0.0908;
+ 287  Eff(j) .. Eta(j) =e= 1 - (Qw1(j)+Qw2(j))/(Qa(j)+Qg(j)+Qc(j));
+ 288  Weight_sum .. wta =e= sum(j, weight(j));
+ 289  Eff_avg_weighted .. Etaavg =e= sum(j, Eta(j)*weight(j)) / wta;      #目标函数，加权平均后的效率
+ 290   
+ 291  #约束条件
+ 292  Gas_count(i) .. sum(j,E(i,j)) =l= A(i);
+ 293  User_Q(j) .. sum(i,C(i)*E(i,j)) =g= B(j);
+GAMS Rev 237  LNX-LNX 23.7.2 x86/Linux                                                                                                                                                                                                 03/04/12 10:02:01 Page 5
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+C o m p i l a t i o n
+
+
+ 294  User_qv(j) .. sum(i,C(i)*E(i,j))/sum(i,E(i,j)) =g= D(j);
+ 295   
+ 296  Gas_ldg .. sum(j,E('LDG',j)) =e= A('LDG');
+ 297  Gas_surplus_q .. sum(i, (A(i)-sum(j,E(i,j)))*C(i))/sum(i, A(i)-sum(j,E(i,j))) =e= 6140e3;
+ 298   
+ 299  model gas /all/;
+ 300  solve gas using qlp maximizing Etaavg;
+****                    $244               $812
+ 301   
+ 302  display E.l, Etaavg.l;
+ 303   
+GAMS Rev 237  LNX-LNX 23.7.2 x86/Linux                                                                                                                                                                                                 03/04/12 10:02:01 Page 6
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Error Messages
+
+
+244  Unknown or missing processor (LP,MIP,...)
+812  Solve keys expected - USING MAX/MIN SCENARIO
+
+**** 2 ERROR(S)   0 WARNING(S)
+
+
+COMPILATION TIME     =        0.041 SECONDS      3 Mb  LNX237-237 Jul 21, 2011
+
+
+USER: GAMS Development Corporation, Washington, DC   G871201/0000CA-ANY
+      Free Demo,  202-342-0180,  sales@gams.com,  www.gams.com   DC0000
+
+
+**** FILE SUMMARY
+
+Input      /home/leetom/code/gams/2010.gms
+Output     /home/leetom/code/gams/2010.lst
+
+**** USER ERROR(S) ENCOUNTERED

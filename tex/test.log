@@ -1,0 +1,710 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.10.1)  22 OCT 2011 20:43
+entering extended mode
+ %&-line parsing enabled.
+**test.tex
+(./test.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
+ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
+9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
+skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
+orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
+, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
+rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/latex209.def
+File: latex209.def 1998/05/13 v0.52 Standard LaTeX file
+
+
+          Entering LaTeX 2.09 COMPATIBILITY MODE
+ *************************************************************
+    !!WARNING!!    !!WARNING!!    !!WARNING!!    !!WARNING!!   
+ 
+ This mode attempts to provide an emulation of the LaTeX 2.09
+ author environment so that OLD documents can be successfully
+ processed. It should NOT be used for NEW documents!
+ 
+ New documents should use Standard LaTeX conventions and start
+ with the \documentclass command.
+ 
+ Compatibility mode is UNLIKELY TO WORK with LaTeX 2.09 style
+ files that change any internal macros, especially not with
+ those that change the FONT SELECTION or OUTPUT ROUTINES.
+ 
+ Therefore such style files MUST BE UPDATED to use
+          Current Standard LaTeX: LaTeX2e.
+ If you suspect that you may be using such a style file, which
+ is probably very, very old by now, then you should attempt to
+ get it updated by sending a copy of this error message to the
+ author of that file.
+ *************************************************************
+
+\footheight=\dimen102
+\@maxsep=\dimen103
+\@dblmaxsep=\dimen104
+\@cla=\count79
+\@clb=\count80
+\mscount=\count81
+(/usr/share/texmf-texlive/tex/latex/base/tracefnt.sty
+Package: tracefnt 1997/05/29 v3.0j Standard LaTeX package (font tracing)
+\tracingfonts=\count82
+LaTeX Info: Redefining \selectfont on input line 101.
+)
+\symbold=\mathgroup4
+\symsans=\mathgroup5
+\symtypewriter=\mathgroup6
+\symitalic=\mathgroup7
+\symsmallcaps=\mathgroup8
+\symslanted=\mathgroup9
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 293.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 294.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 295.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 301.
+LaTeX Info: Redefining \em on input line 311.
+
+(/usr/share/texmf-texlive/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+LaTeX Font Info:    Redeclaring math delimiter \lgroup on input line 375.
+LaTeX Font Info:    Redeclaring math delimiter \rgroup on input line 377.
+LaTeX Font Info:    Redeclaring math delimiter \bracevert on input line 379.
+)
+! Argument of \documentclass has an extra }.
+<inserted text> 
+                \par 
+l.3 \documentclass[12pt]
+                        {scrbook}
+? 
+Runaway argument?
+! Paragraph ended before \documentclass was complete.
+<to be read again> 
+                   \par 
+l.3 \documentclass[12pt]
+                        {scrbook}
+? 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \par 
+l.3 \documentclass[12pt]
+                        {scrbook}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \documentclass[12pt]
+                        {scrbook}
+? 
+! Extra \endcsname.
+\@onefilewithoptions ...\@currext -h@@k\endcsname 
+                                                  \@empty \let \CurrentOptio...
+l.3 \documentclass[12pt]
+                        {scrbook}
+? 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.3 \documentclass[12pt]
+                        {scrbook}
+? 
+
+! LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \documentclass[12pt]
+                        {scrbook}
+? 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.3 \documentclass[12pt]
+                        {scrbook}
+? 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \par 
+l.3 \documentclass[12pt]
+                        {scrbook}
+? 
+! Extra \endcsname.
+\reserved@a ...r@\@currname .\@currext \endcsname 
+                                                  \@empty \InputIfFileExists...
+l.3 \documentclass[12pt]
+                        {scrbook}
+? 
+
+Overfull \hbox (37.27779pt too wide) in paragraph at lines 3--3
+[]\OT1/cmr/m/n/10 .cls-
+ []
+
+
+Overfull \hbox (55.97235pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 h@@kLaTeX
+ []
+
+
+Overfull \hbox (14.05557pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 Er-
+ []
+
+
+Overfull \hbox (15.61115pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 ror:
+ []
+
+
+Overfull \hbox (19.16669pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 Two
+ []
+
+
+Overfull \hbox (8.91669pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 or
+ []
+
+
+Overfull \hbox (21.11115pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 com-
+ []
+
+
+Overfull \hbox (42.83342pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 mandsSee
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (14.58336pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 La-
+ []
+
+
+Overfull \hbox (18.33334pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 TeX
+ []
+
+
+Overfull \hbox (22.22227pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 man-
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 ual
+ []
+
+
+Overfull \hbox (8.91669pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 or
+ []
+
+
+Overfull \hbox (14.58336pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 La-
+ []
+
+
+Overfull \hbox (18.33334pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 TeX
+ []
+
+
+Overfull \hbox (23.88893pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 Com-
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 pan-
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 ion
+ []
+
+
+Overfull \hbox (11.97226pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 for
+ []
+
+
+Overfull \hbox (13.05557pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 ex-
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 pla-
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 na-
+ []
+
+
+Overfull \hbox (37.2223pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 tion.The
+ []
+
+
+Overfull \hbox (18.61115pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 doc-
+ []
+
+
+Overfull \hbox (8.8889pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 u-
+ []
+
+
+Overfull \hbox (21.94449pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 ment
+ []
+
+
+Overfull \hbox (18.33339pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 may
+ []
+
+
+Overfull \hbox (18.61118pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 only
+ []
+
+
+Overfull \hbox (13.33334pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 de-
+ []
+
+
+Overfull \hbox (20.58336pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 clare
+ []
+
+
+Overfull \hbox (15.00003pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 one
+ []
+
+
+Overfull \hbox (36.83337pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 class..cls 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \documentclass[12pt]
+                        {scrbook}
+? 
+(/usr/share/texmf-texlive/tex/latex/tools/.tex File ignored)
+Overfull \hbox (33.94446pt too wide) in paragraph at lines 3--3
+[]\OT1/cmr/m/n/10 .cls
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \documentclass[12pt]
+                        {scrbook}
+? 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \par 
+l.3 \documentclass[12pt]
+                        {scrbook}
+? 
+
+Overfull \hbox (33.94446pt too wide) in paragraph at lines 3--3
+[]\OT1/cmr/m/n/10 .cls 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \documentclass[12pt]
+                        {scrbook}
+? 
+! Extra \endcsname.
+\reserved@a ...urrname .\@currext -h@@k\endcsname 
+                                                  \expandafter \let \csname ...
+l.3 \documentclass[12pt]
+                        {scrbook}
+? 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \par 
+l.3 \documentclass[12pt]
+                        {scrbook}
+? 
+! Extra \endcsname.
+\reserved@a ...urrname .\@currext -h@@k\endcsname 
+                                                  \@undefined \@unprocessedo...
+l.3 \documentclass[12pt]
+                        {scrbook}
+? 
+! Undefined control sequence.
+\reserved@a ...urrext -h@@k\endcsname \@undefined 
+                                                  \@unprocessedoptions } \@i...
+l.3 \documentclass[12pt]
+                        {scrbook}
+? 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.3 \documentclass[12pt]
+                        {scrbook}
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \ver@ 
+l.3 \documentclass[12pt]
+                        {scrbook}
+? 
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \ver@ 
+l.3 \documentclass[12pt]
+                        {scrbook}
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \ver@ 
+l.3 \documentclass[12pt]
+                        {scrbook}
+? 
+
+Overfull \hbox (37.27779pt too wide) in paragraph at lines 3--3
+[]\OT1/cmr/m/n/10 .cls-
+ []
+
+
+Overfull \hbox (43.66676pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 h@@k.cls-
+ []
+
+
+Overfull \hbox (26.38898pt too wide) in paragraph at lines 3--3
+\OT1/cmr/m/n/10 h@@k 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \documentclass[12pt]
+                        {scrbook}
+? 
+! Argument of \documentclass has an extra }.
+<inserted text> 
+                \par 
+l.3 \documentclass[12pt]
+                        {scrbook}
+? 
+Runaway argument?
+,\MessageBreak but only version\MessageBreak `\csname ver@\documentclass \ETC.
+! Paragraph ended before \documentclass was complete.
+<to be read again> 
+                   \par 
+l.3 \documentclass[12pt]
+                        {scrbook}
+? 
+
+LaTeX Warning: You have requested, on input line 3, version
+               `12pt' of document class \par 
+
+Overfull \hbox (30.00003pt too wide) in paragraph at lines 3--5
+[]\OT1/cmr/m/n/10 00
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 <00
+ []
+
+
+Overfull \hbox (14.58336pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 La-
+ []
+
+
+Overfull \hbox (18.33334pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 TeX
+ []
+
+
+Overfull \hbox (14.05557pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 Er-
+ []
+
+
+Overfull \hbox (15.61115pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 ror:
+ []
+
+
+Overfull \hbox (19.16669pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 Two
+ []
+
+
+Overfull \hbox (8.91669pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 or
+ []
+
+
+Overfull \hbox (21.11115pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 com-
+ []
+
+
+Overfull \hbox (42.83342pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 mandsSee
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (14.58336pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 La-
+ []
+
+
+Overfull \hbox (18.33334pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 TeX
+ []
+
+
+Overfull \hbox (22.22227pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 man-
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 ual
+ []
+
+
+Overfull \hbox (8.91669pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 or
+ []
+
+
+Overfull \hbox (14.58336pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 La-
+ []
+
+
+Overfull \hbox (18.33334pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 TeX
+ []
+
+
+Overfull \hbox (23.88893pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 Com-
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 pan-
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 ion
+ []
+
+
+Overfull \hbox (11.97226pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 for
+ []
+
+
+Overfull \hbox (13.05557pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 ex-
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 pla-
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 na-
+ []
+
+
+Overfull \hbox (37.2223pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 tion.The
+ []
+
+
+Overfull \hbox (18.61115pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 doc-
+ []
+
+
+Overfull \hbox (8.8889pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 u-
+ []
+
+
+Overfull \hbox (21.94449pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 ment
+ []
+
+
+Overfull \hbox (18.33339pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 may
+ []
+
+
+Overfull \hbox (18.61118pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 only
+ []
+
+
+Overfull \hbox (13.33334pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 de-
+ []
+
+
+Overfull \hbox (20.58336pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 clare
+ []
+
+
+Overfull \hbox (15.00003pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 one
+ []
+
+
+Overfull \hbox (56.58345pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10 class.scrbook
+ []
+
+(./test.aux)
+\openout1 = `test.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \begin{document}
+                    
+? 
+! Undefined control sequence.
+l.10 	\maketitle
+                
+? 
+! Undefined control sequence.
+l.11 	Here {\bf Bold Font} is used in {\Large
+                                              \bf Bold Format}.
+? 
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 	\newpage
+              
+? 
+! Undefined control sequence.
+\@oddfoot ->\reset@font \hfil \thepage 
+                                       \hfil 
+l.13 	\newpage
+              
+? 
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+[]\OT1/cmr/bx/n/10 Bold
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \end{document}
+                   
+? 
+! Undefined control sequence.
+\@oddfoot ->\reset@font \hfil \thepage 
+                                       \hfil 
+l.18 \end{document}
+                   
+? 
+[2] (./test.aux) )
+(\end occurred when \ifx on line 3 was incomplete) 
+Here is how much of TeX's memory you used:
+ 137 strings out of 493849
+ 1558 string characters out of 1152846
+ 49808 words of memory out of 3000000
+ 3494 multiletter control sequences out of 15000+50000
+ 3948 words of font info for 15 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 19i,4n,19p,172b,79s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on test.dvi (2 pages, 1048 bytes).

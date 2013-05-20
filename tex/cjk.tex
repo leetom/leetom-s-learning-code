@@ -1,0 +1,23 @@
+%!Tex program=pdflatex
+\documentclass[12pt]{scrbook}
+\usepackage{CJKutf8}
+\usepackage[
+unicode=true
+]{hyperref}
+%\usepackage{CJKnumb}
+
+\topmargin 30pt
+\textheight 20pt
+\begin{document}
+\begin{CJK}{UTF8}{song}
+\CJKcaption{zh-Hans}
+\tableofcontents
+       \chapter{飞刀与快剑}
+       测试文件
+       \chapter{海内存知己}
+       测试文件
+              \section {宝物动人心}
+              测试文件
+\newpage %CJK.txt中提到的一个HACK
+\end{CJK}
+\end{document}

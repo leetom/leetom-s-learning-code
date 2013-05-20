@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+
+while(<STDIN>){
+	if(/[Ff]red/){
+		print;
+	}else{
+		warn "Warning:".$_." no fred or Fred!";
+	}
+}

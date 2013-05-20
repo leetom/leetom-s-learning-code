@@ -1,0 +1,14 @@
+
+% layout 'default';
+% title 'Article';
+
+
+%= form_for url_for() => (method => 'POST')  => begin
+    %= t 'input', name => 'title'
+    %= t 'input', name => 'author'
+
+    %= text_area 'content'
+
+    %= submit_button
+
+% end

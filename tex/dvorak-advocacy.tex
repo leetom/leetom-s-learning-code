@@ -1,0 +1,133 @@
+%        File: robot-exp-report.tex
+%     Created: sam nov 20 04:00  2004 H
+% Last Change: sam nov 20 04:00  2004 H
+%
+\documentclass[a4paper,12pt,]{article}
+\usepackage{CJK}
+\usepackage[dvips]{graphicx}
+\usepackage{indentfirst}
+\usepackage[hyperindex,backref,colorlinks,dvips]{hyperref}
+\setlength{\parindent}{2em}
+\hyphenation{QWE-RTY}
+\def\st{\CJKfamily{song}}
+% macros for reducing keystrokes
+\def\q{QWERTY}
+\def\d{Dvorak}
+\def\heit{\CJKfamily{hei}}
+% Title
+\begin{CJK*}{GBK}{hei}
+%\CJKcaption{GB}
+\def\chntoday{\number\year\,年\,\number\month\,月\,\number\day\,日}
+\title{推广Dvorak键盘\thanks{本文就是在\d键盘下用\LaTeX写成的。}}
+\author{潘永之}
+\date{\chntoday}
+\begin{document}
+\maketitle
+\begin{abstract}
+  \CJKfamily{kai}
+  本文简单介绍了\q和\d键盘布局的历史，通过网络资料和自己使用\d的切身体会，阐明了\d胜于\q的事实，倡导人们使用\d键盘。\heit
+
+  关键字：人机工程，键盘，\d，\q。
+
+\end{abstract}
+\st
+{
+\heit
+\section{历史}
+\st
+今天我们最常见的计算机键盘的布局叫\q。\q的名字来自该键盘布局字母行最前面的六个字母(就在数字键下方)。\q是由Christopher Latham Sholes发明的，为此Sholes于1868年获得了一项专利\cite{dcrehr}。Sholes和他的同事对不同的打字机键盘布局做了各种实验，目的之一是解决打字速度较快时键经常卡住的问题，结果得到了我们熟悉的\q键盘。\q键盘最大可能地降低了打字速度，因为这是解决打字机卡键问题的有效途径。
+
+在\q键盘发明后，出现了许多不同的键盘布局和\q竞争，但都未能获得成功。1932年，在卡内基(Carnegie)基金会的赞助下，华盛顿州立大学(Washington State University)的August Dvorak教授发明了另一种键盘布局。该键盘以\d命名。\d{}键盘的理念和\q键盘的理念恰恰相反，它追求的是尽可能快的打字速度。\d键盘的基准行\footnote{这里基准行是像\q键盘里 ASDFGHJKL; 的那一行。}是由英语的5个元音字母和5个最常用的辅音字母组成：AOEUIDHTNS。把元音字母和辅音字母分置两边，打字时左右手要替换按键，就会产生弹钢琴那样的节奏感。用\d键盘，打字员可以双手不离开基准行而打出英语中最常用的400个单词，而\q键盘的这一数字只有100。\d键盘基准行的击键占所有击键的70\%，而\q键盘只有32\%。
+
+尽管\d键盘在技术上远远优于\q键盘，但后来试图证明\d优于\q的一些测试是经不起推敲的(其中一些是\d教授本人做的)，所以\d并没有得到推广。\footnote{关于\d作为技术上的优胜者却没有在市场上超过\q，这里有一篇从经济学角度思考的文章：http://reason.com/9606/Fe.QWERTY.shtml。}
+\begin{figure}[t]
+  \begin{center}
+    \includegraphics{dvorak.eps}
+  \end{center}
+  \caption{Dvorak键盘布局}
+  \label{fig:dvorak}
+\end{figure}
+
+\heit
+\section{优势和劣势}
+\begin{description}
+  \item[学习]\st 学习\d远比\q容易，对新打字员尤其如此。为\d设计的入门练习比\q的更像实际句子，更有趣，因为用基准行的字母就可以打出很多实际的单词。还记得{\em a sad lass; a dad falls\ldots}吗\cite{dwood}？
+\end{description}
+\begin{description}\heit
+  \item[速度]\st 通过恰当的训练，大多数\q打字员都可以转换到\d，并可以在大约一个月内获得他们原来的打字速度。
+
+    \d键盘把最常用的字母放在了最容易够到的位置，基准行的10个键自不必说，{\em Q, J, K, V, Z}等不常用的字母放在了下排较难够到的位置，而在上排的是更常用的字母。你在打字中会发现，上排的键总是比下排的键更好按些，准确率也更高一些。\d键盘把{\em ' , .}三个很常用的标点符号放在了\q的QWE的位置。这是多么巧妙！因为这三个标点比某些字母的出现频率还要高。这样的设计，使得\d的打字平均速度比\q要高。   
+\end{description}
+\begin{description}\heit
+  \item[舒适性]\st 这是\d的又一强项。\d是为英语精心设计的。\d的多数击键发生在基准行，这样可以减少手指的移动。在使用\d键盘时你会发现击键的噪声比\q下要小。为什么呢？因为你的手指移动的较少，你有更多时间击基准键，而基准键发出的声音往往小于远处的键。
+    
+    \d把字母更公平得分给了左右两只手，这样就不会有一只手打整个一个单词，例如{\em agree, fact, grass, greater, opinion, regard\ldots}\,\cite{mwbrooks}。
+\end{description}
+\begin{description}\heit
+  \item[准确率]\st 许多人常常把某些字母组合打错。在\q下，最常打错的字母组合都是常用、且容易拼写的，许多只要2个或3个字母。\d也有容易打错的字母组合，但它们更长、更难拼写。只有一个({\em new})短于4个字母。这一点\d屈于下风。
+\end{description}
+\begin{description}\heit
+  \item[兼容性]\st 因为\q占了绝大多数份额，在这一点\q还是赢家。虽然现代的计算机都可以很容易地把键盘映射为\d，但在一些情况下却比较别扭，困难，甚至不方便:
+    \begin{itemize}
+      \item 你经常要用不同的计算机，使你不能完全摆脱\q。
+    \end{itemize}
+    \begin{itemize}
+      \item 你不得不使用某个忽略系统键盘映射的糟糕的软件，而你又不愿买或是买不到硬\d键盘。
+    \end{itemize}
+\end{description}\heit
+\section{转换}\st
+\subsection{现状}
+\d和\q一样，都是为英语设计的。那么，我们中国人会不会受益于\d速度快、舒适的优点呢？我从\q转变到\d不到两个星期，发现\d不但可以减少输入英文时手指的移动距离，对中文输入也有同样的效果。这里假设你用的是拼音输入法。每个汉语拼音里面都少不了AOEUI这5个元音中的一个或几个，而它们正是放在你左手下面的5个键，输入拼音就会减少很多手指移动距离，而且左右手交替击键的节奏性更强，手指和手腕不易疲劳。虽然\d不是为中文设计的，但用它输入中文你依然会受益匪浅。有上可推知，\d布局的法语键盘也会比\q键盘更友好。
+
+%\begin{sloppypar}
+苹果电脑公司的Mac OS X操作系统虽然比微软的Windows操作系统要优秀，但其占的市场份额却只有5\%左右。\d键盘的状况与此类似，虽然它比\q键盘更适合使用，但主流却是\q键盘。人类对现有产品的惯性，使得先出现的产品比后来者有了很大的优势。当一个产品可用甚至不赖的时候，大多数人都会拒绝新的替代品：我为什么要花时间和金钱，去用一个实现同样功能的新东西呢？毫无疑问，这是人类愚蠢的地方。
+%\end{sloppypar}
+
+尽管如此，我们还是要推广\d键盘。不管\d和\q键盘占的比重有多少，都不会对某个利益集团产生多少影响。在现代的操作系统改变键盘布局易如反掌，只是从一种键盘布局到另一种键盘布局需要一段过渡期。
+
+\subsection{建议}
+为了使到\d键盘的转换更容易一些，下面一些建议会有帮助：
+\begin{itemize}
+	\item 让初学打字的人一开始就使用\d键盘，而不是用熟了\q键盘再用\d键盘。
+	\item 如果打算转换到\d键盘，那就完全抛弃\q键盘，这样才会尽快适应新的键盘布局。
+	\item 在练习时千万不要低下头看你的键盘。盲打是练习方式，也是最终目标。
+	\item 不要因为打字速度的下降而灰心。打字速度的波动是正常的，最后总是会提高的。
+	\item 练习时不要只看速度而忽略准确率。删除一个错的字母会花去你很多的时间。
+	\item 每天不要练习太长时间。当你厌烦时，不妨做些其它有意思的事情。
+\end{itemize}
+
+
+\subsection{方法}
+下面介绍一下在Debian GNU/Linux下如何把键盘布局改为\d。其它操作系统下可参考网上相关文档或者求助懂这个的人。\heit
+\subsubsection{控制台}\st
+以root用户执行
+\begin{quote}
+  \#/usr/sbin/base-config
+\end{quote}
+然后按照提示选择\d键盘布局即可。这样改过之后所有用户都将使用\d键盘。此方法只适用Debian GNU/Linux，因base-config是Debian GNU/Linux特有的配置程序。
+\subsubsection{X Window}
+在你的XFree86配置程序里找到下面一行：
+\begin{quote}
+  Option          ``XkbLayout''     ``us''
+\end{quote}
+改为(要以root身份)
+\begin{quote}
+  Option          ``XkbLayout''     ``dvorak''
+\end{quote}
+然后重启X即可。
+或者用
+\begin{quote}
+  \$ xmodmap /usr/share/xmodmap/xmodmap.dvorak
+\end{quote}
+即可不必重启X而换为\d键盘。
+}
+\begin{thebibliography}{99}
+    \bibitem{dcrehr} Darryl C. Rehr. \emph{Consider QWERTY, the typewriter keyboard\ldots },
+    http://home.earthlink.net/~dcrehr/whyqwert.html
+    \bibitem{dwood} Dan Wood. \emph{ ABCD: A Basic Course in Dvorak}, an HTML-based tutorial for \d,
+    http://www.gigliwood.com/abcd/
+  \bibitem{mwbrooks} Marcus W. Brooks. \emph{Dvorak Pros and Cons}, Available online from  
+    http://www.mwbrooks.com/dvorak/procon.html
+\end{thebibliography}
+\end{CJK*}
+\end{document}

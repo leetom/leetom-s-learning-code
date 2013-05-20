@@ -1,0 +1,11 @@
+
+% layout 'default';
+% title 'Article';
+
+
+%= $id
+<h2><%= $title %></h2>
+<p>created by <%= $author %></p>
+<h2><%= $view %></h2>
+<p><%= $content %></p>
+

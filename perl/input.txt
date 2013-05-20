@@ -1,0 +1,11 @@
+John Do: pass 59%
+Alice Do: fail 30%
+Bob Do: PAss 80%
+this is: pass 2%
+and is: paSS 22%
+
+
+
+
+__END__
+this is a nother line;

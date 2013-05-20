@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<title>Web Storage Example</title>
+	<script>
+		function init(){
+//			var ls = window.localStorage;
+//			ls.helo = "hello world";
+//			ls['what'] = "what's up?";
+//			ls['gg'] = "Google.com.hk";
+
+		}
+		function show(){
+			var ls = window.localStorage;
+			var ss = document.getElementById('show');
+			for (var i in ls){
+				var el = document.createElement('span');
+				el.innerHTML ="The element " + i + " is " + ls[i] + "<hr />";
+				ss.appendChild(el);
+			}
+		}
+
+		window.onload = init();
+	</script>
+
+</head>
+<body>
+	<input type='button' value='show All'  onclick='show()' />
+	<p id='show' ></p>
+</body>
+</html>
+

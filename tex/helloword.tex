@@ -1,0 +1,17 @@
+%helloword
+\documentclass[cjk]{article}
+\usepackage{CJK}
+\begin{document}
+\begin{CJK*}{UTF8}{gkai}
+  here is the code: \verb|commond|
+  \begin{verbatim}
+  printf("hello, world!");
+  \end{verbatim}
+  Click \pageref{first} \ref{first} and go!
+  \newpage
+  \label{first}
+  Here is the first label!中文
+  This is a footnote.\footnote{haha, footnote}
+
+\end{CJK*}
+\end{document}

@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+  <head><title><%= title %></title></head>
+  <body>
+    <%= content %>
+    <footer>This is a test app</footer>
+  </body>
+</html>

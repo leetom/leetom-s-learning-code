@@ -1,0 +1,62 @@
+<!--DOCTYPE html-->
+<html>
+<head>
+<script type="text/javascript">
+
+var Book = (function(){
+	//Private static attributes
+	var numOfBooks = 0;
+	
+	//Private static method.
+	function checkIsbn(){
+	//
+	}
+
+	//Return the constructor.
+	return function(newIsbn, newTitle, newAuthor){//implements Publication
+		
+		//Private attributes.
+		var isbn, title, author;
+		//Privileged methods.
+		this.getIsbn = function(){
+			return isbn;
+		};
+		this.setIsbn = function(newIsbn){
+			if(!checkIsbn(newIsbn)) throw new Error('Book: Invalid ISBN.');
+			isbn = newIsbn;
+		};
+		this.getTitle = function(){
+			return title;
+		};
+		this.setTitle(newTitle){
+			title = newTitle || 'No author specified';
+		};
+		this.getAuthor = function(){
+			return author;
+		};
+		this.setAuthor = function(){
+			author = newAuthor || 'No author specified';
+		};
+	
+		//Constructor code.
+		numOfBooks++;
+		if(numOfBooks >50) throw new Error('Book: Only 50 instance of Book can be created');
+		
+		this.setIsbn(newIsbn);
+		this.setTitle(newTitle);
+		this.setAuthor(newAuthor);
+	}
+})();
+
+//Public static method.
+Book.convertToTitleCase = function(inputString){
+	//code here
+};
+
+//Public, non-privileged methods.
+Book.prototype = {
+	display:function(){
+		//code here
+		},
+	// other properties
+	};

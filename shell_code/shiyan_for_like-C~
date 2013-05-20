@@ -1,0 +1,5 @@
+#! /bin/bash
+for (( i = 1;i <=1000;i++ ));
+	do
+	echo this is the  ${i}st time  #"$i"st time is OK too
+	done

@@ -1,0 +1,1 @@
+wget --keep-session-cookies --save-cookies cookies.txt --post-data "formhash=3512648b&loginfield=username&username=leetom&password=f47524e9bb09c30fefeb0714450f1343&questionid=0&loginsubmit=true&cookietime=2592000" "http://www.52v6.com/ptflicker/logging.php?action=login&loginsubmit=yes&floatlogin=yes"

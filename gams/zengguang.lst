@@ -1,0 +1,159 @@
+GAMS Rev 237  LNX-LNX 23.7.2 x86/Linux                                                                                                                                                                                                 03/03/12 15:00:28 Page 1
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+C o m p i l a t i o n
+
+
+   1  variables
+   2          x1
+   3          x2
+   4          fn
+   5  ;
+   6   
+   7  equations
+   8          obj
+   9          st
+  10  ;
+  11  obj .. fn =e= (x1 +1) ** 2 + x2 ** 2;
+  12  st .. x1 + x2 =g= 1;
+  13   
+  14  model zengguang /all/;
+  15  solve zengguang using nlp minimizing fn;
+  16  display x1.l, x2.l;
+
+
+COMPILATION TIME     =        0.000 SECONDS      2 Mb  LNX237-237 Jul 21, 2011
+GAMS Rev 237  LNX-LNX 23.7.2 x86/Linux                                                                                                                                                                                                 03/03/12 15:00:28 Page 2
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Equation Listing    SOLVE zengguang Using NLP From line 15
+
+
+---- obj  =E=  
+
+obj..  - (2)*x1 + (0)*x2 + fn =E= 0 ; (LHS = -1, INFES = 1 ****)
+     
+
+---- st  =G=  
+
+st..  x1 + x2 =G= 1 ; (LHS = 0, INFES = 1 ****)
+     
+GAMS Rev 237  LNX-LNX 23.7.2 x86/Linux                                                                                                                                                                                                 03/03/12 15:00:28 Page 3
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Column Listing      SOLVE zengguang Using NLP From line 15
+
+
+---- x1  
+
+x1
+                (.LO, .L, .UP, .M = -INF, 0, +INF, 0)
+      (-2)      obj
+        1       st
+
+
+---- x2  
+
+x2
+                (.LO, .L, .UP, .M = -INF, 0, +INF, 0)
+       (0)      obj
+        1       st
+
+
+---- fn  
+
+fn
+                (.LO, .L, .UP, .M = -INF, 0, +INF, 0)
+        1       obj
+
+GAMS Rev 237  LNX-LNX 23.7.2 x86/Linux                                                                                                                                                                                                 03/03/12 15:00:28 Page 4
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Model Statistics    SOLVE zengguang Using NLP From line 15
+
+
+MODEL STATISTICS
+
+BLOCKS OF EQUATIONS           2     SINGLE EQUATIONS            2
+BLOCKS OF VARIABLES           3     SINGLE VARIABLES            3
+NON ZERO ELEMENTS             5     NON LINEAR N-Z              2
+DERIVATIVE POOL               6     CONSTANT POOL              16
+CODE LENGTH                  11
+
+
+GENERATION TIME      =        0.002 SECONDS      3 Mb  LNX237-237 Jul 21, 2011
+
+
+EXECUTION TIME       =        0.002 SECONDS      3 Mb  LNX237-237 Jul 21, 2011
+GAMS Rev 237  LNX-LNX 23.7.2 x86/Linux                                                                                                                                                                                                 03/03/12 15:00:28 Page 5
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Solution Report     SOLVE zengguang Using NLP From line 15
+
+
+               S O L V E      S U M M A R Y
+
+     MODEL   zengguang           OBJECTIVE  fn
+     TYPE    NLP                 DIRECTION  MINIMIZE
+     SOLVER  CONOPT              FROM LINE  15
+
+**** SOLVER STATUS     1 Normal Completion         
+**** MODEL STATUS      2 Locally Optimal           
+**** OBJECTIVE VALUE                2.0000
+
+ RESOURCE USAGE, LIMIT          0.028      1000.000
+ ITERATION COUNT, LIMIT         4    2000000000
+ EVALUATION ERRORS              0             0
+CONOPT 3         Jul 14, 2011 23.7.2 LNX 27052.27054 LNX x86/Linux            
+ 
+ 
+    C O N O P T 3   version 3.14Y
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+    The model has 3 variables and 2 constraints
+    with 5 Jacobian elements, 2 of which are nonlinear.
+    The Hessian of the Lagrangian has 2 elements on the diagonal,
+    0 elements below the diagonal, and 2 nonlinear variables.
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+ 
+ CONOPT time Total                            0.028 seconds
+   of which: Function evaluations             0.000 =  0.0%
+             1st Derivative evaluations       0.000 =  0.0%
+ 
+
+                           LOWER          LEVEL          UPPER         MARGINAL
+
+---- EQU obj                 .              .              .             1.0000      
+---- EQU st                 1.0000         1.0000        +INF            2.0000      
+
+                           LOWER          LEVEL          UPPER         MARGINAL
+
+---- VAR x1                -INF      -4.84057E-13        +INF             .          
+---- VAR x2                -INF            1.0000        +INF            EPS         
+---- VAR fn                -INF            2.0000        +INF             .          
+
+
+**** REPORT SUMMARY :        0     NONOPT
+                             0 INFEASIBLE
+                             0  UNBOUNDED
+                             0     ERRORS
+GAMS Rev 237  LNX-LNX 23.7.2 x86/Linux                                                                                                                                                                                                 03/03/12 15:00:28 Page 6
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+E x e c u t i o n
+
+
+----     16 VARIABLE x1.L                  =  -4.8406E-13  
+            VARIABLE x2.L                  =        1.000  
+
+
+EXECUTION TIME       =        0.000 SECONDS      2 Mb  LNX237-237 Jul 21, 2011
+
+
+USER: GAMS Development Corporation, Washington, DC   G871201/0000CA-ANY
+      Free Demo,  202-342-0180,  sales@gams.com,  www.gams.com   DC0000
+
+
+**** FILE SUMMARY
+
+Input      /home/leetom/code/gams/zengguang.gms
+Output     /home/leetom/code/gams/zengguang.lst

@@ -1,0 +1,351 @@
+\documentclass[cjk,slidestop,mathserif,hyperref={CJKbookmarks=true}]{beamer}
+\usepackage{CJK}
+%\usepackage[space,noindent]{ctex}
+\usepackage{beamerthemesplit} 
+\usepackage{graphicx}
+\usepackage{listings}
+%\usepackage{CJKutf8}
+\usetheme{Warsaw}
+\usecolortheme{crane}
+\usecolortheme{seagull}
+
+%\useinnertheme[shadow]{rounded}
+
+\usepackage{beamerthemeshadow}
+\setbeamertemplate{blocks}[rounded][shadow=true]
+
+\setbeamertemplate{footline}[frame number]
+
+\lstset{
+    language=c,
+    basicstyle=\ttfamily,
+    keywordstyle=\color{blue}\ttfamily,
+    stringstyle=\color{red}\ttfamily,
+    commentstyle=\color{green}\ttfamily,
+    basicstyle=\footnotesize,
+}
+
+\begin{document}
+\begin{CJK*}{UTF8}{gkai}
+%\CJKtilde\CJKcaption{GB}
+
+%\defverbatim{\Lst}{%
+\title{循环控制}	%标题
+\author{Xuehui Song}	%作者
+\institute{ECE, PKUSZ} %机构
+%\logo{\includegraphics[width=12mm]{pku2.png}} %logo
+%\usebackgroundtemplate{\includegraphics[width=\paperwidth]{background.jpg}}
+
+\frame{\titlepage}
+ 
+\frame{\tableofcontents}
+
+\frame{
+    \frametitle{概述}
+    \begin{definition}
+        循环结构是程序中一种很重要的结构。其特点是,在给定条件成立时,反复执行某程序段,
+        直到条件不成立为止。给定的条件称为循环条件,反复执行的程序段称为循环体。
+        C语言提供了多种循环语句,可以组成各种不同形式的循环结构。
+        \begin{itemize}
+            \item 用 goto 语句和 if 语句构成循环;
+            \item 用 while 语句;
+            \item 用 do-while 语句;
+            \item 用 for 语句;
+        \end{itemize}
+    \end{definition}
+}
+
+\section{基本循环语句}
+\subsection{while语句}
+\begin{frame}[fragile]
+    \frametitle{while语句}
+    \begin{columns}
+        \column{6cm}
+            \begin{definition}
+                while 语句的一般形式为:\\
+                \quad\textbf{while(表达式)\\ \qquad 语句}
+            \end{definition}
+            其中表达式是循环条件,语句为循环体。
+            while 语句的语义是:计算表达式的值,当值为真(非 0)时, 执行循环体。
+        \column{5cm}
+            \begin{figure}
+                \includegraphics[width=4.5cm]{while.pdf}
+            \end{figure}
+
+
+    \end{columns}
+\end{frame}
+
+
+\begin{frame}[fragile]
+    \frametitle{while例子}
+    \begin{columns}
+    \column{6cm}
+    用while语句求$\sum\limits_{i=1}^{n}i^3$
+    \begin{lstlisting}[language=c]
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+    int n, i = 0, sum = 0;
+    scanf("%d", &n);
+    while(i <= n) {
+        sum += i * i * i;
+        ++ i;
+    }
+    printf("sum=%d\n", sum);
+    return 0;
+}
+    \end{lstlisting}
+    \column{5cm}
+        \begin{figure}
+            \includegraphics[width=4.5cm]{while_e.pdf}
+        \end{figure}
+    \end{columns}
+\end{frame}
+
+\subsection{do-while}
+\begin{frame}[fragile]
+    \frametitle{do-while}
+
+    \begin{columns}
+        \column{6cm}
+        \begin{definition}
+            do-while 语句的一般形式为: \\
+            \textbf{\quad do \\
+                \qquad 语句 \\
+                \quad while(表达式);}
+        \end{definition}
+do-while先执行循环中的语句,然后再判断表达式是否为
+真, 如果为真则继续循环;如果为假, 则终止循环。因此, do-while 循环至少要执行一次
+循环语句。其执行过程可用右图表示。
+        \column{5cm}
+            \begin{figure}[!t]
+                \includegraphics[width=4.5cm]{do_while.pdf}
+            \end{figure}
+    \end{columns}
+\end{frame}
+
+\begin{frame}[fragile]
+    \frametitle{do-while例子}
+
+    用do-while语句求$\sum\limits_{i=1}^{n}i^3$
+    \begin{lstlisting}[language=c]
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+    int n, i = 0, sum = 0;
+    scanf("%d", &n);
+    do {
+        sum += i * i * i;
+        ++i;
+    } while(i <= n);
+    printf("sum=%d\n", sum);
+    return 0;
+}
+    \end{lstlisting}
+\end{frame}
+
+\subsection{for语句}
+\begin{frame}[fragile]
+    \frametitle{for语句}
+    \begin{columns}
+        \column{6.5cm}
+            \begin{definition}
+                在 C 语言中,for 语句使用最为灵活,可以取代 while 语句。它的一般形式为:\\
+                \textbf{
+                \quad for(表达式 1;表达式 2;表达式 3) \\
+                \qquad 语句}
+            \end{definition}
+            它的执行过程如下:
+            \begin{enumerate}
+                \item 先求解表达式 1。
+                \item 求解表达式 2,若为真(非 0),则执行指定的内嵌语句,
+                    然后执行第3步;
+                    若为假(0),则结束循环
+                \item 求解表达式3。
+                \item 转回上面第2步继续执行。
+            \end{enumerate}
+        \column{4.5cm}
+            \begin{figure}[!t]
+                \includegraphics[width=4cm]{for.pdf}
+            \end{figure}
+    \end{columns}
+\end{frame}
+
+\begin{frame}[fragile]
+    \frametitle{for例子}
+
+    用for语句求$\sum\limits_{i=1}^{n}i^3$
+    \begin{lstlisting}[language=c]
+#include <stdio.h>
+int main() {
+    int n, i, sum;
+    scanf("%d", &n);
+    for (i = 0, sum = 0; i <= n; ++i) {
+        sum += i * i * i;
+    }
+    printf("sum=%d\n", sum);
+}
+    \end{lstlisting}
+\textbf{for(循环变量赋初值;循环条件;循环变量增量) \\ \qquad 语句}
+
+\end{frame}
+
+\begin{frame}[fragile, allowframebreaks]
+    \frametitle{for注意事项}
+    \begin{enumerate}
+        \item for 循环中的“表达式 1(循环变量赋初值)”、“表达式 2(循环条件)”和
+        “表达式 3(循环变量增量)”都是选择项, 即可以缺省,但“;”不能缺省
+        \item 省略了“表达式 1(循环变量赋初值)”，应在for语句之前给循环变量赋初值。
+            \begin{lstlisting}[language=c]
+    int n, i = 0, sum = 0;
+    for (; i <= n; ++i) {
+        sum += i * i * i;
+    }
+            \end{lstlisting}
+        \item 省略了“表达式 2(循环条件)”, 默认循环条件始终为真，则不做其它处理时便成为死循环。
+            \begin{lstlisting}[language=c]
+    for (i = 0; ; ++i) {
+        sum += i * i * i;
+    }
+            \end{lstlisting}
+            修改为：
+            \begin{lstlisting}[language=c]
+    for (i = 0; ; ++i) {
+        if (i > n) break;
+        sum += i * i * i;
+    }
+            \end{lstlisting}
+        \item 省略了“表达式 3(循环变量增量)”, 则不对循环控制变量进行操作,这时可在语句体中
+加入修改循环控制变量的语句。
+            \begin{lstlisting}[language=c]
+    for (i = 0; i <= n;) {
+        sum += i * i * i;
+        i = i + 1;
+    }
+            \end{lstlisting}
+        \item 省略了“表达式 1(循环变量赋初值)”和“表达式 3(循环变量增量)”，只保留“表达式 2(循环条件)”。
+            \begin{lstlisting}[language=c]
+    for (; i <= n;) {
+        sum += i * i * i;
+        i = i + 1;
+    }
+            \end{lstlisting}
+            相当于：
+            \begin{lstlisting}[language=c]
+    while (i <= n) {
+        sum += i * i * i;
+        i = i + 1;
+    }
+            \end{lstlisting}
+        \item 3 个表达式都可以省略。
+            \begin{lstlisting}[language=c]
+    for (; ; ) {
+        sum += i * i * i;
+    }
+            \end{lstlisting}
+            相当于：
+            \begin{lstlisting}[language=c]
+    while (1) {
+        sum += i * i * i;
+    }
+            \end{lstlisting}
+    \end{enumerate}
+\end{frame}
+
+\section{扩展}
+\subsection{循环嵌套}
+
+\begin{frame}[fragile]
+    \frametitle{循环嵌套}
+    \begin{definition}
+        一个循环体内又包含一个完整的循环结构，称为循环的嵌套。内嵌的循环中还可以嵌套循环，这就是多层循环。
+    \end{definition}
+    输出99乘法表
+        \begin{lstlisting}[language=c]
+#include <stdio.h>
+int main() {
+    int i, j;
+    for (i = 1; i <= 9; ++i) {
+        for (j = 1; j <= 9; ++j) {
+            printf("%5d", i * j);
+        }
+        printf("\n");
+    }
+}
+        \end{lstlisting}
+\end{frame}
+
+\subsection{几种循环的比较}
+\begin{frame}[fragile]
+    \frametitle{几种循环的比较}
+    \begin{itemize}
+        \item 四种循环都可以用来处理同一个问题,一般可以互相代替。但一般不提倡用 goto 型循
+环。
+        \item while 和 do-while 循环,循环体中应包括使循环趋于结束的语句。for 语句功能最强。
+        \item 用 while 和 do-while 循环时,循环变量初始化的操作应在 while 和 do-while 语句之前完
+成,而 for 语句可以在表达式 1 中实现循环变量的初始化。
+    \end{itemize}
+\end{frame}
+
+\section{break和continue}
+\subsection{break语句}
+\begin{frame}[fragile]
+    \frametitle{break语句}
+    \begin{definition}
+        break 语句通常用在循环语句和开关语句中。
+        \begin{enumerate}
+            \item 当 break 用于开关语句 switch 中时,可使程序跳出 switch 而执行 switch 以后的语句
+            \item 当 break 语句用于 do-while、for、while 循环语句中时,可使程序终止循环而执行循环后面的语句, 通常 break 语句总是与 if 语句联在一起。即满足条件时便跳出循环。
+        \end{enumerate}
+    \end{definition}
+\end{frame}
+
+\subsection{continue}
+\begin{frame}[fragile]
+    \frametitle{continue语句}
+    \begin{definition}
+    continue 语句的作用是跳过循环本中剩余的语句而强行执行下一次循环。continue 语
+句只用在 for、while、do-while 等循环体中,常与 if 条件语句一起使用。
+    \end{definition}
+    求1到10中，不是3倍数的数的阶乘的和，也就是$1!+2!+4!+\dots+10!$
+        \begin{lstlisting}[language=c]
+#include <stdio.h>
+int main() {
+    int sum = 0, fac, i, j;
+    for(i = 1; i <= 10; ++i) {
+        if (i % 3 == 0) continue;
+        fac = 1;
+        for(j = 1; j <= i; ++j) fac = fac * j;
+        sum += fac;
+    }
+}
+        \end{lstlisting}
+\end{frame}
+
+\subsection{循环例子}
+\begin{frame}[fragile]
+    \frametitle{例子}
+    \begin{enumerate}
+        \item 用$\pi \approx 1 - \dfrac{1}{3} + \dfrac{1}{5}-\dfrac{1}{7}+\dots$公式求$\pi$的近似值，直到某一项的绝对值小于$10^{-8}$为止
+        \item 输入n，统计1到n中回文数字的个数，所谓回文数就是从左往右和从右往左看是一样的数，如33，151，2442等
+        \item 输入n，统计1到n中素数的个数
+        \item NOIP提高组2005 \quad 谁拿了最多奖学金 \\
+        https://vijos.org/p/1001
+        \item NOIP提高组2004 \quad 津津的储蓄计划 \\
+        https://vijos.org/p/1096
+    \end{enumerate}
+\end{frame}
+
+
+
+\frame{
+    \frametitle{Questions and answers}
+    \begin{figure}
+        \includegraphics[width=6cm]{faq.jpg}
+    \end{figure}
+}
+
+
+\end{CJK*}
+\end{document}

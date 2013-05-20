@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="zh-CN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>CNode社区 &rsaquo; 注册表单</title>
+<link rel='stylesheet' id='login-css'  href='http://cnodejs.org/blog/wp-admin/css/login.css?ver=20110610' type='text/css' media='all' />
+<link rel='stylesheet' id='colors-fresh-css'  href='http://cnodejs.org/blog/wp-admin/css/colors-fresh.css?ver=20110703' type='text/css' media='all' />
+<script type='text/javascript' src='http://cnodejs.org/blog/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://cnodejs.org/blog/wp-includes/js/jquery/jquery.js?ver=1.6.1'></script>
+<script type='text/javascript' src='http://cnodejs.org/blog/wp-content/plugins/gtranslate/jquery-translate.js?ver=3.2.1'></script>
+				<style type="text/css">
+					#login h1 a {
+						background-image: url("http://cnodejs.org/blog/wp-content/uploads/2011/07/cnodejs_logo_small.png");
+						margin: 0 0 0 8px;
+						width: 300px;
+						height: 60px;
+					}
+				</style>
+				
+<style type="text/css">
+small { display:block; margin-bottom:8px; }
+#about { font-size:24px; width:97%; padding:3px; margin-top:2px; margin-right:6px; margin-bottom:16px; border:1px solid #e5e5e5; background:#fbfbfb; }
+#about { font-size:24px; height: 60px; width:97%; padding:3px; margin-top:2px; margin-right:6px; margin-bottom:16px; border:1px solid #e5e5e5; background:#fbfbfb; }
+#pass1, #pass2 { font-size:24px; width:97%; padding:3px; margin-top:2px; margin-right:6px; margin-bottom:16px; border:1px solid #e5e5e5; background:#fbfbfb; }
+#disclaimer { font-size:12px; display: block; width: 97%; padding: 3px; margin-top:2px; margin-right:6px; margin-bottom:8px; background-color:#fff; border:solid 1px #A7A6AA; font-weight:normal; }
+.accept_check { display:block; margin-bottom:8px; }
+#reg_passmail { display: none; }
+#user_login, #user_email { border:solid 1px #E6DB55; background-color:#FFFFE0;} 
+#pass1, #pass2 { border:solid 1px #E6DB55; background-color:#FFFFE0; }
+#login { width: 600px; }
+</style><style type="text/css" media="screen">
+    * { font: 12px Segoe UI,Tahoma,Arial,Verdana,simsun,sans-serif,"Microsoft YaHei"; }
+</style>
+<meta name='robots' content='noindex,nofollow' />
+</head>
+<body class="login">
+<div id="login"><h1><a href="http://cnodejs.org/blog" title="CNode社区">CNode社区</a></h1>
+<p class="message register">在这个站点注册</p>
+
+<form name="registerform" id="registerform" action="http://cnodejs.org/blog/wp-login.php?action=register" method="post">
+	<p>
+		<label>用户名<br />
+		<input type="text" name="user_login" id="user_login" class="input" value="" size="20" tabindex="10" /></label>
+	</p>
+	<p>
+		<label>电子邮件<br />
+		<input type="text" name="user_email" id="user_email" class="input" value="" size="25" tabindex="20" /></label>
+	</p>
+
+<p id="about-p"><label id="about-label" for="about">About Yourself</label><br />
+<small id="about_msg">Share a little biographical information to fill out your profile. This may be shown publicly.</small><br />
+<textarea name="about" id="about" cols="25" rows="5"tabindex="21" ></textarea></p>
+<p id="pass1-p"><label id="pass1-label">Password<br /><input type="password" autocomplete="off" name="pass1" id="pass1" value="" size="25" tabindex="22" /></label></p>
+<p id="pass2-p"><label id="pass2-label">Confirm Password<br /><input type="password" autocomplete="off" name="pass2" id="pass2" value="" size="25" tabindex="23" /></label></p>
+<p id="disclaimer-p">
+	<label id="disclaimer_title">欢迎加入社区</label><br />
+	<span name="disclaimer" id="disclaimer">CNode社区为国内最专业的Node专业技术社区。
+注册用户后，可以直接在网站上自行投稿。
+
+同时请关注社区的微博 http://weibo.com/cnodejs
+如果有其他问题，可以给我们发邮件: nodejs # 126.com</span>
+</p>	<p id="reg_passmail">密码将通过电子邮件发送给您。</p>
+	<br class="clear" />
+	<input type="hidden" name="redirect_to" value="" />
+	<p class="submit"><input type="submit" name="wp-submit" id="wp-submit" class="button-primary" value="注册" tabindex="100" /></p>
+</form>
+
+<p id="nav">
+<a href="http://cnodejs.org/blog/wp-login.php">登录</a> |
+<a href="http://cnodejs.org/blog/wp-login.php?action=lostpassword" title="找回密码">忘记密码？</a>
+</p>
+
+	<p id="backtoblog"><a href="http://cnodejs.org/blog/" title="不知道自己在哪？">&larr; 回到 CNode社区</a></p>
+	</div>
+
+<script type="text/javascript">
+try{document.getElementById('user_login').focus();}catch(e){}
+if(typeof wpOnload=='function')wpOnload();
+</script>
+
+</body>
+</html>
+<!-- WP Super Cache is installed but broken. The path to wp-cache-phase1.php in wp-content/advanced-cache.php must be fixed! -->

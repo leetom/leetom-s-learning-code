@@ -1,0 +1,270 @@
+gtk2-perl编程入门
+2010-03-31 10:29	 阿炯   
+一、介绍
+
+gtk2-perl 是 Gtk+ 的 perl 绑定。
+
+Gtk+ 是Gnu 项目,也就是自由软件基金会重点发展的 gui 开发平台。Gtk+ 是 C 编写的多平台 gui 开发工具。Gtk+ 最初起源于一个叫做 Gimp 的图像处理软件(可以说是 Linux 下的 photoshop)，后来由于 Gimp 软件的需求，渐渐的发展出了一整套的 gui 开发工具包也就是现在 Gtk+ 的前身。最后 Gtk+ 完全独立了出来，成为了一个gui开发平台。Gtk+ 现在有两大版本一个是 Gtk+ 1.X 版本，这是最早的 Gtk 版本，现在基本已经退出人们的视线；另一个版本就是 Gtk+ 2.X 版本，这是在 1.X 版本基础上重新开发的，采用了很多 gui 开发的最新功能，是我们现在使用的版本。
+
+Gtk+ 的主页：http://www.gtk.org Gtk+ 本身是纯 C 编写的，这是因为当初的开发者可以很容易的找到高质量的 C 编译器，而且用 C 编写利于往其他语言的移植。C语言本身不是面向对象的语言，但是由于 Gtk+ 开发者的努力，在 Gtk+ 中很多的实现都是按照面向对象的方式来实现的。为了将 Gtk+ 这个 gui 开发平台推广出去，有很多的开源爱好者或者公司就将这个gui 开发平台移植到各种语言上来，这其中就包含了 perl，也就是现在的 gtk2-perl(Gtk-perl 是指 gtk 的第一个版本的 perl移植，gtk2-perl 指 gtk+ 2.0 以后的 perl 移植)。
+
+gtk2-perl 紧随着 Gtk+ 的发展而不断的发展。gtk2-perl 最初它被用来在 Mandrake linux 上开发"安装与系统配置软件"，这一项目也大大促进了gtk2-perl的发展，很多人都通过这个项目认识了 gtk2-perl，笔者也是如此。gtk2-perl 的编写者就有 Mandrake linux 的员工。现在，gtk2-perl 仍然在不断的改进更新。gtk2-perl的主页：http://gtk2-perl.sf.net 。
+
+图形用户界面(Graphical User Interface 简称 gui)编程通常并不简单，它们的学习曲线有点像抛物线，最初的学习总是很难以理解，gtk2-perl 也没有例外。但是比起大多数其他的 gui 开发工具，gtk2-perl 的最初学习还是要容易很多，下面我们就开始详细介绍 gtk2-perl。
+
+二、安装与测试
+
+gtk2-perl 的正常运行需要以下的几个模块：
+
+a) Gtk+ 2.2 以上的版本，推荐使用最新的 Gtk+2.18.6。Gtk+ 并不是一个整体，它一般由这么几个分模块组成：
+Glib：Gtk+ 的底层核心库。它提供了C的数据结构控制，易用的封装与接口，例如：事件循环，线程，动态加载，对消系统。
+
+Pango：一个用来排版和渲染文字的库，强调国际化的支持。它构成了 Gtk+ 文字与字体控制的核心。
+
+Atk：为 gtk+ 提供一系列封装接口的库。是 Gtk+ 的内部库，一般开发者用不到。
+
+Gtk+：还有就是 Gtk+ 本身了。
+
+这些模块都需要单独的安装。
+
+b) gtk2-perl 1.06 以上的版本，推荐使用项目主页上的最新版。gtk2-perl 准确的说是由两个分模块组成，一个是 perl 的 Glib，一个是 perl 的 Gtk+。perl的Glib对应了Gtk+中的Glib，perl的Gtk+则对应了Gtk+中的Gtk+、pango、atk(在gtk2-perl 中将这些分模块包装到了一起)。
+
+我们重点来说一下在 win32 下安装 gtk2-perl 的步骤：
+
+a) Gtk开发环境的安装
+下载网址：http://gladewin32.sourceforge.net 安装最新的即可。在这个页面上一般提供两种安装包：一个是 Gtk+  Development Environment 开发环境；一个是 Gtk+  Runtime Environment运行环境。如果想自己编译最新的 gtk2-perl，那么请安装第一个，否则安装第二个即可。这个安装包包含了 Gtk+ 的所有必须的组件。
+
+b) gtk2-perl 的安装
+如果不想自己编译 gtk2-perl，可以直接下载 ppm 安装包(你必须安装 activeperl 才可以使用 ppm，activeperl 主页：http://www.activeperl.com)，不过 ppm安装包的更新不是很及时。
+
+下载并安装以下安装包：
+ppm install http://gtk2-perl.sourceforge.net/win32/ppm/ExtUtils-Depends.ppd 
+ppm install http://gtk2-perl.sourceforge.net/win32/ppm/ExtUtils-PkgConfig.ppd
+ppm install http://gtk2-perl.sourceforge.net/win32/ppm/Glib-1080.ppd
+ppm install http://gtk2-perl.sourceforge.net/win32/ppm/gtk2-1080.ppd
+
+一系列 gtk2-perl 的 ppm 安装包网址：http://gtk2-perl.sourceforge.net/win32/ppm/，大家可以自己去这个地方查找最新的 ppm 安装包。不过这上面的内容应该也有五、六年没有更新了吧，而且这个也仅是针对activeperl 5.8的，对5.10及12来说不在适合了。
+
+笔者推荐编译好的 gtk2-perl模块包，这样更加有助于你以后的开发工作。
+
+在activeperl 5.10下装gtk2-perl的办法：
+
+1)、装gtk2运行环境库：
+http://gladewin32.sourceforge.net/
+
+装   Gtk+ 2.12.9 Runtime Environment Revision 2 (7,206)
+或者 Gtk+ 2.12.9 Development Environment Revision 2 (17,172KB)
+
+2)、安装Perl的gtk2模块：
+在cmd命令行下：
+ppm repo add http://trouchelle.com/ppm10/
+ppm install gtk2
+
+简单的测试
+在所有的安装完成后，我们可以来测试一下 gtk2-perl 的工作情况：我们可以先到 gtk2的源代码目录下，进入一个 gtk-demo 的文件夹，运行 perl main.pl。这时就会跳出一个新的 gtk2 的 demo 程序窗口，你可以依次运行这些 demo 来察看一下 gtk2-perl 的运行情况。或者下载(http://www.lostmind.de/gtk2-perl/binaries/gtk-demo.zip)，下载后解压，进入 gtk-demo\gtk-demo 中运行 main.pl 就能见到各种功能，也可作为学习的入门示例。
+
+或者我们来写一个 hello_world.pl，源码：
+
+use gtk2;
+use Encode qw/ encode decode /;  ##加载encode模块，用来对中文编码
+gtk2 -> init;  ##Gtk+程序初始化
+my $win = Gtk2::Window -> new ( );  ##建立一个新的窗口
+$win -> set_title ( 'Hello world program' );  ##设置窗口的标题
+$win -> set_size_request ( 320,240 );  ##设置窗口的大小为320 240
+$win -> signal_connect ( destroy => sub { gtk2 -> main_quit; } );  ##设置程序退出信号
+my $word = "Hello world\n".decode ( "utf8",'这是你的第一个gtk2-perl程序。' );  
+ ##在屏幕几的中央写的文字，中文需要utf8编码
+my $label = Gtk2::Label -> new ( $word );   ##新建一个标签组件
+$win -> add ( $label );  ##在窗口中添加这个标签组件
+$win -> show_all;  ##显示窗口中的所有元素
+gtk2 -> main;  ##开始主循环
+
+三、能力与优势
+
+由于 gtk2-perl 是 Gtk+ 与 Perl 的混合体，所以 gtk2-perl 的优势一部分来源于 Gtk+，另一部分则是来源于 perl 的能力。
+
+1. 首先 gtk2-perl 是跨平台的。已知的 gtk2-perl 可运行的平台有 win32，Linux(包含各种版本的 Linux，如 redhat、debian、gentoo等等)，freebsd。gtk2-perl的跨平台能力来自于 Gtk+ 本身是一个跨多平台的工具包，而 Perl 也是跨平台的语言。Gtk+ 的 mac 版本的移植工作已经展开，预计不久的将来我们就能在苹果的电脑上使用 gtk2-perl 了。
+
+gtk2-perl 的这种跨平台能力在 gui 开发工具中并不多见，同样著名的跨平台开发工具还有 Qt，一个 C++ 的 gui 开发工具包，其功能也十分强大，主页：http://www.trolltech.com/，不过 Qt 对于其他语言的移植很差。SDL，一个 C 的多媒体开发工具包，主页：http://www.libsdl.org，不过 SDL 偏重于游戏的开发，在 SDL 内并没有提供窗体的支持，也就是说你无法调用现成的 api 来生成默认 windows 风格的程序。其他较著名的 gui 开发工具包还有微软的 GDI+，由于是私有公司开发的原因，GDI+ 开发的程序是只能在 win32 平台下运行。(还有 directx 和 opengl，这两者都是 3D 图形的开发工具包，现在还大多用于游戏的开发，普通应用程序并不使用它们)。
+
+2. 其次，gtk2-perl 的程序可以基本不用改动便可在多个平台运行。这对于程序员来说意味着写一遍程序，就可以顾及到所有的流行平台，这大大降低了程序员的后续工作量，提高了程序的生命力。gtk2-perl 程序由于是 perl 脚本，甚至省去了在这些平台的编译工作，相对于 Qt 编写的程序还要在各个平台再进行重新编译，在编译过程中还可能出现某些由于平台的差异而产生的编译问题(这里有朋友可能要说我不想暴露源码，那你可以试试 perl 的某些包装源码的模块比如 par，但是笔者认为即使从经济角度出发这样做的意义也不大)。只要你在编写 gtk2-perl 程序前注意到某些平台的不同之处，对于某些特殊的应用有专门的代码处理就可以很方便的实现跨平台的能力，例如在 X11 下使用与 X11 相关的调用，这时就要指明只有在 Xserver 存在时才能这么用。
+
+3. 用 gtk2-perl 编写 gui 程序可以不必关心内存的分配情况，而将自己的主要精力放在程序的实现上。这样的能力来源于 Perl。由于 Perl 语言先天的特性，它为你管理好了内存，所以你不必在意这些。
+
+4. gtk2-perl 改进了一些 Gtk+ 的用法，让用户在编写 gtk2-perl 的程序时更加方便。原来在 gtk 中的纯 c 的写法，在 gtk2-perl 中变成了面向对象的写法，使人们更容易理解。例如：
+
+Gtk+ 中：     gtk_window_          
+gtk2-perl 中：Gtk2::Window(一个库的表示)
+
+Gtk+ 中：     gtk_window_new      
+gtk2-perl 中：Gtk2::Window -> new(一个函数的表示)
+
+Gtk+ 中：     gtk_window_set_default_size (GtkWindow * window, gint width, gint height)
+gtk2-perl 中：$window -> set_default_size ($width, $height);  #一个函数的参数设定
+
+Gtk+ 中：    gtk_window_set_icon_list (GtkWindow * window, GList * list)
+gtk2-perl 中：$window -> set_icon_list (@icons);  #设定一个函数的一组参数
+
+原来在 Gtk+ 中函数的参数如果是一个数组，一般就需要传递这个数组的大小。在 gtk2-perl 中就不必了。例如：
+Gtk+ 中： gtk_curve_set_vector (GtkCurve *curve, int veclen, gfloat vector[]);
+gtk2-perl 中：$curve -> set_vector (@vector); #一个函数的参数设定没有了数组大小的传递
+
+原来在 Gtk+ 中的 new 函数只是简单的建立一个新的功能，在 gtk2-perl 中我们可以让 new 函数带多个变量，来进一步的设定这个功能。例如：
+Gtk+ 中： GtkWidget* gtk_button_new_with_label (const gchar *label);
+gtk2-perl 中：$button = Gtk2::Button -> new($str); ##添加一个新按钮并设定按钮上的文字
+
+原来在 Gtk+ 中函数返回值一般都是指针，在 gtk2-perl 中可以返回多个变量。例如：
+Gtk+ 中： gtk_window_get_size (GtkWindow *window, gint *width, gint *height);
+gtk2-perl 中：($width, $height) = $window -> get_size; #得到窗口大小返回到两个变量中
+
+这些能力都是由于 perl 的优势，在移植 Gtk+ 到 gtk2-perl 时，充分考虑到了开发者的需求，让 gtk2-perl 的程序更加的 perlish。
+
+5. 用 gtk2-perl 可以有几千个成熟的 perl 模块来调用。这些模块覆盖了各种功能，有了这些模块，你的编程速度将大大加快。例如一个最最简单的文字浏览器：
+
+use gtk2;
+use LWP::Simple;
+use HTML::Parser; ## 使用perl内置的html分析模块
+use strict;
+use Encode qw/encode decode/;
+
+gtk2 -> init;
+my $win = Gtk2::Window -> new ;
+$win -> set_title( decode(' utf8 ' , '最简单的Web文字浏览器' ) );
+$win -> set_size_request ( 320,240 );
+$win -> signal_connect ( destroy => sub{ gtk2 -> main_quit; } );
+my $buffer = Gtk2::TextBuffer -> new ;  ##添加一个textbuffer控件，负责文字的储存
+my $textview = Gtk2::TextView -> new ;  ## 添加一个textview控件，负责文字的显示
+$textview -> set_editable ( 0 );  ##设置这个textview控件的属性可编辑
+$textview -> set_wrap_mode ( 'GTK_WRAP_WORD_CHAR' );  ##设置这个textview空间的按照字符与字的模式自动换行
+$textview -> set_buffer ( $buffer );  ##设置textview控件的缓冲为我们刚建立的$buffer
+$win -> add ( $textview );  ##在$win窗体中添加这个textview控件
+my $p = HTML::Parser -> new( api_version => 3 , text_h => [ \&text , "text" ] );  
+##建立一个新的Html内容解析模块，并设定只解析文字，遇到文字时执行text子程序
+my $content = get ( 'http://www.freeoa.net' );  ##输入你想要的web网址
+$p -> parse ( $content );  ##解析取回的 html 格式的 web 内容
+$win -> show_all;  ##显示窗口中的所有元素
+gtk2 -> main;  ##开始主循环
+sub text {
+my ( $text ) = @_;
+#$text = ~s/^\n||^\r\n//mg;  ##将解析来的文字内容去除一些多于的空行
+$buffer -> insert_at_cursor ( $text );  ##将这些文字逐一叠加在 $buffer 缓冲中
+}
+
+这个小程序每次只能显示一个网址的文字，而且显示的文字的格式并没有整理。
+
+6. gtk2-perl 采用了 gui 编程中的先进思想。例如：事件驱动模型，绘图上下文系统等等。这些都是从过去的 gui 编程模型中总结出来的，这些能力是由于 gtk+ 的最初设计，gtk+ 的设计理念也是综合了当今最先进的 gui 工具包的设计理念而形成的。
+
+7. gtk2-perl 也可以使用所见即所得的 gui 界面设计工具：glade。主页：http://glade.gnome.org/。使用 glade 可以直接生成 C 源代码或者生成 xml 格式界面文件，这种界面文件可以直接被 gtk2-perl 通过 Gtk2::GladeXML(可以在 gtk2-perl 的主页上找到)导入使用，这样 gtk2-perl 的界面设计速度也可以大大的提高。
+
+gtk2-perl 还是有其不足之处：就是运行速度要慢于 gtk+。这是由于 gtk2-perl 有很多的 Perl 内部调用，所以速度慢是肯定的。在我测试的 pixbuf_demo程序(gtk 的 demo 中附带的一个动画测试程序)，gtk2-perl 版程序的速度要比原 gtk+ 版的速度慢10%。但是在很多方面，gtk2-perl 的程序是可以优化的。对于那些有不断刷新屏幕的程序，通过算法或实现的优化，gtk2-perl 程序的速度是让人满意的。
+
+gtk2-perl 的开发者由于都是 opensource 的爱好者，gtk2-perl 的文档相对较为少，特别是像这种 gui 开发，应该有很多的相应实例与介绍，但是在gtk2-perl 的主页上却比较难以得到。还有些最新的 api 介绍，由于没有及时的更新，也是必须在程序中自己寻找。
+
+四、基本概念
+
+下面我们开始介绍一些在 gtk2-perl 编程中一定要理解的基本概念。有了对这些概念的理解，你才可以轻易的进行更深入的学习。这些概念并不仅仅适用于 gtk2-perl 的编程，很多概念也适用于大多数的 gui 编程。
+
+1) 事件驱动模型
+事件驱动模型可以算作是 gui 编程中最为重要的概念之一了。平时我们运行的一般程序都是采用典型的批量处理模式以线性的方式运行所有的命令。然而一个交互式的用户界面程序必须随时准备运行任何一个操作：一个用户可能正漫步于菜单上，然后按下任何他想要的按钮，或者用户正在一个文字输入栏输入文字，或者他忽然切换到其他程序然后又再切换回来完成刚才他没做完的事情。总之，程序必须随时响应用户触发的事件，这就叫做"事件驱动"。可以说，如果没有事件驱动模型，我们就无法实现用户的自由操作，不理解事件驱动模型，我们就无法开始 gtk2-perl 的编程。
+
+事件驱动模型一般有这样的特点：
+    * 归纳出基本的元素，例如：对于用户所有可能的动作事先要做出归纳总结。
+    * 一个事件驱动程序一般都有一个处于中心地位的事件队列处理部分和一个事件队列。当一个事件发生时就向事件队列添加一项。事件队列处理部分则不断地处理事件队列中的各种事件，而且每处理一个事件时都要通知对这个事件感兴趣的子程序。
+
+我们来更加具体的解释一下：当用户点击一个按钮的时候，一个按钮事件就被添加到事件队列中，随着事件队列的不断被处理，轮到我们添加的按钮事件时，事件队列处理部分就会开始处理这个事件，同时通知任何对这个事件感兴趣的子程序。
+
+在 gtk2-perl 中，事件驱动的逻辑实现是在内部完成的，我们只需要理解这个概念就可以了。
+
+2) 主循环系统
+所谓的主循环系统就是上面我们介绍的事件队列处理系统的一部分。由于我们需要无限的等待用户的输入事件，所以我们必须建立一个循环，这个循环可以不断的读出用户的输入事件，并处理这些事件，在这个循环中我们还要处理一些其他的事情，例如等待 socket 数据到来等等，这就是主循环系统。主循环系统有时要处理事件，但是在大多数时候，主循环一般会处于空闲状态。在空闲状态下，主循环系统释放 cpu 等计算机资源，等待新的事件到来。一个好的 gui 系统，空闲时间的分配是十分重要的。为了随时能够响应用户的输入，必须有足够的空闲等待用户的输入。如果大量的资源都被占用，那么用户的输入将得不到及时地响应，用户对于这个 gui 系统将会十分失望。
+
+在 gtk2-perl 中，gtk2 -> main 语句代表着开始主循环。
+
+顺便一提：gtk2 -> init 语句代表 gtk2-perl 程序的初始化，在任何 gtk2-perl 程序中，我们都必须先初始化，初始化完成后我们才可以开始编写与 Gtk+ 相关的语句。
+
+3) 信号系统
+信号系统也是事件驱动模型中的一部分。所谓信号系统就是当某一件事情(例如，用户的某个操作动作)发生的时候我们就会得到一个信号，然后我们按照事先规定好的如何处理这种信号的方法来处理这个信号。在 gtk2-perl 中，我们的信号系统有两种，一种是底层的通用信号系统，一种是每个控件特殊的信号系统。
+
+底层的通用信号都有自己的唯一独立名称，总共有30 多种。这些信号一般是用在自定义的控件中，例如：现有的控件没有能达到你的需要，你想自己的编写一个特殊目的的控件，这时要用到的信号系统就是底层的通用信号。
+
+每个控件的独立信号系统，随着控件的不同而不同，例如：按钮 button 控件可以有自己的信号系统，当 'pressed' 信号发生时证明用户正在按下这个按钮；而文字 textview 控件也有自己的信号系统，当我们在文字控件中移动光标时，我们就可以触发 move-cursor 信号。信号系统的基本原则是必须明确声明信号才能生效。换句话说就是如果对于某个信号你没有事先声明要捕获这个信号，那么系统将不会理会这个信号。即使是最简单的关闭窗口信号，如果没有事先声明，系统也不会理会，就像我们上面的 Helloworld.pl 中的一定要添加 $win -> signal_connect ( destroy => sub {gtk2 -> main_quit } )；这句话，否则点击关闭窗口的按钮将不起作用，这一点对于最初接触 gui 编程的朋友一定要注意。信号系统的一般用法是：$widget -> signal_connect ('signal' , sub{do…} )；这里 $widget 一般是指 gui 程序中的某个窗体，在这里我们看到，我们在某个$widget 上添加信号捕获，当某个 signal 发生时，我们就去执行 sub{ do…. } 的子程序。
+
+4) 绘图上下文
+所谓的绘图上下文就是用来封装绘图属性的，所有的绘图操作都要用绘图上下文来作为自己的参数。简单点说就是绘图上下文就是一个包含了所有的绘图属性的对象(例如：背景的色彩，一条线的宽度等等)，然后将这个绘图上下文作为你要绘制图像的参数来输入从而决定这个图像如何绘制。
+
+绘图上下文的优势在于：通过使用绘图上下文将各种绘图属性的集中在几个对象，可以大大的减少重复的绘图属性的设定，从而让一个绘图上下文为多个不同的绘图来作为参数。更加准确的说，这种优势是为了减少程序中的重复编写与输入，提高程序的编写与运行效率。
+
+绘图上下文的基本用法：$gc = Gtk2::Gdk::GC -> new ( $drawable , $values=undef )
+
+5) gtk2-perl 的内部控件
+现代 gui 编程的一个特点就是提供大量的易用控件给开发者，每个控件都可以完成某个特定的功能(例如：显示一段文字或允许用户输入一段文字等等)，这样使得开发者在开发一个 gui 程序时可以用这些控件来组装成一个 gui 程序。这很类似于我们现在的 html 格式的 web 制作，在我们制作一个网页时，就是利用了很多现成的 html 标签然后组合到一起形成完整的 html 网页。这种相似性甚至可以在很多微小的方面得到验证，例如将这些控件正确的布局时都要用到表格这样的控件。
+
+在 gtk2-perl 中提供的控件相当丰富，我们单单来看看这些控件的大类：
+Windows：这个控件大类是负责最基本的 gui 窗口，例如：主窗体控件，简单对话框的控件。
+
+Display Widgets：这个控件类是负责基本显示的，例如：文字显示控件，图片显示控件。
+
+Buttons and Toggles：负责各种类型的按钮，如基本按钮，check 类型的，radio 类型的。
+
+Numeric/Text Data Entry：负责数字与文字的单行输入。
+
+Multiline Text Editor：负责文字多行输入的控件。
+
+Tree, List and Icon Grid Widgets：负责树形列表式、简单列表式或图标表格式的显示。
+
+Menus, Combo Box, Toolbar：负责菜单、组合单元、工具栏。
+
+Action-based menus and toolbars：负责基于动作的菜单与工具栏。
+
+Selectors (File/Font/Color/Input Devices) ：负责文件、字体、颜色、输入设备的选择界面，这就是我们在打开文件或选择字体时所使用的那个通用的界面。
+
+Layout Containers：负责各个控件的布局，让你可以很容易的在一个窗口上布置各个空间。
+
+Ornaments：负责控件显示时的周围装饰，例如在各个控件间的分割条等。
+
+Scrolling：负责滚动条，用来将一些无法用一屏显示的控件中的内容滚动的显示。
+
+Miscellaneous：负责其他剩余的事情，如显示一个箭头的控件，日历控件，一个绘画区域的控件等等。
+
+Abstract Base Classes：负责抽象的控件，这些控件一般是基本控件的父类。
+
+Cross-process Embedding：负责两个进程间的通讯。
+
+Special-purpose features：负责某些特殊目的，例如：绘制曲线的控件，绘制标尺的控件。
+
+所有的这些控件他们一般都有面向对象的特征，也就是存在父类与子类。父类一般是几个相似控件的一个集合。每个子类都可以使用父类的函数。这样使我们使用起这些控件更为方便，这也是 gtk2-perl 的一个优势吧。
+
+五、使用Gtk2-perl开发GUI的优势
+
+由于Gtk2-perl是Gtk+与Perl的混合体，所以Gtk2-perl的优势一部分来源于Gtk+另一部分则是来源于perl的能力。
+
+1)、首先Gtk2-perl是跨平台的。已知的Gtk2-perl可运行的平台有win32，Linux(包含各种版本的Linux，如 redhat，debian，gentoo等等)，freebsd。Gtk2-perl的跨平台能力来自于 Gtk+ 本身是一个跨多平台的工具包，而Perl 也是跨平台的语言。
+
+2)、其次，Gtk2-perl的程序可以基本不用改动便可在多个平台运行。这对于程序员来说意味着写一遍程序，就可以顾及到所有的流行平台，这大大降低了 程序员的后续工作量，提高了程序的生命力。Gtk2-perl 程序由于是 perl 脚本，甚至省去了在这些平台的编译工作，相对于 Qt 编写的程序还要在各个平台再进行重新编译，在编译过程中还可能出现某些由于平台的差异而产生的编译问题(这里有朋友可能要说我不想暴露源码，那你可以试试 perl 的某些包装源码的模块比如 par，但是笔者认为即使从经济角度出发这样做的意义也不大)。只要你在编写 Gtk2-perl 程序前注意到某些平台的不同之处，对于某些特殊的应用有专门的代码处理就可以很方便的实现跨平台的能力，例如，在 X11 下使用与 X11 相关的调用，这时就要指明只有在 Xserver 存在时才能这么用。
+
+3)、用Gtk2-perl编写Gui程序可以不必关心内存的分配情况，而将自己的主要精力放在程序的实现上。这样的能力来源于Perl。由于Perl语言先天的特性，它为你管理好了内存，所以你不必在意这些。
+
+4)、Gtk2-perl改进了一些Gtk+的用法，让用户在编写Gtk2-perl的程序时更加方便。原来在gtk中的纯c的写法，在Gtk2-perl中变成了面向对象的写法，使人们更容易理解。
+
+原来在Gtk+中的new函数只是简单的建立一个新的功能，在Gtk2-perl 中我们可以让new函数带多个变量，来进一步的设定这个功能。
+
+这些能力都是由于perl的优势，在移植Gtk+到Gtk2-perl时，充分考虑到了开发者的需求，让Gtk2-perl的程序更加的perlish。
+
+5)、用Gtk2-perl可以有几千个成熟的perl模块来调用。这些模块覆盖了各种功能，有了这些模块，你的编程速度将大大加快。
+
+6)、Gtk2-perl采用了gui编程中的先进思想。例如：事件驱动模型，绘图上下文系统等等。这些都是从过去的gui编程模型中总结出来的。这些能力是由于gtk+的最初设计。gtk+的设计理念也是综合了当今最先进的gui工具包的设计理念而形成的。
+
+7)、Gtk2-perl也可以使用所见即所得的gui界面设计工具，glade。主页：http://glade.gnome.org/。使用glade可以直接生成C源代码或者生成xml格式界面文件，这种界面文件可以直接被Gtk2-perl通过Gtk2::GladeXML(可以在 Gtk2-perl 的主页上找到)导入使用。这样Gtk2-perl的界面设计速度也可以大大的提高。
+
+六、后话
+以上，我们只是讲述了一下 gtk2-perl 编程的一些基本信息，掌握这些基本信息对于任何 gtk2-perl 的初学者而言都是十分重要的。在这些基础之上，大家可以参照 gtk2-perl 源代码中附带的例子尝试性的开始编写某些小的 gtk2-perl 程序。对于在编写过程中遇到的问题，大家可以参考 gtk2-perl 的主页上的英文文档，当然我也会继续编写更加详细的中文 gtk2-perl 教程给大家。
+
+gtk2-perl 可以说是近几年 perl 语言上的一个明星，它不仅可以让开发者用 perl 来写正统的 gui 程序，而且还可以写较为底层的 gui 程序。拥有了 perl与 gtk+ 这两杆大枪，相信任何 gui 程序都可以像上面的简易浏览器一样更加轻易的完成。
+
+七、参考资料
+   1. Gtk+ 的主页：http://www.gtk.org
+   2. gtk2-perl的主页：http:/gtk2-perl.sf.net
+  3. glade的主页：http://glade.gnome.org/
+
+最后更新于： 2011-01-20 13:58
+

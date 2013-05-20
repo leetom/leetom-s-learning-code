@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+var aa = [];
+aa[10000] = 'hello';
+
+for(var i in aa){
+	//console.log(aa[i]);
+}

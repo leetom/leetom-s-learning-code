@@ -1,0 +1,13 @@
+% layout 'default';
+% title 'Article';
+
+
+% foreach my $article (@$articles) {
+    %= $article->{id} 
+    <h2><%= $article->{title} %></h2>
+    <p>created by <%= $article->{author} %></p>
+    <h2><%= $article->{view} %></h2>
+    <p><%== $article->{content} %></p>
+% }
+
+<h3>These are all posts</h3>

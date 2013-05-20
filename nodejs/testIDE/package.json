@@ -1,0 +1,8 @@
+{
+    "name": "Test Pro for Nide IDE",
+    "description": "Just a test project",
+    "version": "0.1.0",
+    "author": "leetom",
+    "dependencies": {},
+    "devDependencies": {}
+}

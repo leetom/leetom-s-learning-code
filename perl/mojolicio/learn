@@ -1,0 +1,56 @@
+#!/usr/bin/env perl
+use Mojolicious::Lite;
+
+helper auth => sub{
+  my $self = shift;
+  return 1 if 
+    $self->param('username') eq 'leetom' and 
+    $self->param('password') eq 'test' ;
+};
+
+get '/' => sub{
+  shift->render_text("hello world!");
+};
+
+get '/:name/*gender' => [gender => [ qw /male female/]] => sub{
+  my $self = shift;
+  $self->stash(
+    name => uc $self->param('name'),
+    gender => uc  $self->param('gender')
+  );
+
+  $self->render('name');
+};
+
+get '/login' => sub{ shift->render('login')};
+
+post '/momcorp' => sub{
+  my $self = shift;
+
+  $self->render('text' => 'denied') and return  if !$self->auth;
+  $self->render(text => 'Welcome to Momcorp!'); 
+ 
+};
+
+app->start;
+
+
+__DATA__
+
+@@layouts/wrapper.html.ep
+<h1><%= title %></h1>
+<%= content %>Hello again!
+
+@@name.html.ep
+% title 'Layout!';
+% layout 'wrapper';
+<%= $name %>
+%= $gender
+
+@@ login.html.ep
+%= t h1 => 'Login'
+<form method='post' action='/momcorp'>
+  Username: <%= text_field 'username' %>
+  Password: <%= password_field 'password' %>
+  <input type='submit' value='Log in' />
+</form>
